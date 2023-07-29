@@ -32,7 +32,7 @@ the higher value of capacity the longer time needed to charge and discharge it. 
 (R2) was added to be able to easy change the frequency of the clocking signal that appears on pin Q (clock).
 
 <p align="center" width="100%">
-    <img src="imgs/hw_main_clock_schema.png" style="display: block; margin: 0 auto"/>
+    <img src="imgs/hw_main_clock_schema.png"/>
 </p>
 
 > __Note__:
