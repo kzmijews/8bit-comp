@@ -9,5 +9,5 @@ book writen by Linda Null and Julia Lobur. Project was created for educational p
 Project is not fully functional yet. Stay tuned.
 
 # Documentation
-List of available
+List of available documents:
 - [Hardware Architecture Spec](doc/hw_arch_spec.md)
