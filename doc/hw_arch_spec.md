@@ -12,6 +12,7 @@ However it can be easily replaced by for instance LM555 introduced by Texas Inst
 Reference to the documentation may be found here:
 - NE555: https://www.ti.com/lit/ds/symlink/ne555.pdf
 - LM555: https://www.ti.com/lit/ds/symlink/lm555.pdf
+
 It's also well described at [wiki page](https://en.wikipedia.org/wiki/555_timer_IC)
 
 ### Continous mode
@@ -31,7 +32,7 @@ the higher value of capacity the longer time needed to charge and discharge it. 
 (R2) was added to be able to easy change the frequency of the clocking signal that appears on pin Q (clock).
 
 <p align="center">
-    <img src="imgs/hw_main_clock_schema.png"/>
+    <img src="imgs/hw_main_clock_schema.png" style="display: block; margin: 0 auto"/>
 </p>
 
 > __Note__:
