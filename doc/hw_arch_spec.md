@@ -21,7 +21,7 @@ period. This configuration is done by adding connection between THR (threshold) 
 plugged into voltage through the potentiometer (R2), resistor (R3) (which was added only to determine minimal
 value of resistance - in a case when potentiometr was turned off (0 ohms), it's important for bipolar timers
 555 to keep output saturated near the zero volts during discharge), resistor (R1) and capacitor (C2).
-Connection is done  to keep same voltage on both pins (see `Note` below for more details). Duty cycle depends
+Connection is done to keep same voltage on both pins (see `Note` below for more details). Duty cycle depends
 on resistence of potentiometer, two resistors (R2 + R3, and R1) and value of capacitor (C2). The idea is
 simple, capacitor voltage is triggering internal latch to change the state. From "1" to "0" during the time
 of capacitor (C2) discharge and from "0" to "1" during capacitor charge. Time of charging/discharging of
@@ -30,6 +30,7 @@ capacitor depends on its capacity (expressed in farads) and resistance of potent
 capacitor have to pull (through the R2, R3, R1) / push (through the R2, R3) voltage. Same in terms of capacity,
 the higher value of capacity the longer time needed to charge and discharge it. In that terms the potentiometr
 (R2) was added to be able to easy change the frequency of the clocking signal that appears on pin Q (clock).
+The exact schema of described connections was added below:
 
 <p align="center" width="100%">
     <img src="imgs/hw_main_clock_schema.png"/>
@@ -43,30 +44,43 @@ the higher value of capacity the longer time needed to charge and discharge it. 
 > to "0" and capacitor starts discharging throught potentiometr (R2) and resistor (R3).
 > That is why it's important to keep same voltage on both pins TR and THR
 > Internal transistors inside the timer are resposnsible for charge/discharge switching.
+> Signal trasformation observed on osciloscope was added below. The reference power supply (Vcc is equal to 5V),
+> the potentiometer was turned into 0 ohms.
+> - channel number 2 (pink) schows the output on pin "Q" (clock)
+> - channel number 1 (yellow) schows the output from capacitor C2, as you can see voltage oscillate between
+> 1/3 Vcc and 2/3 Vcc.
+>
+> <p align="center" width="100%">
+>     <img src="imgs/hw_main_clock_signal.png"/>
+> </p>
+
+
 
 The time of signal "1" (high) of each pulse can be count as follow:
 
 ```math
-t_h =  ln(2) * (R_1 + R_2 + R_3) * C_2
+t_h =  ln(2) * (R1 + R2 + R3) * C2
 ```
 
 The time of signal "0" (low) of each pulse can be count as follow:
 
 ```math
-t_l =  ln(2) * (R_2 + R_3) * C_2
+t_l =  ln(2) * (R2 + R3) * C2
 ```
 
 In that terms frequency is:
 
 ```math
-f = \frac{1}{t_h +t_l} = \frac{1}{ln(2) * (R_1 + 2(R_2 + R_3)) * C_2}
+f = \frac{1}{t_h +t_l} = \frac{1}{ln(2) * (R1 + 2(R2 + R3)) * C2}
 ```
 
-and duty cycle:
+and duty cycle is equal to:
 
 ```math
-D = \frac{t_h}{t_h +t_l} * 100 = \frac{R_1 + R_2 + R_3}{R_1 + 2(R_2 + R_3)} * 100
+D = \frac{t_h}{t_h +t_l} * 100 = \frac{R1 + R2 + R3}{R1 + 2(R2 + R3)} * 100
 ```
 
 ### Stepping mode
-TBD
+Stepping mode is usefull for debugging purposes. It's necessary to be able to trigger a single clock signal
+to debug code execution of single command processed by ALU (Arthmeric and Logical Unit) of CPU (Central
+Processing Unit).
