@@ -30,9 +30,9 @@ capacitor have to pull (through the R2, R3, R1) / push (through the R2, R3) volt
 the higher value of capacity the longer time needed to charge and discharge it. In that terms the potentiometr
 (R2) was added to be able to easy change the frequency of the clocking signal that appears on pin Q (clock).
 
-<div>
+<p align="center">
     <img src="imgs/hw_main_clock_schema.png"/>
-</div>
+</p>
 
 > __Note__:
 >
@@ -58,13 +58,13 @@ t_l =  ln(2) * (R_2 + R_3) * C_2
 In that terms frequency is:
 
 ```math
-f = \frac{1}{t_1 +t2} = \frac{1}{ln(2) * (R_1 + 2(R_2 + R_3)) * C_2}
+f = \frac{1}{t_h +t_l} = \frac{1}{ln(2) * (R_1 + 2(R_2 + R_3)) * C_2}
 ```
 
 and duty cycle:
 
 ```math
-D(%) = \frac{t_1}{t_1 +t2} * 100 = \frac{R_1 + R_2 + R_3}{R_1 + 2(R_2 + R_3)} * 100
+D(%) = \frac{t_h}{t_h +t_l} * 100 = \frac{R_1 + R_2 + R_3}{R_1 + 2(R_2 + R_3)} * 100
 ```
 
 ### Stepping mode
