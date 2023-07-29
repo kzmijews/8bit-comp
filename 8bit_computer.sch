@@ -17759,7 +17759,7 @@ Source: www.kingbright.com</description>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="1k"/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:26152/1" value="100nF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="1uF"/>
-<part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1"/>
+<part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="1M"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="1k"/>
 <part name="LED1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="LD260" package3d_urn="urn:adsk.eagle:package:13313/1"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="2.2k"/>
@@ -17799,7 +17799,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="R2" gate="G$1" x="-152.4" y="215.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="-156.21" y="219.329" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-156.21" y="219.71" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-151.13" y="219.456" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="-139.7" y="215.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="-135.89" y="214.4014" size="1.778" layer="95" rot="R180"/>
