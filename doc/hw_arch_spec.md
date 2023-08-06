@@ -128,7 +128,7 @@ NE555 produce single pulse when the THR signal drops below 1/3 Vcc. Duration of 
 to charge capacitor C1 to 2/3 Vcc. It can be expressed by following equation:
 
 ```math
-t = ln(3) * R4 * C1
+t = ln(3) * R7 * C3
 ```
 
 Additional circuit with voltage controlled switch at the bottom left corrner was added to simulate switch bouncing
