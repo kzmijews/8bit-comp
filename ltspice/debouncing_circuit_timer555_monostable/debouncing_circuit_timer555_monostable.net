@@ -1,0 +1,28 @@
+* D:\dokumenty\hobby\elektronika\projects\8bit_computer\ltspice\debouncing_circuit_timer555_monostable\debouncing_circuit_timer555_monostable.asc
+R1 N001 N002 5K
+R2 N002 N004 5K
+R3 N004 0 5K
+A1 set reset 0 0 0 N003 Q 0 SRFLOP Vhigh=4.9V Vlow=0V
+XU1 THR N002 N001 0 reset LT1720
+XU2 N004 TRG N001 0 set LT1720
+V1 N001 0 5
+Q1 THR N003 0 0 NPN
+R4 THR N001 1000K
+C1 THR 0 0.1µ V=10 Irms=2.4 Rser=0.0421193 Lser=0
+R5 N001 TRG 1K
+D1 Q N005 NSSW008CT-P1
+S1 TRG 0 N007 0 SW
+V2 N006 0 PULSE(0 5 0.1 0 0.01 0.01 0.01 2)
+R6 N007 N006 2R
+R7 N005 0 100R
+C2 N002 0 10n
+.model D D
+.lib C:\Users\Karol\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Karol\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 1
+.model SW SW(RON=.1 ROFF=1GIG VT=4)
+.lib LT1720.sub
+.backanno
+.end
