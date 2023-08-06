@@ -125,7 +125,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 </div>
 
 NE555 produce single pulse when the THR signal drops below 1/3 Vcc. Duration of the pulse depends on time needed
-to charge capacitor C1 to 2/3 Vcc. It can be expressed by following equation:
+to charge capacitor C3 to 2/3 Vcc. It can be expressed by following equation:
 
 ```math
 t = ln(3) * R7 * C3
@@ -144,7 +144,7 @@ issue. Simulation run shows following results:
 </div>
 
 Where output pulse V(q) (marked green) was intentionally lower to 4.9V to increase readability of the chart.
-V(thr) (marked red) shows us C1 charging process through the resistor R4, and then immediate drop after it
+V(thr) (marked red) shows us C3 charging process through the resistor R7, and then immediate drop after it
 reach 2/3 Vcc limit. Drop goes immediate because there is no resistior plugged between discharging transistor (Q1)
 and GND. The last signal V(trg) (marked pink) shows trigger signal. The most important is the fact that even if
 situation showed at the beging of the section (Figure 2.2.1) happens the circuit still works and only single
