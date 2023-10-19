@@ -34,7 +34,7 @@ The exact schema of described connections was added below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-astable.png"/>
+        <img src="../clock/imgs/ne555n-astable.png"  width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.1.1: main clock circuit</i>
@@ -117,7 +117,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-monostable-debouncing.png" width="60%" height="60%"/>
+        <img src="../clock/imgs/ne555n-monostable-debouncing.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.2: schema of timer555 in monostable mode (ltspice simulator)</i>
