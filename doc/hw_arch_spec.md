@@ -16,7 +16,7 @@ Reference to the documentation may be found here:
 It's also well described at [wiki page](https://en.wikipedia.org/wiki/555_timer_IC)
 
 ### 2.1 Continous mode
-Timer555 is running in **astable mode**. Mode used to continously stream of rectangular pulses in configured
+Timer555 is running in **astable mode**. Mode used to continously stream of digital pulses in configured
 period. This configuration is done by adding connection between THR (threshold) and TRIG (trigger) pins
 plugged into voltage through the potentiometer (R2), resistor (R3) (which was added only to determine minimal
 value of resistance - in a case when potentiometr was turned off (0 ohms), it's important for bipolar timers
@@ -113,7 +113,7 @@ so on. In our case we will use the same integrated circuit as before (used for g
 time in **monostable mode**. Reduction of connectors bounce is possible due to internal construction of the chip.
 Timer555 has SR latch inside (Set-Reset flip-flop), which can be used to reduce the noise. To demonstrate this
 issue model of NE555 timer in monostable mode was prepared in ltspice simulator
-(ltspice/debouncing_circuit_timer555_monostable):
+(clock/ltspice/ne555n-monostable-debouncing):
 
 <div>
     <p align="center" width="100%">
