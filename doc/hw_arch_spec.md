@@ -34,7 +34,7 @@ The exact schema of described connections was added below:
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_main_clock_schema.png"/>
+        <img src="../clock/imgs/ne555n-astable.png"/>
     </p>
     <p align="center">
         <i>Figure 2.1.1: main clock circuit</i>
@@ -56,7 +56,7 @@ The exact schema of described connections was added below:
 > - channel number 2 (pink) schows the output on pin "Q" (clock)
 >
 > <p align="center" width="100%">
->     <img src="imgs/hw_main_clock_signal.png"/>
+>     <img src="../clock/imgs/hw-main-clock-signal.png"/>
 > </p>
 > <p align="center">
 >    <i>Figure 2.1.2: main clock pulse generation</i>
@@ -99,7 +99,7 @@ below, where single button push has tiggered two pulses:
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_debug_button_bouncing.png"/>
+        <img src="../clock/imgs/hw-debug-button-bouncing.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.1 debug button bouncing issue</i>
@@ -117,7 +117,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_debouncing_circuit.png"/>
+        <img src="../clock/imgs/ne555n-monostable-debouncing.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.2: schema of timer555 in monostable mode (ltspice simulator)</i>
@@ -136,7 +136,7 @@ issue. Simulation run shows following results:
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_debouncing_circuit_measurements_1.png"/>
+        <img src="../clock/imgs/ne555n-monostable-debouncing-measurements-1.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.3: ltspice simulation results for timer 555 in monostable mode - common case</i>
@@ -153,7 +153,7 @@ pulse will be generated:
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_debouncing_circuit_measurements_2.png"/>
+        <img src="../clock/imgs/ne555n-monostable-debouncing-measurements-2.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.4: ltspice simulation results for timer 555 in monostable mode - bouncing trigger</i>
@@ -165,7 +165,7 @@ Full schema for debouncing circuit used for stepping mode (debug purposes) was a
 
 <div>
     <p align="center" width="100%">
-        <img src="imgs/hw_stepping_clock_schema.png"/>
+        <img src="../clock/imgs/ne555n-monostable.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.5: stepping clock circuit</i>
