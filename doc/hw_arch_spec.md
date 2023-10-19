@@ -33,7 +33,7 @@ the higher value of capacity the longer time needed to charge and discharge it. 
 The exact schema of described connections was added below:
 
 <div>
-    <p align="center" width="100%">
+    <p align="center" width="60%">
         <img src="../clock/imgs/ne555n-astable.png"/>
     </p>
     <p align="center">
@@ -164,7 +164,7 @@ pulse will be generated:
 Full schema for debouncing circuit used for stepping mode (debug purposes) was added bellow:
 
 <div>
-    <p align="center" width="100%">
+    <p align="center" width="60%">
         <img src="../clock/imgs/ne555n-monostable.png"/>
     </p>
     <p align="center">
