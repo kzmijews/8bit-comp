@@ -51,9 +51,9 @@ The exact schema of described connections was added below:
 > Internal transistor inside the timer are resposnsible for charge/discharge switching.
 > Signal transformation observed on osciloscope was added below. The reference power supply (Vcc) is equal to 5V,
 > the potentiometer was turned into 0 ohms.
-> - channel number 1 (yellow) schows the output from capacitor C2, as you can see voltage oscillate between
+> - channel number 1 (yellow) shows the output from capacitor C2, as you can see voltage oscillate between
 > 1/3 Vcc and 2/3 Vcc.
-> - channel number 2 (pink) schows the output on pin "Q" (clock)
+> - channel number 2 (pink) shows the output on pin "Q" (clock)
 >
 > <p align="center" width="100%">
 >     <img src="../clock/imgs/hw-main-clock-signal.png"/>
@@ -226,7 +226,8 @@ voltage at line between pins TR and THR will rise above 2/3 of the Vcc and as a 
 
 In this case both SPDT switch (S2) and SPST debug button (S1) are debounced by internal SR latch of NE555 timer in monostable
 mode. The second switch (S2) connectors bounce affects connection between DIS pin of NE555 and capacitor C2 as you can see
-bellow:
+bellow, where yellow line represents the output from the line connected to the capacitor C2, and pink line represents digital
+signal from the output of NE555 timer (pin Q):
 
 <div>
     <p align="center" width="100%">
