@@ -109,9 +109,9 @@ below, where single button push has tiggered two pulses:
 
 This issue is well known and there are many possible solutions used to reduce noise caused by bounced connectors of
 the switch like additional schmitt trigger added to circuit, digital flip-flop, properly configured counters and
-so on. In our case we will use the same integrated circuit as before (used for general clock) NE555 running this
+so on. In our case we will use the same component as before (used for general clock) NE555 running this
 time in **monostable mode**. Reduction of connectors bounce is possible due to internal construction of the chip.
-Timer555 has SR latch inside (Set-Reset flip-flop), which can be used to reduce the noise. To demonstrate this
+NE555 has SR latch inside (Set-Reset flip-flop), which can be used to reduce the noise. To demonstrate this
 issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 (clock/ltspice/ne555n-monostable-debouncing):
 
@@ -143,7 +143,7 @@ issue. Simulation run shows following results:
     </p>
 </div>
 
-Where output pulse V(q) (marked green) was intentionally lower to 4.9V to increase readability of the chart.
+Where output pulse V(q) (marked green) was intentionally lowered to 4.9V to increase readability of the chart.
 V(thr) (marked red) shows us C3 charging process through the resistor R7, and then immediate drop after it
 reach 2/3 Vcc limit. Drop goes immediate because there is no resistior plugged between discharging transistor (Q1)
 and GND. The last signal V(trg) (marked pink) shows trigger signal. The most important is the fact that even if
@@ -171,3 +171,64 @@ Full schema for debouncing circuit used for stepping mode (debug purposes) was a
         <i>Figure 2.2.5: stepping clock circuit</i>
     </p>
 </div>
+
+Based on these configutations:
+
+ - NE555 in astable mode (figure 2.1.1)
+ - NE555 in monostable mode (figure 2.2.5)
+
+We can construct clock circuit. On the one hand **astable mode** will be used as a regular mode of the clock
+to continously generate digital clocking signal, on the other hand **astable mode** will be used as a debug mode
+of the clock to generate single clocking signal trigger by debounced pushed button (role of the NE555 chip in this
+configuration is limited to debounce the signal produced by button push).
+
+Many different configurations can be introduced to for such circuit. One of them was created by Ben Eater, proper
+schema is provided [here](https://eater.net/8bit/clock). In this circuit were used: 3 NE555 chips configured in
+three different modes: astable, monostable and bistable. Two of them were described in this document the third
+configuration (bistable) was used to debounce SPDT (Single Pole Double Throw) switch used to select betweem NE555
+in astable and monostable modes. It's great example that can be used to learn all of the most common configurations
+of Timer555, to learn how to create and optimize basic logic-gate circuits using Karnaugh map and De Morgan's
+laws to unify all gates to the functional complete type of gates (NAND or NOR). However this circuit is using a lot
+of chips to perform one simple task. For this project we will use much simplier circuit which will use one NE555 timer
+that could be switched in one of two modes (astable and monostable) using SPDT switch and two transistors. We will
+use two different types of transistors one bipolar PNP transistor (controlled by current) and unipolar N-channel
+MOSFET (Metal Oxide Semiconductor Field Effect Transistor - controlled by voltage). Circuit can be done also using
+single type of transistors, however for this project we use two different types just for educational purposes - to
+present main differences between them. The whole circuit was presented below:
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/clock-sch.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.6: clock circuit</i>
+    </p>
+</div>
+
+To be able to switch between two different modes (astable and monostable) we need to be able to close and open
+internal connection between pins TR (trigger), THR (treshold) and pin DIS (discharge). After disconnecting DIS pin
+for monostable mode we need to provide alternative path to discharge capacitor C2, which is implemented by path on the
+right hand site. SPDT switch (S2) on the one hand is responsible for connecting-disconnecting this alternative path
+with regular circuit and on the other hand for control bipolar PNP transistor BC556 (Q1). When:
+
+- switch S2 is opened (pin 2 and 3 of the switch are connected) **base** pin of the transistor is grounted. That means
+that there is no current between **base** and **emiter**, and as a result **collector**-**emiter** path is opened.
+It gives an oportunity to discharge the C2 capacitor over the DIS pin, which starts the oscillation described at the
+beginning of the section - astable mode of the NE555.
+- switch S2 is closed (pin 2 and 1 of the switch are connected) current flows over the **base** pin to the **emitter**
+which causes the other connection between **collector** and **emiter** to close. It prevents from discharing capacitor
+C2 over the DIS pin, at the same time it opens the alternative way to discharge it by pushing SPST (Single Pole Single
+Throw) button (S1). When the button is pushed it will ground line between TR (trigger) and THR (treshold), which will
+case capacitor C2 to discharge. Voltage will be dropped bellow 1/3 of the Vcc and as a result clock signal at pin Q rise
+(high state - 1). After the button release line will be conencted back to the Vcc source, capacitor C2 will start charging,
+voltage at line between pins TR and THR will rise above 2/3 of the Vcc and as a result pin Q will return to the default
+(low state - 0) - monostable mode of the NE555.
+
+Notice that additional transistor was added to the output of the circuit (pin Q). This transistor was added to enable HLT
+(HALT) signal, similar to the logic circuit added to the clock module presented by Ben Eater. Unipolar MOSFET N-channel
+transistor (BS170) is controlled by voltage (instead of current - as it was done for bipolar PNP transistor BC556). When
+the HLT line is grounted connection between the **source** and **drain** is opened, and the digital signal that goes to
+the **gate** will be propageted the **drain** pin. However when the voltage on the **source** pin go high (around
+Vcc value) the connection between **gate** and **drain** will be closed, and digital signal won't be propageted to the
+**drain**. That saying by setting HLT line to the logical 0 clock signal will be propagated, and by setting it to the
+logical 1 clock signal will be halted.
