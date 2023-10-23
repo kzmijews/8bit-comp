@@ -174,8 +174,8 @@ Full schema for debouncing circuit used for stepping mode (debug purposes) was a
 
 Based on these configutations:
 
- - NE555 in astable mode (figure 2.1.1)
- - NE555 in monostable mode (figure 2.2.5)
+ - NE555 in astable mode: main clock (figure 2.1.1)
+ - NE555 in monostable mode: stepping clock (figure 2.2.5)
 
 We can construct clock circuit. On the one hand **astable mode** will be used as a regular mode of the clock
 to continously generate digital clocking signal, on the other hand **astable mode** will be used as a debug mode
@@ -207,8 +207,8 @@ present main differences between them. The whole circuit was presented below:
 
 To be able to switch between two different modes (astable and monostable) we need to be able to close and open
 internal connection between pins TR (trigger), THR (treshold) and pin DIS (discharge). After disconnecting DIS pin
-for monostable mode we need to provide alternative path to discharge capacitor C2, which is implemented by path on the
-right hand site. SPDT switch (S2) on the one hand is responsible for connecting-disconnecting this alternative path
+for monostable mode we need to provide alternative way to discharge capacitor C2, which is implemented by path on the
+right hand site. SPDT switch (S2) on the one hand is responsible for connecting/disconnecting this alternative path
 with regular circuit and on the other hand for control bipolar PNP transistor BC556 (Q1). When:
 
 - switch S2 is opened (pin 2 and 3 of the switch are connected) **base** pin of the transistor is grounted. That means
@@ -223,6 +223,55 @@ case capacitor C2 to discharge. Voltage will be dropped bellow 1/3 of the Vcc an
 (high state - 1). After the button release line will be conencted back to the Vcc source, capacitor C2 will start charging,
 voltage at line between pins TR and THR will rise above 2/3 of the Vcc and as a result pin Q will return to the default
 (low state - 0) - monostable mode of the NE555.
+
+In this case both SPDT switch (S2) and SPST debug button (S1) are debounced by internal SR latch of NE555 timer in monostable
+mode. The second switch (S2) connectors bounce affects connection between DIS pin of NE555 and capacitor C2 as you can see
+bellow:
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/hw-spdt-on-debouncing.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.7: SPDT switch (S2) off-on debouncing (1/2)</i>
+    </p>
+</div>
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/hw-spdt-on-debouncing-zoom.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.8: SPDT switch (S2) off-on debouncing (2/2)</i>
+    </p>
+</div>
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/hw-spdt-off-debouncing.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.9: SPDT switch (S2) on-off debouncing (1/2)</i>
+    </p>
+</div>
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/hw-spdt-off-debouncing-zoom.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.10: SPDT switch (S2) on-off debouncing (2/2)</i>
+    </p>
+</div>
+
+<div>
+    <p align="center" width="100%">
+        <img src="../clock/imgs/hw-spst-dbg-btn-debouncing.png" width="60%" height="60%"/>
+    </p>
+    <p align="center">
+        <i>Figure 2.2.11: SPST debug button (S1) off-on debouncing (1/2)</i>
+    </p>
+</div>
 
 Notice that additional transistor was added to the output of the circuit (pin Q). This transistor was added to enable HLT
 (HALT) signal, similar to the logic circuit added to the clock module presented by Ben Eater. Unipolar MOSFET N-channel
