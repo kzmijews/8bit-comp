@@ -18236,9 +18236,9 @@ grid 2.54 mm</description>
 <instance part="GND2" gate="1" x="147.32" y="83.82" smashed="yes">
 <attribute name="VALUE" x="144.78" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="189.0014" y="110.49" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="188.976" y="116.332" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="190.5" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="189.0014" y="107.95" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="188.976" y="113.792" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="190.5" y="129.54" smashed="yes">
 <attribute name="VALUE" x="188.595" y="132.715" size="1.778" layer="96"/>
@@ -18261,9 +18261,9 @@ grid 2.54 mm</description>
 <attribute name="NAME" x="162.56" y="99.06" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="162.56" y="96.52" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="152.4" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="155.9814" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="155.956" y="121.412" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="152.4" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="150.9014" y="107.95" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.876" y="113.792" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="167.64" y="83.82" smashed="yes">
 <attribute name="NAME" x="163.83" y="85.3186" size="1.778" layer="95"/>
@@ -18284,8 +18284,8 @@ grid 2.54 mm</description>
 <net name="CLK-DIS" class="0">
 <segment>
 <pinref part="CLK" gate="A" pin="DIS"/>
-<wire x1="121.92" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="121.92" y="88.9" size="1.4224" layer="95" xref="yes"/>
+<wire x1="132.08" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<label x="132.08" y="88.9" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -18302,13 +18302,13 @@ grid 2.54 mm</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="152.4" y1="124.46" x2="152.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="116.84" x2="152.4" y2="127" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="190.5" y1="127" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="127" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK-TR-THR" class="0">
@@ -18327,8 +18327,8 @@ grid 2.54 mm</description>
 </segment>
 <segment>
 <pinref part="CLK" gate="A" pin="THR"/>
-<wire x1="114.3" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="121.92" y="83.82" size="1.4224" layer="95" xref="yes"/>
+<wire x1="114.3" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="129.54" y="83.82" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
@@ -18338,9 +18338,12 @@ grid 2.54 mm</description>
 </segment>
 <segment>
 <pinref part="S2" gate="1" pin="S"/>
-<wire x1="177.8" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="175.26" y="83.82" size="1.4224" layer="95" rot="R90" xref="yes"/>
+<wire x1="177.8" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<label x="175.26" y="96.52" size="1.4224" layer="95" rot="R90" xref="yes"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="96.52" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<junction x="175.26" y="83.82"/>
 </segment>
 </net>
 <net name="CLK-CV" class="0">
@@ -18415,7 +18418,7 @@ grid 2.54 mm</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="93.98" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="93.98" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
 </segment>
 </net>
@@ -18427,7 +18430,7 @@ grid 2.54 mm</description>
 <wire x1="152.4" y1="78.74" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <junction x="152.4" y="93.98"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="152.4" y1="93.98" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="93.98" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
