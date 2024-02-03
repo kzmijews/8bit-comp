@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18192,10 +18192,10 @@ grid 2.54 mm</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="66.04" y1="139.7" x2="66.04" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="66.04" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="200.66" y1="68.58" x2="200.66" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="200.66" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="66.04" y1="142.24" x2="66.04" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="66.04" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="203.2" y1="68.58" x2="203.2" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="203.2" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
 <text x="186.182" y="137.414" size="2.1844" layer="95">MAIN CLK</text>
 </plain>
 <instances>
