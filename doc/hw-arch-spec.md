@@ -198,7 +198,7 @@ present main differences between them. The whole circuit was presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/clock-sch.png" width="60%" height="60%"/>
+        <img src="../clock/imgs/rel-clock-sch.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.6: clock circuit</i>

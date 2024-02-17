@@ -10,4 +10,4 @@ Project is not fully functional yet. Stay tuned.
 
 # Documentation
 List of available documents:
-- [Hardware Architecture Spec](doc/hw_arch_spec.md)
+- [Hardware Architecture Spec](doc/hw-arch-spec.md)
