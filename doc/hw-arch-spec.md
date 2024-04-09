@@ -1,13 +1,14 @@
 # Hardware Architecture Spec
 ## 1. Overview
 The main purpose of this document is to describe hardware architecture of presented solution.
-This 8bit computer was created based on hight level architecture of MARIE computer described
-in well-known book "The Essentials of Computer Organization and Architecture" written by
-L.M. Null & J.M. Lobur. It was created for educational purposes.
+This 8bit computer was created based on hight level architecture of 16bit MARIE (Machine
+Architecture that is Really Intuitive and Easy) described in book "The Essentials of Computer
+Organization and Architecture" written by L.M. Null & J.M. Lobur. It was created for educational
+purposes.
 
 ## 2. Clock
 Main clock was done based on popular timer 555 designed by Hans Camenzind in 1971.
-For this project we used NE555 IC (Integrated circuit) provided by Signetics.
+For this project we used the most popular NE555 IC (Integrated Circuit) provided by Signetics.
 However it can be easily replaced by for instance LM555 introduced by Texas Instruments.
 Reference to the documentation may be found here:
 - NE555: https://www.ti.com/lit/ds/symlink/ne555.pdf
@@ -16,20 +17,20 @@ Reference to the documentation may be found here:
 It's also well described at [wiki page](https://en.wikipedia.org/wiki/555_timer_IC)
 
 ### 2.1 Continous mode
-Timer555 is running in **astable mode**. Mode used to continously stream of digital pulses in configured
-period. This configuration is done by adding connection between THR (threshold) and TRIG (trigger) pins
-plugged into voltage through the potentiometer (R2), resistor (R3) (which was added only to determine minimal
-value of resistance - in a case when potentiometr was turned off (0 ohms), it's important for bipolar timers
-to keep output saturated near the zero volts during discharge), resistor (R1) and capacitor (C2).
-Connection is done to keep same voltage on both pins (see `Note` below for more details). Duty cycle depends
-on resistence of potentiometer, two resistors (R2 + R3, and R1) and value of capacitor (C2). The idea is
-simple, capacitor voltage is triggering internal latch to change the state. From "1" to "0" during the time
-of capacitor (C2) discharge and from "0" to "1" during capacitor charge. Time of charging/discharging of
-capacitor depends on its capacity (expressed in farads) and resistance of potentiometr (R2) and resistors
-(R3 and R1 - expressed in ohms). The bigger resistence the slower charging/discharging process because
-capacitor have to pull (through the R2, R3, R1) / push (through the R2, R3) voltage. Same in terms of capacity,
+For our application NE555 runs in **astable mode**. The mode is used to continously stream of digital pulses
+in configured period. This configuration is done by adding connection between `THR` (threshold) and `TRIG`
+(trigger) pins connected with supply voltage through the potentiometer (R2), resistor (R3), resistor (R1)
+and capacitor (C2). Resistor R3 was added only to determine value of minimal resistance - to limit voltage
+when potentiometr R2 is set to 0 ohms, it's important for bipolar timers to keep output saturated near the zero
+volts during discharge. Due to this connection we can keep same voltage on both pins (see `Note` below
+for more details). Duty cycle depends on resistence of potentiometer, two resistors (R2 + R3, and R1) and value
+of capacitor (C2). The idea is simple, capacitor voltage triggers internal latch to change the state. From "1"
+to "0" during the time of capacitor discharge (C2) and from "0" to "1" during capacitor charge. Time of
+charging/discharging of capacitor depends on its capacity (expressed in farads), resistance of potentiometr (R2)
+and resistors (R3 and R1 - expressed in ohms). The higher resistence the slower charging/discharging process because
+capacitor have to pull (through the R2, R3, R1) / push (through the R2, R3) current. Same in terms of capacity,
 the higher value of capacity the longer time needed to charge and discharge it. In that terms the potentiometr
-(R2) was added to be able to easy change the frequency of the clocking signal that appears on pin Q (clock).
+(R2) was added to be able to easy change the frequency of the clocking signal that appears on pin `Q` (clock).
 The exact schema of described connections was added below:
 
 <div>
@@ -45,15 +46,15 @@ The exact schema of described connections was added below:
 >
 > If the voltage lower below 1/3 Vcc on TR (trigger) pin it causes internal latch to change state of "Q" pin
 > to "1" and capacitor starts charging through potentiometr (R2) and resistors (R3 + R1).
-> Once capacitor reaches 2/3 Vcc the on THR (treshold) pin it causes internal latch to change state of "Q" pin
+> Once capacitor reaches 2/3 Vcc on THR (treshold) pin it causes internal latch to change state of "Q" pin
 > to "0" and capacitor starts discharging throught potentiometr (R2) and resistor (R3).
 > That is why it's important to keep same voltage on both pins TR and THR
 > Internal transistor inside the timer are resposnsible for charge/discharge switching.
 > Signal transformation observed on osciloscope was added below. The reference power supply (Vcc) is equal to 5V,
 > the potentiometer was turned into 0 ohms.
-> - channel number 1 (yellow) shows the output from capacitor C2, as you can see voltage oscillate between
+> - channel 1 (yellow) shows the output from capacitor C2, as you can see voltage oscillate between
 > 1/3 Vcc and 2/3 Vcc.
-> - channel number 2 (pink) shows the output on pin "Q" (clock)
+> - channel 2 (pink) shows the output on pin "Q" (clock)
 >
 > <p align="center" width="100%">
 >     <img src="../clock/imgs/hw-main-clock-signal.png"/>
@@ -61,9 +62,6 @@ The exact schema of described connections was added below:
 > <p align="center">
 >    <i>Figure 2.1.2: main clock pulse generation</i>
 > </p>
-
-To better understand the how the timer works you can also take a look at the schema below:
-
 
 
 The time of signal "1" (high) of each pulse can be count as follow:
@@ -92,10 +90,10 @@ D = \frac{t_h}{t_h +t_l} * 100 = \frac{R1 + R2 + R3}{R1 + 2(R2 + R3)} * 100
 
 ### 2.2 Stepping mode
 Stepping mode is usefull for debugging purposes. It's necessary to be able to trigger a single clock signal
-to debug code execution of single command processed by ALU (Arthmeric and Logical Unit) of CPU (Central
+to debug code execution of single instruction processed by ALU (Arthmeric and Logical Unit) of CPU (Central
 Processing Unit). Single pulse can be easily triggered by switch button added between Vcc and GND however it
-may lead to multiple pulses triggered by bouncing switch connectors during the button push. It was shown on figure
-below, where single button push has tiggered two pulses:
+may lead to multiple pulses triggered by bouncing connectors of the switch during the button push. It was
+shown on figure below, where single button push has tiggered two pulses:
 
 <div>
     <p align="center" width="100%">
@@ -124,7 +122,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
     </p>
 </div>
 
-NE555 produce single pulse when the THR signal drops below 1/3 Vcc. Duration of the pulse depends on time needed
+NE555 produce single pulse when the `THR` signal drops below 1/3 Vcc. Duration of the pulse depends on time needed
 to charge capacitor C3 to 2/3 Vcc. It can be expressed by following equation:
 
 ```math
@@ -177,17 +175,18 @@ Based on these configutations:
  - NE555 in astable mode: main clock (figure 2.1.1)
  - NE555 in monostable mode: stepping clock (figure 2.2.5)
 
-We can construct clock circuit. On the one hand **astable mode** will be used as a regular mode of the clock
+We can construct clock circuit. On the one hand **astable mode** will be used as an operational mode of the clock
 to continously generate digital clocking signal, on the other hand **astable mode** will be used as a debug mode
-of the clock to generate single clocking signal trigger by debounced pushed button (role of the NE555 chip in this
+of the clock to generate single clocking signal trigger by debounced pushed button (NE555 chip resposibility in this
 configuration is limited to debounce the signal produced by button push).
 
-Many different configurations can be introduced to for such circuit. One of them was created by Ben Eater, proper
-schema is provided [here](https://eater.net/8bit/clock). In this circuit were used: 3 NE555 chips configured in
+Many different configurations can be introduced for such circuit. Some of them may use NE555 timer, other may use
+different circuites. For instance a bit different module based on the same chip NE555 was created by Ben Eater, proper
+schema is provided [here](https://eater.net/8bit/clock). The circuit uses three NE555 chips configured in
 three different modes: astable, monostable and bistable. Two of them were described in this document the third
 configuration (bistable) was used to debounce SPDT (Single Pole Double Throw) switch used to select betweem NE555
-in astable and monostable modes. It's great example that can be used to learn all of the most common configurations
-of Timer555, to learn how to create and optimize basic logic-gate circuits using Karnaugh map and De Morgan's
+in astable and monostable modes. It's a great example that can be used to learn all of the most common configurations
+of NE555 timer, and how to create and optimize basic logic-gate circuits using Karnaugh map and De Morgan's
 laws to unify all gates to the functional complete type of gates (NAND or NOR). However this circuit is using a lot
 of chips to perform one simple task. For this project we will use much simplier circuit which will use one NE555 timer
 that could be switched in one of two modes (astable and monostable) using SPDT switch and two transistors. We will
@@ -206,28 +205,28 @@ present main differences between them. The whole circuit was presented below:
 </div>
 
 To be able to switch between two different modes (astable and monostable) we need to be able to close and open
-internal connection between pins TR (trigger), THR (treshold) and pin DIS (discharge). After disconnecting DIS pin
-for monostable mode we need to provide alternative way to discharge capacitor C2, which is implemented by path on the
-right hand site. SPDT switch (S2) on the one hand is responsible for connecting/disconnecting this alternative path
-with regular circuit and on the other hand for control bipolar PNP transistor BC556 (Q1). When:
+internal connection between pins `TR` (trigger), `THR` (treshold) and pin `DIS` (discharge). After disconnecting
+`DIS` pin for monostable mode of NE555 we need to provide alternative way to discharge capacitor C2, which is implemented
+by path on the right hand site. SPDT switch (S2) on the one hand is responsible for connecting/disconnecting this
+alternative path with regular circuit and on the other hand for bipolar PNP transistor BC556 (Q1) control. When:
 
-- switch S2 is opened (pin 2 and 3 of the switch are connected) **base** pin of the transistor is grounted. That means
+- switch S2 is opened (pin 2 and 3 of the switch are connected) **base** pin of the transistor is grounded. That means
 that there is no current between **base** and **emiter**, and as a result **collector**-**emiter** path is opened.
-It gives an oportunity to discharge the C2 capacitor over the DIS pin, which starts the oscillation described at the
+It gives an oportunity to discharge the C2 capacitor over the `DIS` pin, which starts the oscillation described at the
 beginning of the section - astable mode of the NE555.
 - switch S2 is closed (pin 2 and 1 of the switch are connected) current flows over the **base** pin to the **emitter**
 which causes the other connection between **collector** and **emiter** to close. It prevents from discharing capacitor
-C2 over the DIS pin, at the same time it opens the alternative way to discharge it by pushing SPST (Single Pole Single
-Throw) button (S1). When the button is pushed it will ground line between TR (trigger) and THR (treshold), which will
-case capacitor C2 to discharge. Voltage will be dropped bellow 1/3 of the Vcc and as a result clock signal at pin Q rise
-(high state - 1). After the button release line will be conencted back to the Vcc source, capacitor C2 will start charging,
-voltage at line between pins TR and THR will rise above 2/3 of the Vcc and as a result pin Q will return to the default
+C2 over the `DIS` pin, at the same time it opens the alternative way to discharge it by pushing SPST (Single Pole Single
+Throw) button (S1). When the button is pushed it will ground line between `TR` (trigger) and `THR` (treshold), which will
+cause capacitor C2 to discharge. Voltage will be dropped bellow 1/3 of the Vcc and as a result clock signal at pin `Q` rise
+(high state - 1). After the button release line will be connected back to the Vcc source, capacitor C2 will start charging,
+voltage at line between pins `TR` and `THR` will rise above 2/3 of the Vcc and as a result pin `Q` will return to the default
 (low state - 0) - monostable mode of the NE555.
 
 In this case both SPDT switch (S2) and SPST debug button (S1) are debounced by internal SR latch of NE555 timer in monostable
-mode. The second switch (S2) connectors bounce affects connection between DIS pin of NE555 and capacitor C2 as you can see
+mode. The second switch (S2) connectors bounce affects connection between `DIS` pin of NE555 and capacitor C2 as you can see
 bellow, where yellow line represents the output from the line connected to the capacitor C2, and pink line represents digital
-signal from the output of NE555 timer (pin Q):
+signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
@@ -274,11 +273,11 @@ signal from the output of NE555 timer (pin Q):
     </p>
 </div>
 
-Notice that additional transistor was added to the output of the circuit (pin Q). This transistor was added to enable HLT
+Notice that additional transistor was added to the output of the circuit (pin `Q`). This transistor was added to enable `HLT`
 (HALT) signal, similar to the logic circuit added to the clock module presented by Ben Eater. Unipolar MOSFET N-channel
 transistor (BS170) is controlled by voltage (instead of current - as it was done for bipolar PNP transistor BC556). When
 the HLT line is grounted connection between the **source** and **drain** is opened, and the digital signal that goes to
 the **gate** will be propageted the **drain** pin. However when the voltage on the **source** pin go high (around
 Vcc value) the connection between **gate** and **drain** will be closed, and digital signal won't be propageted to the
-**drain**. That saying by setting HLT line to the logical 0 clock signal will be propagated, and by setting it to the
+**drain**. That saying by setting `HLT` line to the logical 0 clock signal will be propagated, and by setting it to the
 logical 1 clock signal will be halted.
