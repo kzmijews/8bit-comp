@@ -281,3 +281,81 @@ the **gate** will be propageted the **drain** pin. However when the voltage on t
 Vcc value) the connection between **gate** and **drain** will be closed, and digital signal won't be propageted to the
 **drain**. That saying by setting `HLT` line to the logical 0 clock signal will be propagated, and by setting it to the
 logical 1 clock signal will be halted.
+
+## 3. ALU
+
+Arthmetic Logic Unit can be done based on TTL circuit 74181 describe [here](https://en.wikipedia.org/wiki/74181). However
+this project tries to reflect architecture described by "The Essentials of Computer Organization and Architecture" book.
+A very simple ALU schema based on some logic gates was presented there in chapter 3.6. This unit can perform one basic
+arthmetic operation (add) without carry and three logic operations (AND, OR, NOT). We will use this circuit with small
+change introduced to provide subtract and carry possibilities to make the unit a bit more usefull. The original schema was
+presented below:
+
+<div>
+    <p align="center" width="100%">
+        <img src="../alu/imgs/rel-2b-alu.png">
+    </p>
+    <p align="center">
+        <i>Figure 3.1: 2bit ALU unit, origin: "The Essentials of Computer Organization and Architecture" </i>
+    </p>
+</div>
+
+One the schema we can recognize few circuits:
+- decoder, which in fact is a part of MUX (multiplexer), however to save some gates decoder was shared between two part. Each
+  part is responsible for performing operation on two following bits of two input values.
+- half adder, which can add two bits without carry, described in details by [article](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder)
+- full adder, which can perform the same operation but with carry, describe in [article](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder),
+- some basic logic gates AND, OR, NOT (inverter) to perform basic logic bitwise operations
+
+
+<div>
+    <p align="center" width="100%">
+        <img src="../alu/imgs/rel-2b-alu-sections.png">
+    </p>
+    <p align="center">
+        <i>Figure 3.2: sections of 2bit ALU unit</i>
+    </p>
+</div>
+
+ALU use internal multiplexer to choose (based on input given for internal decoder - combination of F0 and F1 inputs:
+b'00 [0], b'01 [1], b'10 [2], b'11 [3]) one of the lines that provides result of logical or arthmetic operation:
+- AND gate output: provides result of logical conjuction of two bits {A0; B0}, {A1; B1}
+- OR gate output: provides result of logical disjunction of tow bits {A0; B0}, {A1; B1}
+- NOT (inverter) gate output: provides logical negation for bits of the first value A0, A1
+- half/full adder circuit: provides result of arthmetic sum of two bits {A0; B0}, {A1; B1; carry from pervious sum}
+
+TTL circuit like:
+- Dual 4-line to 1-line data Multiplexer (74\*153),
+- 4-bit full adder circuit (74\*283),
+- logic gates: quad 2-input AND gate (74\*08), quad 2-input OR gate (74\*32), hex inverter (74\*04)
+
+
+are very common and easy to find we can use them for ALU circuit prototype. However to make the unit usefull we need to
+provide at least one additional basic arthmetic operation which is substraction. To understand how it was implemented some
+knowledge about basic represention of numbers in digital systems is required. The most common method of representing signed
+integers on computer is [two's complement system](https://en.wikipedia.org/wiki/Two's_complement), where a positive number is
+represented as binary number where the most significant bit is treated as a sign bit, and negative number is created by
+invertion of all bits and adding 1 to it. The overflow should be ignored. Such representation allows to avoid some basic issues
+like double representation of number "0", or additionl operation to count the sign bit.
+
+That saying substraction can be done by adding negative number to the positive number. All what we need to do is to change one of
+the numbers to negative by:
+- inverting all bits,
+- adding "1" to it.
+
+
+To invert the number XOR (Exclusive OR) gate can be used. It will invert bit provided on one of the gate's input if second input will
+be set to "1" (**control line**), otherwise it will propagate the original value of the bit. 
+To add one to the inverted number we can replace original half adder circuit by full adder and pass **control line** value to it as
+carry input signal.
+
+After taking these changes into account we cen build the ALU IC base on six TTL ICs, the result was presented below:
+
+<div>
+    <p align="center" width="100%">
+        <img src="../alu/imgs/rel-alu.png">
+    </p>
+    <p align="center">
+        <i>Figure 3.3: 8bit ALU unit</i>
+    </p>
+</div>
