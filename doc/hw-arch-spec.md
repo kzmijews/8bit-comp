@@ -296,7 +296,7 @@ presented below:
         <img src="../alu/imgs/rel-2b-alu.png">
     </p>
     <p align="center">
-        <i>Figure 3.1: 2-bit ALU unit, origin: "The Essentials of Computer Organization and Architecture" </i>
+        <i>Figure 3.1: 2-bit ALU unit, source: "The Essentials of Computer Organization and Architecture" </i>
     </p>
 </div>
 
@@ -313,7 +313,7 @@ On the schema we can recognize few circuits:
         <img src="../alu/imgs/rel-2b-alu-sections.png">
     </p>
     <p align="center">
-        <i>Figure 3.2: sections of 2bit ALU unit</i>
+        <i>Figure 3.2: sections of 2-bit ALU unit</i>
     </p>
 </div>
 
@@ -354,10 +354,46 @@ After taking these changes into account we can build the ALU IC using six TTL ch
         <img src="../alu/imgs/rel-alu.png">
     </p>
     <p align="center">
-        <i>Figure 3.3: 8bit ALU unit</i>
+        <i>Figure 3.3: 8-bit ALU unit</i>
     </p>
 </div>
 
-## 4. SRAM (Static Random Access Memory)
+## 4. General Purpose Registers
 
 TBD
+
+## 5. RAM (Random Access Memory)
+
+RAM (Random Access Memory) is one of the most important circuit in micro-computer. Both data to process and instructions
+to perform in form of program compiled to machine code are stored there. In general to build the main memory module one of
+the following type of chips can be used:
+- DRAM (Dynamic Random Access Memory) - due to internal desing, where each bit of information is represented by state of internal
+  capacitor (charged state coresponds to high state of bit - "1", discharged state coresponds to low state of bit - "0")
+  and related charging/discharging transitor, these type of memory is usally cheaper than SRAM, and due to different approach of
+  cells addressing it has two times smaller number of address pins. However to keep the state of memory permanent over the time of
+  execution it requires a specialized circuit for cells state refresh, which makes the whole memory module much more complex comparing
+  with modules based on SRAM chips.
+- SRAM (Static Random Access Memory) - this type of chip is built based on D-type flip flops, same as shift registers. As a result
+  the state of the bit is stored by inverting feedback on the circuit's gates. Circuit is more complex then DRAM and as result
+  more expensive, however it doesn't need any additional circuit for memory cells refresh (due to lack of capasitors).
+
+This solution will use SRAM. There are plenty of chips that can be used for the final memory module application. In general these
+chips contains:
+- memory cell array to keep instruction and data to process
+- address decoder splitted into two parts, for rows and for columns where proper address lines are connected.
+
+Size of the memory cells may be different, however the common size is set to 8 bits. Each memroy cell can be build based on
+few sequentialy connected D-type flip-flops, same as for shift registers. Chip 74\*74 provides dual D-type flip flops circuit,
+however due to a huge number od chips needed to build memory cell array with resonable size for this application we will use large
+scale memory chip [KM6264BLS-10L](https://www.datasheets360.com/pdf/-2077603173809567344) which is 8Kx8-bit high-spped Static RAM
+organized as 8, 192 words by 8 bits. It's a CMOS chip with TTL compatible inputs and outputs, JDEC Standard pin configuration and
+three state output. Functional block diagram was presented below:
+
+<div>
+    <p align="center" width="100%">
+        <img src="../ram/imgs/km6264bls-10l-diagram.png">
+    </p>
+    <p align="center">
+        <i>Figure 5.1: SRAM 8Kx8bit module KM6264BLS-10L functional block diagram, source: "KM6264BBL/KM6264BL-L datasheet"</i>
+    </p>
+</div>
