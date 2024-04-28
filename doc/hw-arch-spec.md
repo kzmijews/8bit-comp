@@ -382,10 +382,10 @@ chips contains:
 - memory cell array to keep instruction and data to process
 - address decoder splitted into two parts, for rows and for columns where proper address lines are connected.
 
-Size of the memory cells may be different, however the common size is set to 8 bits. Each memroy cell can be build based on
+Size of the memory cells may be different, however the common size is set to 8 bits. Each memory cell can be build based on
 few sequentialy connected D-type flip-flops, same as for shift registers. Chip 74\*74 provides dual D-type flip flops circuit,
 however due to a huge number od chips needed to build memory cell array with resonable size for this application we will use large
-scale memory chip [KM6264BLS-10L](https://www.datasheets360.com/pdf/-2077603173809567344) which is 8Kx8-bit high-spped Static RAM
+scale memory chip [KM6264BLS-10L](https://www.datasheets360.com/pdf/-2077603173809567344) which is 8Kx8-bit high-speed Static RAM
 organized as 8, 192 words by 8 bits. It's a CMOS chip with TTL compatible inputs and outputs, JEDEC Standard pin configuration and
 three state output. Functional block diagram was presented below:
 
@@ -408,7 +408,7 @@ of code execution CPU sees only one page of memory pointed by value of [PAR](htt
 (Page Address Register). The last two address lines (`ADDR-BUS9` and `ADDR-BUS10`) are connected to the input of
 [demultiplexer](https://en.wikipedia.org/wiki/Multiplexer#Digital_demultiplexers) (DEMUX), the output of DEMUX is connected to the `CS1`
 (Chip Select) input of the memory chip, which makes accessible only one memory chip (out of four) during the code execution.
-`PAR` is 4-bits size shift register built on D-Type Flip-Flops, for this application we are using TTL chip 74\*173.
+`PAR` is 4-bits size shift register built on D-Type Flip-Flops, for this application TTL chip 74\*173 was used.
 As a memory four **KM6264BKS-10L** chips were used which gives us 4 blocks of 8KB, 32KB of memory in total devided into 2^4 (maximum
 value kept by `PAR`) * 4 (number of memory chips) = 64 pages (each page of 512B). The last thing is the capability to switch memory
 module between two modes:
@@ -423,6 +423,6 @@ below:
         <img src="../ram/imgs/dbg-ram-4x8K.png">
     </p>
     <p align="center">
-        <i>Figure 5.2: Full RAM module schema"</i>
+        <i>Figure 5.2: Full RAM module schema</i>
     </p>
 </div>
