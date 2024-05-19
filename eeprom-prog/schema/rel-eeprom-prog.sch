@@ -959,7 +959,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -981,7 +980,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND3" gate="1" x="63.5" y="12.7"/>
 <instance part="GND4" gate="1" x="45.72" y="-17.78"/>
 <instance part="SUPPLY1" gate="G$1" x="58.42" y="116.84"/>
-<instance part="SUPPLY2" gate="G$1" x="-15.24" y="116.84"/>
 <instance part="GND1" gate="1" x="58.42" y="76.2"/>
 <instance part="GND5" gate="1" x="45.72" y="-2.54"/>
 </instances>
@@ -1505,18 +1503,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
 <wire x1="35.56" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="106.68" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="!RESET@2"/>
-<wire x1="58.42" y1="109.22" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
-<junction x="58.42" y="109.22"/>
-</segment>
-<segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="!RESET@1"/>
-<wire x1="-5.08" y1="109.22" x2="-15.24" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="109.22" x2="-15.24" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<wire x1="58.42" y1="106.68" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
