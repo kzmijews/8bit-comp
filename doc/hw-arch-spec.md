@@ -35,7 +35,7 @@ The exact schema of described connections was added below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-astable.png"  width="60%" height="60%"/>
+        <img src="../design/clock/imgs/ne555n-astable.png"  width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.1.1: main clock circuit</i>
@@ -57,7 +57,7 @@ The exact schema of described connections was added below:
 > - channel 2 (pink) shows the output on pin "Q" (clock)
 >
 > <p align="center" width="100%">
->     <img src="../clock/imgs/hw-main-clock-signal.png"/>
+>     <img src="../design/clock/imgs/hw-main-clock-signal.png"/>
 > </p>
 > <p align="center">
 >    <i>Figure 2.1.2: main clock pulse generation</i>
@@ -97,7 +97,7 @@ shown on figure below, where single button push has tiggered two pulses:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-debug-button-bouncing.png"/>
+        <img src="../design/clock/imgs/hw-debug-button-bouncing.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.1 debug button bouncing issue</i>
@@ -115,7 +115,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-monostable-debouncing.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.2: schema of timer555 in monostable mode (ltspice simulator)</i>
@@ -134,7 +134,7 @@ issue. Simulation run shows following results:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-monostable-debouncing-measurements-1.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-1.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.3: ltspice simulation results for timer 555 in monostable mode - common case</i>
@@ -151,7 +151,7 @@ pulse will be generated:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-monostable-debouncing-measurements-2.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-2.png"/>
     </p>
     <p align="center">
         <i>Figure 2.2.4: ltspice simulation results for timer 555 in monostable mode - bouncing trigger</i>
@@ -163,7 +163,7 @@ Full schema for debouncing circuit used for stepping mode (debug purposes) was a
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/ne555n-monostable.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/ne555n-monostable.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.5: stepping clock circuit</i>
@@ -197,7 +197,7 @@ present main differences between them. The whole circuit was presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/rel-clock-sch.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/rel-clock-sch.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.6: clock circuit</i>
@@ -230,7 +230,7 @@ signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-spdt-on-debouncing.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/hw-spdt-on-debouncing.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.7: SPDT switch (S2) off-on debouncing (1/2)</i>
@@ -239,7 +239,7 @@ signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-spdt-on-debouncing-zoom.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/hw-spdt-on-debouncing-zoom.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.8: SPDT switch (S2) off-on debouncing (2/2)</i>
@@ -248,7 +248,7 @@ signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-spdt-off-debouncing.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/hw-spdt-off-debouncing.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.9: SPDT switch (S2) on-off debouncing (1/2)</i>
@@ -257,7 +257,7 @@ signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-spdt-off-debouncing-zoom.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/hw-spdt-off-debouncing-zoom.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.10: SPDT switch (S2) on-off debouncing (2/2)</i>
@@ -266,7 +266,7 @@ signal from the output of NE555 timer (pin `Q`):
 
 <div>
     <p align="center" width="100%">
-        <img src="../clock/imgs/hw-spst-dbg-btn-debouncing.png" width="60%" height="60%"/>
+        <img src="../design/clock/imgs/hw-spst-dbg-btn-debouncing.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.11: SPST debug button (S1) off-on debouncing (1/2)</i>
@@ -293,7 +293,7 @@ presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../alu/imgs/rel-2b-alu.png">
+        <img src="../design/alu/imgs/rel-2b-alu.png">
     </p>
     <p align="center">
         <i>Figure 3.1: 2-bit ALU unit, source: "The Essentials of Computer Organization and Architecture" </i>
@@ -310,7 +310,7 @@ On the schema we can recognize few circuits:
 
 <div>
     <p align="center" width="100%">
-        <img src="../alu/imgs/rel-2b-alu-sections.png">
+        <img src="../design/alu/imgs/rel-2b-alu-sections.png">
     </p>
     <p align="center">
         <i>Figure 3.2: sections of 2-bit ALU unit</i>
@@ -351,7 +351,7 @@ After taking these changes into account we can build the ALU IC using six TTL ch
 
 <div>
     <p align="center" width="100%">
-        <img src="../alu/imgs/rel-alu.png">
+        <img src="../design/alu/imgs/rel-alu.png">
     </p>
     <p align="center">
         <i>Figure 3.3: 8-bit ALU unit</i>
@@ -391,7 +391,7 @@ three state output. Functional block diagram was presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../ram/imgs/km6264bls-10l-diagram.png">
+        <img src="../design/ram/imgs/km6264bls-10l-diagram.png">
     </p>
     <p align="center">
         <i>Figure 5.1: SRAM 8Kx8bit module KM6264BLS-10L functional block diagram, source: "KM6264BBL/KM6264BL-L datasheet"</i>
@@ -420,7 +420,7 @@ below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../ram/imgs/dbg-ram-4x8K.png">
+        <img src="../design/ram/imgs/dbg-ram-4x8K.png">
     </p>
     <p align="center">
         <i>Figure 5.2: Full RAM module schema</i>
