@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4031,8 +4031,8 @@ Source: www.kingbright.com</description>
 <sheet>
 <plain>
 <text x="-27.94" y="1112.52" size="2.1844" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
-<wire x1="-502.92" y1="1120.14" x2="-505.46" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-505.46" y1="871.22" x2="48.26" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-502.92" y1="1120.14" x2="-502.92" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-502.92" y1="871.22" x2="48.26" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="871.22" x2="48.26" y2="1120.14" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="1120.14" x2="-502.92" y2="1120.14" width="0.1524" layer="97" style="shortdash"/>
 </plain>
@@ -4275,7 +4275,10 @@ Source: www.kingbright.com</description>
 <instance part="GND33" gate="1" x="-431.8" y="878.84" smashed="yes">
 <attribute name="VALUE" x="-434.34" y="876.3" size="1.778" layer="96"/>
 </instance>
-<instance part="SW2" gate="G$1" x="-441.96" y="886.46" rot="R180"/>
+<instance part="SW2" gate="G$1" x="-441.96" y="886.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="-436.88" y="883.285" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-436.88" y="891.54" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="BUFFER-3" gate="A" x="-297.18" y="967.74" smashed="yes">
 <attribute name="NAME" x="-304.8" y="983.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-302.26" y="949.96" size="1.778" layer="96"/>
