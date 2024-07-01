@@ -996,7 +996,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-185.42" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="-2.54" x2="0" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="160.02" x2="-185.42" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
-<text x="-30.48" y="154.94" size="1.778" layer="97">PROGRAM COUNTER</text>
+<text x="-40.64" y="154.94" size="2.54" layer="97">PROGRAM COUNTER</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-137.16" y="139.7"/>

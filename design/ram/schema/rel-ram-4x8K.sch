@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -786,7 +786,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="142.24" size="2.1844" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
+<text x="91.44" y="142.24" size="2.54" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
 <wire x1="-38.1" y1="147.32" x2="-38.1" y2="-17.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-38.1" y1="-17.78" x2="177.8" y2="-17.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="177.8" y1="-17.78" x2="177.8" y2="147.32" width="0.1524" layer="97" style="shortdash"/>

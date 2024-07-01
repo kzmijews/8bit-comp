@@ -2920,6 +2920,12 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="-182.88" y1="1371.6" x2="-182.88" y2="706.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-182.88" y1="706.12" x2="53.34" y2="706.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="53.34" y1="706.12" x2="53.34" y2="1374.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="53.34" y1="1374.14" x2="-182.88" y2="1374.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-182.88" y1="1374.14" x2="-182.88" y2="1371.6" width="0.1524" layer="97" style="shortdash"/>
+<text x="2.54" y="1369.06" size="2.54" layer="97">General Purpose Registers</text>
 </plain>
 <instances>
 <instance part="REG-MBR-L" gate="A" x="-127" y="1257.3"/>

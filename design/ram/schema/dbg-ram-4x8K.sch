@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4030,7 +4030,7 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-27.94" y="1112.52" size="2.1844" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
+<text x="-45.72" y="1112.52" size="2.54" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
 <wire x1="-502.92" y1="1120.14" x2="-502.92" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-502.92" y1="871.22" x2="48.26" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="871.22" x2="48.26" y2="1120.14" width="0.1524" layer="97" style="shortdash"/>

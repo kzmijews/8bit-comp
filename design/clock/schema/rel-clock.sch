@@ -18196,7 +18196,7 @@ grid 2.54 mm</description>
 <wire x1="66.04" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="203.2" y1="68.58" x2="203.2" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="203.2" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
-<text x="186.182" y="137.414" size="2.1844" layer="95">MAIN CLK</text>
+<text x="181.102" y="137.414" size="2.54" layer="95">MAIN CLK</text>
 </plain>
 <instances>
 <instance part="CLK" gate="A" x="104.14" y="86.36" smashed="yes">

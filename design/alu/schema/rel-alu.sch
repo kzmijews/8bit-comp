@@ -1702,7 +1702,7 @@ Based on the following sources:
 <wire x1="78.74" y1="2.54" x2="78.74" y2="429.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="429.26" x2="-167.64" y2="429.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-167.64" y1="429.26" x2="-167.64" y2="421.64" width="0.1524" layer="97" style="shortdash"/>
-<text x="30.48" y="424.18" size="2.1844" layer="97">ALU (ARITHMETIC LOGIC UNIT)</text>
+<text x="20.32" y="424.18" size="2.54" layer="97">ALU (ARITHMETIC LOGIC UNIT)</text>
 </plain>
 <instances>
 <instance part="DUAL-4X1-MUX-0" gate="A" x="-12.7" y="383.54" smashed="yes">
