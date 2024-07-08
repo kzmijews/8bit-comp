@@ -387,7 +387,7 @@ All registers are plugged into **data bus**, used for data exchange between them
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/regs/imgs/rel-regs.png.png">
+        <img src="../design/regs/imgs/rel-regs.png">
     </p>
     <p align="center">
         <i>Figure 4.1: General Purpose Registers</i>
