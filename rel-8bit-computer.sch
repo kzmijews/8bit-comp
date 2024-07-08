@@ -23304,7 +23304,7 @@ single cathode, 13 mm</description>
 <part name="IC55" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="IC57" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="IC58" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC59" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="ALU-BUF" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
@@ -23331,8 +23331,8 @@ single cathode, 13 mm</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BUFFER-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
-<part name="BUFFER-1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="MEM-INT-BUF-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="MEM-INT-BUF-1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
@@ -23365,7 +23365,7 @@ single cathode, 13 mm</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED17" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BUFFER-2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="MEM-BUF" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="LED18" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED19" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
@@ -23392,7 +23392,7 @@ single cathode, 13 mm</description>
 <part name="PROG/RUN-ADDR-SW" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-12" device="" package3d_urn="urn:adsk.eagle:package:26664/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
-<part name="BUFFER-3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="MEM-INT-BUF-2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="LED26" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -23411,13 +23411,13 @@ single cathode, 13 mm</description>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC9" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*76" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="D1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D3" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D4" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="IC10" library="memory" library_urn="urn:adsk.eagle:library:279" deviceset="2816" device="" package3d_urn="urn:adsk.eagle:package:19955/2"/>
-<part name="IC11" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" technology="NE"/>
+<part name="JK-FLIP-FLOP" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*76" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="SEG-DISP0" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="SEG-DISP1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="SEG-DISP2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="SEG-DISP3" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="EEPROM-AT28C16" library="memory" library_urn="urn:adsk.eagle:library:279" deviceset="2816" device="" package3d_urn="urn:adsk.eagle:package:19955/2"/>
+<part name="SEG-SWITCH" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" technology="NE"/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:26151/1" value="2n"/>
@@ -23436,14 +23436,14 @@ single cathode, 13 mm</description>
 <part name="PC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
 <part name="PC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
 <part name="PC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="IC17" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
-<part name="IC18" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="PC-BUF-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="PC-BUF-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC19" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="RST-INVERTER" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="REG-MBR-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
 <part name="REG-MBR-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
 <part name="REG-ACU-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
@@ -23739,19 +23739,15 @@ single cathode, 13 mm</description>
 <attribute name="VALUE" x="-1691.64" y="520.7" size="1.778" layer="96"/>
 </instance>
 <instance part="IC37" gate="D" x="-1732.28" y="721.36" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="724.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="716.28" size="1.778" layer="96"/>
 </instance>
 <instance part="IC38" gate="A" x="-1732.28" y="680.72" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="683.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="675.64" size="1.778" layer="96"/>
 </instance>
 <instance part="IC35" gate="D" x="-1732.28" y="706.12" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="709.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="701.04" size="1.778" layer="96"/>
 </instance>
 <instance part="IC39" gate="A" x="-1732.28" y="665.48" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="668.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="660.4" size="1.778" layer="96"/>
 </instance>
 <instance part="DUAL-4X1-MUX-1" gate="A" x="-1651" y="612.14" smashed="yes">
@@ -23762,51 +23758,39 @@ single cathode, 13 mm</description>
 <attribute name="VALUE" x="-1668.78" y="586.74" size="1.778" layer="96"/>
 </instance>
 <instance part="IC41" gate="D" x="-1732.28" y="637.54" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="640.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="632.46" size="1.778" layer="96"/>
 </instance>
 <instance part="IC42" gate="D" x="-1732.28" y="622.3" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="625.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="617.22" size="1.778" layer="96"/>
 </instance>
 <instance part="IC44" gate="A" x="-1732.28" y="596.9" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="600.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="591.82" size="1.778" layer="96"/>
 </instance>
 <instance part="IC45" gate="A" x="-1732.28" y="581.66" smashed="yes">
-<attribute name="NAME" x="-1729.74" y="584.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1729.74" y="576.58" size="1.778" layer="96"/>
 </instance>
 <instance part="IC46" gate="A" x="-1775.46" y="508" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="515.62" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="515.62" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC46" gate="B" x="-1775.46" y="482.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="490.22" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="490.22" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC46" gate="C" x="-1775.46" y="457.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="464.82" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="464.82" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC46" gate="D" x="-1775.46" y="431.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="439.42" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="439.42" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC47" gate="A" x="-1775.46" y="406.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="414.02" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="414.02" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC47" gate="B" x="-1775.46" y="381" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="388.62" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="388.62" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC47" gate="C" x="-1775.46" y="355.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="363.22" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="363.22" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC47" gate="D" x="-1775.46" y="330.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="-1769.745" y="337.82" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-1783.08" y="337.82" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="DUAL-4X1-MUX-2" gate="A" x="-1615.44" y="472.44" smashed="yes">
@@ -23814,19 +23798,15 @@ single cathode, 13 mm</description>
 <attribute name="VALUE" x="-1623.06" y="449.58" size="1.778" layer="96"/>
 </instance>
 <instance part="IC50" gate="D" x="-1696.72" y="497.84" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="501.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="492.76" size="1.778" layer="96"/>
 </instance>
 <instance part="IC51" gate="A" x="-1696.72" y="457.2" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="460.375" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="452.12" size="1.778" layer="96"/>
 </instance>
 <instance part="IC48" gate="D" x="-1696.72" y="482.6" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="485.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1691.64" y="477.52" size="1.778" layer="96"/>
 </instance>
 <instance part="IC52" gate="A" x="-1696.72" y="441.96" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="445.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="436.88" size="1.778" layer="96"/>
 </instance>
 <instance part="DUAL-4X1-MUX-3" gate="A" x="-1615.44" y="388.62" smashed="yes">
@@ -23837,22 +23817,18 @@ single cathode, 13 mm</description>
 <attribute name="VALUE" x="-1633.22" y="363.22" size="1.778" layer="96"/>
 </instance>
 <instance part="IC54" gate="D" x="-1696.72" y="414.02" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="417.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="408.94" size="1.778" layer="96"/>
 </instance>
 <instance part="IC55" gate="D" x="-1696.72" y="398.78" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="401.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="393.7" size="1.778" layer="96"/>
 </instance>
 <instance part="IC57" gate="A" x="-1696.72" y="373.38" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="376.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="368.3" size="1.778" layer="96"/>
 </instance>
 <instance part="IC58" gate="A" x="-1696.72" y="358.14" smashed="yes">
-<attribute name="NAME" x="-1694.18" y="361.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1694.18" y="353.06" size="1.778" layer="96"/>
 </instance>
-<instance part="IC59" gate="A" x="-1607.82" y="538.48" smashed="yes">
+<instance part="ALU-BUF" gate="A" x="-1607.82" y="538.48" smashed="yes">
 <attribute name="NAME" x="-1615.44" y="554.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1615.44" y="520.7" size="1.778" layer="96"/>
 </instance>
@@ -23860,35 +23836,27 @@ single cathode, 13 mm</description>
 <attribute name="VALUE" x="-1645.285" y="567.055" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="A" x="-1729.74" y="734.06" smashed="yes">
-<attribute name="NAME" x="-1727.2" y="737.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1727.2" y="728.98" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="A" x="-1729.74" y="693.42" smashed="yes">
-<attribute name="NAME" x="-1727.2" y="696.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1727.2" y="688.34" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="A" x="-1729.74" y="650.24" smashed="yes">
-<attribute name="NAME" x="-1727.2" y="653.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1727.2" y="645.16" size="1.778" layer="96"/>
 </instance>
 <instance part="IC4" gate="A" x="-1729.74" y="609.6" smashed="yes">
-<attribute name="NAME" x="-1727.2" y="612.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1727.2" y="604.52" size="1.778" layer="96"/>
 </instance>
 <instance part="IC5" gate="A" x="-1694.18" y="510.54" smashed="yes">
-<attribute name="NAME" x="-1691.64" y="513.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1691.64" y="505.46" size="1.778" layer="96"/>
 </instance>
 <instance part="IC6" gate="A" x="-1694.18" y="469.9" smashed="yes">
-<attribute name="NAME" x="-1691.64" y="473.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1691.64" y="464.82" size="1.778" layer="96"/>
 </instance>
 <instance part="IC7" gate="A" x="-1694.18" y="426.72" smashed="yes">
-<attribute name="NAME" x="-1691.64" y="429.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1691.64" y="421.64" size="1.778" layer="96"/>
 </instance>
 <instance part="IC8" gate="A" x="-1694.18" y="386.08" smashed="yes">
-<attribute name="NAME" x="-1691.64" y="389.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1691.64" y="381" size="1.778" layer="96"/>
 </instance>
 <instance part="GND23" gate="1" x="-1666.24" y="673.1" smashed="yes">
@@ -23948,11 +23916,11 @@ single cathode, 13 mm</description>
 <instance part="GND12" gate="1" x="-939.8" y="662.94" smashed="yes">
 <attribute name="VALUE" x="-942.34" y="660.4" size="1.778" layer="96"/>
 </instance>
-<instance part="BUFFER-0" gate="A" x="-1102.36" y="769.62" smashed="yes">
+<instance part="MEM-INT-BUF-0" gate="A" x="-1102.36" y="769.62" smashed="yes">
 <attribute name="NAME" x="-1109.98" y="785.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1109.98" y="751.84" size="1.778" layer="96"/>
 </instance>
-<instance part="BUFFER-1" gate="A" x="-1102.36" y="721.36" smashed="yes">
+<instance part="MEM-INT-BUF-1" gate="A" x="-1102.36" y="721.36" smashed="yes">
 <attribute name="NAME" x="-1109.98" y="737.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1109.98" y="703.58" size="1.778" layer="96"/>
 </instance>
@@ -24052,7 +24020,7 @@ single cathode, 13 mm</description>
 <instance part="GND29" gate="1" x="-1191.26" y="728.98" smashed="yes">
 <attribute name="VALUE" x="-1193.8" y="726.44" size="1.778" layer="96"/>
 </instance>
-<instance part="BUFFER-2" gate="A" x="-797.56" y="660.4" smashed="yes">
+<instance part="MEM-BUF" gate="A" x="-797.56" y="660.4" smashed="yes">
 <attribute name="NAME" x="-805.18" y="676.275" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-805.18" y="642.62" size="1.778" layer="96"/>
 </instance>
@@ -24139,7 +24107,7 @@ single cathode, 13 mm</description>
 <attribute name="NAME" x="-1242.06" y="586.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-1242.06" y="594.36" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BUFFER-3" gate="A" x="-1102.36" y="670.56" smashed="yes">
+<instance part="MEM-INT-BUF-2" gate="A" x="-1102.36" y="670.56" smashed="yes">
 <attribute name="NAME" x="-1109.98" y="686.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1107.44" y="652.78" size="1.778" layer="96"/>
 </instance>
@@ -24201,31 +24169,31 @@ single cathode, 13 mm</description>
 <instance part="GND51" gate="1" x="-1076.96" y="650.24" smashed="yes">
 <attribute name="VALUE" x="-1079.5" y="647.7" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="A" x="-1186.18" y="513.08" smashed="yes">
+<instance part="JK-FLIP-FLOP" gate="A" x="-1186.18" y="513.08" smashed="yes">
 <attribute name="NAME" x="-1193.8" y="523.875" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1193.8" y="500.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="-1003.3" y="533.4" smashed="yes">
+<instance part="SEG-DISP0" gate="G$1" x="-1003.3" y="533.4" smashed="yes">
 <attribute name="NAME" x="-1008.38" y="541.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1008.38" y="523.24" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="-1003.3" y="502.92" smashed="yes">
+<instance part="SEG-DISP1" gate="G$1" x="-1003.3" y="502.92" smashed="yes">
 <attribute name="NAME" x="-1008.38" y="511.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1008.38" y="492.76" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="-1003.3" y="472.44" smashed="yes">
+<instance part="SEG-DISP2" gate="G$1" x="-1003.3" y="472.44" smashed="yes">
 <attribute name="NAME" x="-1008.38" y="480.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1008.38" y="462.28" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="-1003.3" y="441.96" smashed="yes">
+<instance part="SEG-DISP3" gate="G$1" x="-1003.3" y="441.96" smashed="yes">
 <attribute name="NAME" x="-1008.38" y="450.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1008.38" y="431.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC10" gate="A" x="-1076.96" y="497.84" smashed="yes">
+<instance part="EEPROM-AT28C16" gate="A" x="-1076.96" y="497.84" smashed="yes">
 <attribute name="NAME" x="-1087.12" y="518.795" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1087.12" y="474.98" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="A" x="-1262.38" y="505.46" smashed="yes">
+<instance part="SEG-SWITCH" gate="A" x="-1262.38" y="505.46" smashed="yes">
 <attribute name="NAME" x="-1270" y="516.382" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1270" y="492.633" size="1.778" layer="96"/>
 </instance>
@@ -24266,7 +24234,7 @@ single cathode, 13 mm</description>
 <instance part="GND56" gate="1" x="-1170.94" y="474.98" smashed="yes">
 <attribute name="VALUE" x="-1173.48" y="472.44" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="B" x="-1186.18" y="485.14" smashed="yes">
+<instance part="JK-FLIP-FLOP" gate="B" x="-1186.18" y="485.14" smashed="yes">
 <attribute name="NAME" x="-1193.8" y="495.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1193.8" y="472.44" size="1.778" layer="96"/>
 </instance>
@@ -24296,11 +24264,11 @@ single cathode, 13 mm</description>
 <attribute name="NAME" x="-1704.34" y="186.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1704.34" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="IC17" gate="A" x="-1607.82" y="269.24" smashed="yes">
+<instance part="PC-BUF-L" gate="A" x="-1607.82" y="269.24" smashed="yes">
 <attribute name="NAME" x="-1615.44" y="285.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1615.44" y="251.46" size="1.778" layer="96"/>
 </instance>
-<instance part="IC18" gate="A" x="-1607.82" y="218.44" smashed="yes">
+<instance part="PC-BUF-H" gate="A" x="-1607.82" y="218.44" smashed="yes">
 <attribute name="NAME" x="-1615.44" y="234.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1615.44" y="200.66" size="1.778" layer="96"/>
 </instance>
@@ -24319,7 +24287,7 @@ single cathode, 13 mm</description>
 <instance part="GND60" gate="1" x="-1648.46" y="208.28" smashed="yes">
 <attribute name="VALUE" x="-1651" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="IC19" gate="A" x="-1694.18" y="144.78" smashed="yes" rot="R180">
+<instance part="RST-INVERTER" gate="A" x="-1694.18" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="-1696.72" y="141.605" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-1696.72" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24826,7 +24794,7 @@ single cathode, 13 mm</description>
 <wire x1="-1681.48" y1="797.56" x2="-1681.48" y2="795.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="DIR"/>
+<pinref part="ALU-BUF" gate="A" pin="DIR"/>
 <wire x1="-1620.52" y1="528.32" x2="-1640.84" y2="528.32" width="0.1524" layer="91"/>
 <wire x1="-1640.84" y1="528.32" x2="-1640.84" y2="561.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
@@ -24880,7 +24848,7 @@ single cathode, 13 mm</description>
 <junction x="-1003.3" y="678.18"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="DIR"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="DIR"/>
 <wire x1="-1115.06" y1="759.46" x2="-1132.84" y2="759.46" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="759.46" x2="-1132.84" y2="741.68" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="741.68" x2="-1084.58" y2="741.68" width="0.1524" layer="91"/>
@@ -24888,7 +24856,7 @@ single cathode, 13 mm</description>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="DIR"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="DIR"/>
 <wire x1="-1115.06" y1="711.2" x2="-1132.84" y2="711.2" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="711.2" x2="-1132.84" y2="690.88" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="690.88" x2="-1084.58" y2="690.88" width="0.1524" layer="91"/>
@@ -24896,7 +24864,7 @@ single cathode, 13 mm</description>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="BUFFER-3" gate="A" pin="DIR"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="DIR"/>
 <wire x1="-1115.06" y1="660.4" x2="-1132.84" y2="660.4" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="660.4" x2="-1132.84" y2="642.62" width="0.1524" layer="91"/>
 <wire x1="-1132.84" y1="642.62" x2="-1084.58" y2="642.62" width="0.1524" layer="91"/>
@@ -24904,7 +24872,7 @@ single cathode, 13 mm</description>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="!WE"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="!WE"/>
 <wire x1="-1092.2" y1="480.06" x2="-1094.74" y2="480.06" width="0.1524" layer="91"/>
 <wire x1="-1094.74" y1="480.06" x2="-1094.74" y2="472.44" width="0.1524" layer="91"/>
 <wire x1="-1094.74" y1="472.44" x2="-1064.26" y2="472.44" width="0.1524" layer="91"/>
@@ -24912,20 +24880,20 @@ single cathode, 13 mm</description>
 <pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="A" pin="PRE"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="PRE"/>
 <wire x1="-1198.88" y1="520.7" x2="-1219.2" y2="520.7" width="0.1524" layer="91"/>
 <wire x1="-1219.2" y1="520.7" x2="-1219.2" y2="523.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
-<pinref part="IC9" gate="A" pin="CLR"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="CLR"/>
 <wire x1="-1198.88" y1="505.46" x2="-1219.2" y2="505.46" width="0.1524" layer="91"/>
 <wire x1="-1219.2" y1="505.46" x2="-1219.2" y2="508" width="0.1524" layer="91"/>
 <junction x="-1219.2" y="520.7"/>
-<pinref part="IC9" gate="A" pin="J"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="J"/>
 <wire x1="-1219.2" y1="508" x2="-1219.2" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="-1219.2" y1="518.16" x2="-1219.2" y2="520.7" width="0.1524" layer="91"/>
 <wire x1="-1198.88" y1="518.16" x2="-1219.2" y2="518.16" width="0.1524" layer="91"/>
 <junction x="-1219.2" y="518.16"/>
-<pinref part="IC9" gate="A" pin="K"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="K"/>
 <wire x1="-1198.88" y1="508" x2="-1219.2" y2="508" width="0.1524" layer="91"/>
 <junction x="-1219.2" y="508"/>
 <wire x1="-1198.88" y1="492.76" x2="-1219.2" y2="492.76" width="0.1524" layer="91"/>
@@ -24941,24 +24909,24 @@ single cathode, 13 mm</description>
 <wire x1="-1198.88" y1="477.52" x2="-1201.42" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="-1201.42" y1="477.52" x2="-1201.42" y2="469.9" width="0.1524" layer="91"/>
 <wire x1="-1201.42" y1="469.9" x2="-1219.2" y2="469.9" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="PRE"/>
-<pinref part="IC9" gate="B" pin="CLR"/>
-<pinref part="IC9" gate="B" pin="J"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="PRE"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="CLR"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="J"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-1221.74" y1="502.92" x2="-1219.2" y2="502.92" width="0.1524" layer="91"/>
 <junction x="-1219.2" y="502.92"/>
-<pinref part="IC11" gate="A" pin="V+"/>
+<pinref part="SEG-SWITCH" gate="A" pin="V+"/>
 <wire x1="-1252.22" y1="497.84" x2="-1219.2" y2="497.84" width="0.1524" layer="91"/>
 <junction x="-1219.2" y="497.84"/>
 </segment>
 <segment>
-<pinref part="IC11" gate="A" pin="R"/>
+<pinref part="SEG-SWITCH" gate="A" pin="R"/>
 <wire x1="-1272.54" y1="508" x2="-1297.94" y2="508" width="0.1524" layer="91"/>
 <wire x1="-1297.94" y1="508" x2="-1297.94" y2="515.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="DIR"/>
+<pinref part="PC-BUF-H" gate="A" pin="DIR"/>
 <wire x1="-1620.52" y1="208.28" x2="-1643.38" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="-1643.38" y1="208.28" x2="-1643.38" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-1643.38" y1="193.04" x2="-1582.42" y2="193.04" width="0.1524" layer="91"/>
@@ -24966,7 +24934,7 @@ single cathode, 13 mm</description>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="DIR"/>
+<pinref part="PC-BUF-L" gate="A" pin="DIR"/>
 <wire x1="-1620.52" y1="259.08" x2="-1643.38" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="-1643.38" y1="259.08" x2="-1643.38" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="-1643.38" y1="243.84" x2="-1579.88" y2="243.84" width="0.1524" layer="91"/>
@@ -25317,13 +25285,13 @@ single cathode, 13 mm</description>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="G"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="G"/>
 <wire x1="-1115.06" y1="756.92" x2="-1117.6" y2="756.92" width="0.1524" layer="91"/>
 <wire x1="-1117.6" y1="756.92" x2="-1117.6" y2="754.38" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="G"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="G"/>
 <wire x1="-1115.06" y1="708.66" x2="-1117.6" y2="708.66" width="0.1524" layer="91"/>
 <wire x1="-1117.6" y1="708.66" x2="-1117.6" y2="706.12" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
@@ -25390,38 +25358,38 @@ single cathode, 13 mm</description>
 <pinref part="LED26" gate="G$1" pin="C"/>
 <wire x1="-1140.46" y1="670.56" x2="-1140.46" y2="665.48" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
-<pinref part="BUFFER-3" gate="A" pin="A2"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A2"/>
 <wire x1="-1140.46" y1="665.48" x2="-1140.46" y2="652.78" width="0.1524" layer="91"/>
 <wire x1="-1115.06" y1="680.72" x2="-1127.76" y2="680.72" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="680.72" x2="-1127.76" y2="678.18" width="0.1524" layer="91"/>
-<pinref part="BUFFER-3" gate="A" pin="A3"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A3"/>
 <wire x1="-1127.76" y1="678.18" x2="-1115.06" y2="678.18" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="678.18" x2="-1127.76" y2="675.64" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="678.18"/>
-<pinref part="BUFFER-3" gate="A" pin="A4"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A4"/>
 <wire x1="-1127.76" y1="675.64" x2="-1115.06" y2="675.64" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="675.64" x2="-1127.76" y2="673.1" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="675.64"/>
-<pinref part="BUFFER-3" gate="A" pin="A5"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A5"/>
 <wire x1="-1127.76" y1="673.1" x2="-1115.06" y2="673.1" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="673.1" x2="-1127.76" y2="670.56" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="673.1"/>
-<pinref part="BUFFER-3" gate="A" pin="A6"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A6"/>
 <wire x1="-1127.76" y1="670.56" x2="-1115.06" y2="670.56" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="670.56" x2="-1127.76" y2="668.02" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="670.56"/>
-<pinref part="BUFFER-3" gate="A" pin="A7"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A7"/>
 <wire x1="-1127.76" y1="668.02" x2="-1115.06" y2="668.02" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="668.02" x2="-1127.76" y2="665.48" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="668.02"/>
-<pinref part="BUFFER-3" gate="A" pin="A8"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A8"/>
 <wire x1="-1127.76" y1="665.48" x2="-1115.06" y2="665.48" width="0.1524" layer="91"/>
 <wire x1="-1127.76" y1="665.48" x2="-1140.46" y2="665.48" width="0.1524" layer="91"/>
 <junction x="-1127.76" y="665.48"/>
 <junction x="-1140.46" y="665.48"/>
 </segment>
 <segment>
-<pinref part="BUFFER-3" gate="A" pin="G"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="G"/>
 <wire x1="-1115.06" y1="657.86" x2="-1117.6" y2="657.86" width="0.1524" layer="91"/>
 <wire x1="-1117.6" y1="657.86" x2="-1117.6" y2="652.78" width="0.1524" layer="91"/>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -25534,28 +25502,28 @@ single cathode, 13 mm</description>
 <junction x="-1216.66" y="665.48"/>
 </segment>
 <segment>
-<pinref part="BUFFER-3" gate="A" pin="B2"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B2"/>
 <wire x1="-1089.66" y1="680.72" x2="-1076.96" y2="680.72" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="680.72" x2="-1076.96" y2="678.18" width="0.1524" layer="91"/>
-<pinref part="BUFFER-3" gate="A" pin="B3"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B3"/>
 <wire x1="-1076.96" y1="678.18" x2="-1089.66" y2="678.18" width="0.1524" layer="91"/>
-<pinref part="BUFFER-3" gate="A" pin="B4"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B4"/>
 <wire x1="-1076.96" y1="678.18" x2="-1076.96" y2="675.64" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="675.64" x2="-1089.66" y2="675.64" width="0.1524" layer="91"/>
 <junction x="-1076.96" y="678.18"/>
-<pinref part="BUFFER-3" gate="A" pin="B5"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B5"/>
 <wire x1="-1076.96" y1="675.64" x2="-1076.96" y2="673.1" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="673.1" x2="-1089.66" y2="673.1" width="0.1524" layer="91"/>
 <junction x="-1076.96" y="675.64"/>
-<pinref part="BUFFER-3" gate="A" pin="B6"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B6"/>
 <wire x1="-1076.96" y1="673.1" x2="-1076.96" y2="670.56" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="670.56" x2="-1089.66" y2="670.56" width="0.1524" layer="91"/>
 <junction x="-1076.96" y="673.1"/>
-<pinref part="BUFFER-3" gate="A" pin="B7"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B7"/>
 <wire x1="-1076.96" y1="670.56" x2="-1076.96" y2="668.02" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="668.02" x2="-1089.66" y2="668.02" width="0.1524" layer="91"/>
 <junction x="-1076.96" y="670.56"/>
-<pinref part="BUFFER-3" gate="A" pin="B8"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B8"/>
 <wire x1="-1076.96" y1="668.02" x2="-1076.96" y2="665.48" width="0.1524" layer="91"/>
 <wire x1="-1076.96" y1="665.48" x2="-1089.66" y2="665.48" width="0.1524" layer="91"/>
 <junction x="-1076.96" y="668.02"/>
@@ -25564,17 +25532,17 @@ single cathode, 13 mm</description>
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="!CE"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="!CE"/>
 <wire x1="-1092.2" y1="485.14" x2="-1099.82" y2="485.14" width="0.1524" layer="91"/>
 <wire x1="-1099.82" y1="485.14" x2="-1099.82" y2="482.6" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="A" pin="!OE"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="!OE"/>
 <wire x1="-1099.82" y1="482.6" x2="-1099.82" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="-1092.2" y1="482.6" x2="-1099.82" y2="482.6" width="0.1524" layer="91"/>
 <junction x="-1099.82" y="482.6"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC11" gate="A" pin="GND"/>
+<pinref part="SEG-SWITCH" gate="A" pin="GND"/>
 <wire x1="-1272.54" y1="497.84" x2="-1303.02" y2="497.84" width="0.1524" layer="91"/>
 <wire x1="-1303.02" y1="497.84" x2="-1303.02" y2="502.92" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -25595,7 +25563,7 @@ single cathode, 13 mm</description>
 <pinref part="GND54" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="A" pin="!Q"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="!Q"/>
 <wire x1="-1173.48" y1="508" x2="-1170.94" y2="508" width="0.1524" layer="91"/>
 <wire x1="-1170.94" y1="508" x2="-1170.94" y2="505.46" width="0.1524" layer="91"/>
 <pinref part="GND55" gate="1" pin="GND"/>
@@ -25604,10 +25572,10 @@ single cathode, 13 mm</description>
 <wire x1="-1173.48" y1="480.06" x2="-1170.94" y2="480.06" width="0.1524" layer="91"/>
 <wire x1="-1170.94" y1="480.06" x2="-1170.94" y2="477.52" width="0.1524" layer="91"/>
 <pinref part="GND56" gate="1" pin="GND"/>
-<pinref part="IC9" gate="B" pin="!Q"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="!Q"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="B" pin="K"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="K"/>
 <wire x1="-1198.88" y1="480.06" x2="-1206.5" y2="480.06" width="0.1524" layer="91"/>
 <wire x1="-1206.5" y1="480.06" x2="-1206.5" y2="477.52" width="0.1524" layer="91"/>
 <pinref part="GND57" gate="1" pin="GND"/>
@@ -25641,12 +25609,12 @@ single cathode, 13 mm</description>
 <junction x="-1661.16" y="160.02"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A6"/>
+<pinref part="PC-BUF-H" gate="A" pin="A6"/>
 <wire x1="-1620.52" y1="218.44" x2="-1648.46" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-1648.46" y1="218.44" x2="-1648.46" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="IC18" gate="A" pin="A7"/>
+<pinref part="PC-BUF-H" gate="A" pin="A7"/>
 <wire x1="-1648.46" y1="215.9" x2="-1620.52" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="IC18" gate="A" pin="A8"/>
+<pinref part="PC-BUF-H" gate="A" pin="A8"/>
 <wire x1="-1620.52" y1="213.36" x2="-1648.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-1648.46" y1="213.36" x2="-1648.46" y2="215.9" width="0.1524" layer="91"/>
 <junction x="-1648.46" y="215.9"/>
@@ -26328,7 +26296,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-0" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A1"/>
+<pinref part="ALU-BUF" gate="A" pin="A1"/>
 <wire x1="-1620.52" y1="551.18" x2="-1623.06" y2="551.18" width="0.1524" layer="91"/>
 <label x="-1623.06" y="551.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26340,7 +26308,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-0" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A2"/>
+<pinref part="ALU-BUF" gate="A" pin="A2"/>
 <wire x1="-1620.52" y1="548.64" x2="-1623.06" y2="548.64" width="0.1524" layer="91"/>
 <label x="-1623.06" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26403,7 +26371,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-1" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A3"/>
+<pinref part="ALU-BUF" gate="A" pin="A3"/>
 <wire x1="-1620.52" y1="546.1" x2="-1623.06" y2="546.1" width="0.1524" layer="91"/>
 <label x="-1623.06" y="546.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26415,7 +26383,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-1" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A4"/>
+<pinref part="ALU-BUF" gate="A" pin="A4"/>
 <wire x1="-1620.52" y1="543.56" x2="-1623.06" y2="543.56" width="0.1524" layer="91"/>
 <label x="-1623.06" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26560,7 +26528,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-2" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A5"/>
+<pinref part="ALU-BUF" gate="A" pin="A5"/>
 <wire x1="-1620.52" y1="541.02" x2="-1623.06" y2="541.02" width="0.1524" layer="91"/>
 <label x="-1623.06" y="541.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26572,7 +26540,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-2" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A6"/>
+<pinref part="ALU-BUF" gate="A" pin="A6"/>
 <wire x1="-1620.52" y1="538.48" x2="-1623.06" y2="538.48" width="0.1524" layer="91"/>
 <label x="-1623.06" y="538.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26584,7 +26552,7 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-3" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A7"/>
+<pinref part="ALU-BUF" gate="A" pin="A7"/>
 <wire x1="-1620.52" y1="535.94" x2="-1623.06" y2="535.94" width="0.1524" layer="91"/>
 <label x="-1623.06" y="535.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -26596,14 +26564,14 @@ single cathode, 13 mm</description>
 <pinref part="DUAL-4X1-MUX-3" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A8"/>
+<pinref part="ALU-BUF" gate="A" pin="A8"/>
 <wire x1="-1620.52" y1="533.4" x2="-1623.06" y2="533.4" width="0.1524" layer="91"/>
 <label x="-1623.06" y="533.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU_EO" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="G"/>
+<pinref part="ALU-BUF" gate="A" pin="G"/>
 <wire x1="-1620.52" y1="525.78" x2="-1623.06" y2="525.78" width="0.1524" layer="91"/>
 <label x="-1623.06" y="525.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -27136,7 +27104,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-A11" class="0">
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="A8"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A8"/>
 <wire x1="-1115.06" y1="716.28" x2="-1188.72" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="-1188.72" y1="716.28" x2="-1188.72" y2="744.22" width="0.1524" layer="91"/>
 <wire x1="-1188.72" y1="744.22" x2="-1191.26" y2="744.22" width="0.1524" layer="91"/>
@@ -27157,7 +27125,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-A10" class="0">
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="A7"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A7"/>
 <wire x1="-1115.06" y1="718.82" x2="-1181.1" y2="718.82" width="0.1524" layer="91"/>
 <wire x1="-1181.1" y1="718.82" x2="-1181.1" y2="746.76" width="0.1524" layer="91"/>
 <wire x1="-1181.1" y1="746.76" x2="-1183.64" y2="746.76" width="0.1524" layer="91"/>
@@ -27183,7 +27151,7 @@ single cathode, 13 mm</description>
 <label x="-1206.5" y="807.72" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="G"/>
+<pinref part="MEM-BUF" gate="A" pin="G"/>
 <wire x1="-810.26" y1="647.7" x2="-812.8" y2="647.7" width="0.1524" layer="91"/>
 <label x="-812.8" y="647.7" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -27326,7 +27294,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="685.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B7"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B7"/>
 <wire x1="-1089.66" y1="718.82" x2="-1071.88" y2="718.82" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="718.82" x2="-1069.34" y2="716.28" width="0.1524" layer="91"/>
 <label x="-1087.12" y="718.82" size="1.778" layer="95"/>
@@ -27358,7 +27326,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="683.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B8"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B8"/>
 <wire x1="-1089.66" y1="716.28" x2="-1071.88" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="716.28" x2="-1069.34" y2="713.74" width="0.1524" layer="91"/>
 <label x="-1087.12" y="716.28" size="1.778" layer="95"/>
@@ -27390,7 +27358,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="680.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-3" gate="A" pin="B1"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="B1"/>
 <wire x1="-1089.66" y1="683.26" x2="-1071.88" y2="683.26" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="683.26" x2="-1069.34" y2="680.72" width="0.1524" layer="91"/>
 <label x="-1087.12" y="683.26" size="1.778" layer="95"/>
@@ -27422,7 +27390,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="711.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B5"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B5"/>
 <wire x1="-1069.34" y1="769.62" x2="-1071.88" y2="772.16" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="772.16" x2="-1089.66" y2="772.16" width="0.1524" layer="91"/>
 <label x="-1087.12" y="772.16" size="1.778" layer="95"/>
@@ -27454,7 +27422,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="706.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B7"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B7"/>
 <wire x1="-1089.66" y1="767.08" x2="-1071.88" y2="767.08" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="767.08" x2="-1069.34" y2="764.54" width="0.1524" layer="91"/>
 <label x="-1087.12" y="767.08" size="1.778" layer="95"/>
@@ -27486,7 +27454,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="703.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B8"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B8"/>
 <wire x1="-1089.66" y1="764.54" x2="-1071.88" y2="764.54" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="764.54" x2="-1069.34" y2="762" width="0.1524" layer="91"/>
 <label x="-1087.12" y="764.54" size="1.778" layer="95"/>
@@ -27518,7 +27486,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="701.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B1"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B1"/>
 <wire x1="-1089.66" y1="734.06" x2="-1071.88" y2="734.06" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="734.06" x2="-1069.34" y2="731.52" width="0.1524" layer="91"/>
 <label x="-1087.12" y="734.06" size="1.778" layer="95"/>
@@ -27550,7 +27518,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="698.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B2"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B2"/>
 <wire x1="-1089.66" y1="731.52" x2="-1071.88" y2="731.52" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="731.52" x2="-1069.34" y2="728.98" width="0.1524" layer="91"/>
 <label x="-1087.12" y="731.52" size="1.778" layer="95"/>
@@ -27582,7 +27550,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="695.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B3"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B3"/>
 <wire x1="-1089.66" y1="728.98" x2="-1071.88" y2="728.98" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="728.98" x2="-1069.34" y2="726.44" width="0.1524" layer="91"/>
 <label x="-1087.12" y="728.98" size="1.778" layer="95"/>
@@ -27620,7 +27588,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="690.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B4"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B4"/>
 <wire x1="-1089.66" y1="726.44" x2="-1071.88" y2="726.44" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="726.44" x2="-1069.34" y2="723.9" width="0.1524" layer="91"/>
 <label x="-1087.12" y="726.44" size="1.778" layer="95"/>
@@ -27646,7 +27614,7 @@ single cathode, 13 mm</description>
 <label x="-1064.26" y="690.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B5"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B5"/>
 <wire x1="-1089.66" y1="723.9" x2="-1071.88" y2="723.9" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="723.9" x2="-1069.34" y2="721.36" width="0.1524" layer="91"/>
 <label x="-1087.12" y="723.9" size="1.778" layer="95"/>
@@ -27678,7 +27646,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="688.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-1" gate="A" pin="B6"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="B6"/>
 <wire x1="-1089.66" y1="721.36" x2="-1071.88" y2="721.36" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="721.36" x2="-1069.34" y2="718.82" width="0.1524" layer="91"/>
 <label x="-1087.12" y="721.36" size="1.778" layer="95"/>
@@ -27710,7 +27678,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="711.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A1"/>
+<pinref part="MEM-BUF" gate="A" pin="A1"/>
 <wire x1="-810.26" y1="673.1" x2="-861.06" y2="673.1" width="0.1524" layer="91"/>
 <wire x1="-861.06" y1="673.1" x2="-861.06" y2="698.5" width="0.1524" layer="91"/>
 <wire x1="-861.06" y1="698.5" x2="-863.6" y2="698.5" width="0.1524" layer="91"/>
@@ -27748,7 +27716,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="708.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A2"/>
+<pinref part="MEM-BUF" gate="A" pin="A2"/>
 <wire x1="-922.02" y1="698.5" x2="-919.48" y2="695.96" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="695.96" x2="-871.22" y2="695.96" width="0.1524" layer="91"/>
 <wire x1="-871.22" y1="695.96" x2="-868.68" y2="695.96" width="0.1524" layer="91"/>
@@ -27786,7 +27754,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="706.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A3"/>
+<pinref part="MEM-BUF" gate="A" pin="A3"/>
 <wire x1="-922.02" y1="695.96" x2="-919.48" y2="693.42" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="693.42" x2="-878.84" y2="693.42" width="0.1524" layer="91"/>
 <wire x1="-878.84" y1="693.42" x2="-876.3" y2="693.42" width="0.1524" layer="91"/>
@@ -27824,7 +27792,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="701.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A5"/>
+<pinref part="MEM-BUF" gate="A" pin="A5"/>
 <wire x1="-922.02" y1="690.88" x2="-919.48" y2="688.34" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="688.34" x2="-894.08" y2="688.34" width="0.1524" layer="91"/>
 <wire x1="-894.08" y1="688.34" x2="-891.54" y2="688.34" width="0.1524" layer="91"/>
@@ -27862,7 +27830,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="703.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A4"/>
+<pinref part="MEM-BUF" gate="A" pin="A4"/>
 <wire x1="-922.02" y1="693.42" x2="-919.48" y2="690.88" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="690.88" x2="-886.46" y2="690.88" width="0.1524" layer="91"/>
 <wire x1="-886.46" y1="690.88" x2="-883.92" y2="690.88" width="0.1524" layer="91"/>
@@ -27900,7 +27868,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="698.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A6"/>
+<pinref part="MEM-BUF" gate="A" pin="A6"/>
 <wire x1="-922.02" y1="688.34" x2="-919.48" y2="685.8" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="685.8" x2="-901.7" y2="685.8" width="0.1524" layer="91"/>
 <wire x1="-901.7" y1="685.8" x2="-899.16" y2="685.8" width="0.1524" layer="91"/>
@@ -27938,7 +27906,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="695.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A7"/>
+<pinref part="MEM-BUF" gate="A" pin="A7"/>
 <wire x1="-922.02" y1="685.8" x2="-919.48" y2="683.26" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="683.26" x2="-909.32" y2="683.26" width="0.1524" layer="91"/>
 <wire x1="-909.32" y1="683.26" x2="-906.78" y2="683.26" width="0.1524" layer="91"/>
@@ -27976,7 +27944,7 @@ single cathode, 13 mm</description>
 <label x="-939.8" y="693.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="A8"/>
+<pinref part="MEM-BUF" gate="A" pin="A8"/>
 <wire x1="-922.02" y1="683.26" x2="-919.48" y2="680.72" width="0.1524" layer="91"/>
 <wire x1="-919.48" y1="680.72" x2="-916.94" y2="680.72" width="0.1524" layer="91"/>
 <wire x1="-916.94" y1="680.72" x2="-914.4" y2="680.72" width="0.1524" layer="91"/>
@@ -27995,7 +27963,7 @@ single cathode, 13 mm</description>
 <wire x1="-1137.92" y1="815.34" x2="-1163.32" y2="815.34" width="0.1524" layer="91"/>
 <junction x="-1137.92" y="815.34"/>
 <wire x1="-1137.92" y1="815.34" x2="-1135.38" y2="815.34" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A1"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A1"/>
 <wire x1="-1115.06" y1="782.32" x2="-1135.38" y2="782.32" width="0.1524" layer="91"/>
 <wire x1="-1135.38" y1="815.34" x2="-1135.38" y2="782.32" width="0.1524" layer="91"/>
 <pinref part="DEMUX-2X4-0" gate="A" pin="Y0"/>
@@ -28012,7 +27980,7 @@ single cathode, 13 mm</description>
 <wire x1="-1145.54" y1="812.8" x2="-1143" y2="812.8" width="0.1524" layer="91"/>
 <junction x="-1145.54" y="812.8"/>
 <wire x1="-1143" y1="812.8" x2="-1143" y2="779.78" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A2"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A2"/>
 <wire x1="-1143" y1="779.78" x2="-1115.06" y2="779.78" width="0.1524" layer="91"/>
 <pinref part="DEMUX-2X4-0" gate="A" pin="Y1"/>
 <wire x1="-1178.56" y1="812.8" x2="-1176.02" y2="812.8" width="0.1524" layer="91"/>
@@ -28028,7 +27996,7 @@ single cathode, 13 mm</description>
 <wire x1="-1153.16" y1="810.26" x2="-1150.62" y2="810.26" width="0.1524" layer="91"/>
 <junction x="-1153.16" y="810.26"/>
 <wire x1="-1150.62" y1="810.26" x2="-1150.62" y2="777.24" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A3"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A3"/>
 <wire x1="-1150.62" y1="777.24" x2="-1115.06" y2="777.24" width="0.1524" layer="91"/>
 <pinref part="DEMUX-2X4-0" gate="A" pin="Y2"/>
 <wire x1="-1178.56" y1="810.26" x2="-1176.02" y2="810.26" width="0.1524" layer="91"/>
@@ -28044,7 +28012,7 @@ single cathode, 13 mm</description>
 <wire x1="-1160.78" y1="807.72" x2="-1158.24" y2="807.72" width="0.1524" layer="91"/>
 <junction x="-1160.78" y="807.72"/>
 <wire x1="-1158.24" y1="807.72" x2="-1158.24" y2="774.7" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A4"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A4"/>
 <wire x1="-1158.24" y1="774.7" x2="-1115.06" y2="774.7" width="0.1524" layer="91"/>
 <pinref part="DEMUX-2X4-0" gate="A" pin="Y3"/>
 <wire x1="-1178.56" y1="807.72" x2="-1176.02" y2="807.72" width="0.1524" layer="91"/>
@@ -28112,7 +28080,7 @@ single cathode, 13 mm</description>
 <label x="-977.9" y="678.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="DIR"/>
+<pinref part="MEM-BUF" gate="A" pin="DIR"/>
 <wire x1="-810.26" y1="650.24" x2="-812.8" y2="650.24" width="0.1524" layer="91"/>
 <label x="-812.8" y="650.24" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -28139,7 +28107,7 @@ single cathode, 13 mm</description>
 <wire x1="-1168.4" y1="797.56" x2="-1165.86" y2="797.56" width="0.1524" layer="91"/>
 <junction x="-1168.4" y="797.56"/>
 <wire x1="-1165.86" y1="797.56" x2="-1165.86" y2="772.16" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A5"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A5"/>
 <wire x1="-1165.86" y1="772.16" x2="-1115.06" y2="772.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28159,7 +28127,7 @@ single cathode, 13 mm</description>
 <wire x1="-1176.02" y1="795.02" x2="-1173.48" y2="795.02" width="0.1524" layer="91"/>
 <junction x="-1176.02" y="795.02"/>
 <wire x1="-1173.48" y1="795.02" x2="-1173.48" y2="769.62" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A6"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A6"/>
 <wire x1="-1173.48" y1="769.62" x2="-1115.06" y2="769.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28179,7 +28147,7 @@ single cathode, 13 mm</description>
 <wire x1="-1183.64" y1="792.48" x2="-1181.1" y2="792.48" width="0.1524" layer="91"/>
 <junction x="-1183.64" y="792.48"/>
 <wire x1="-1181.1" y1="792.48" x2="-1181.1" y2="767.08" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A7"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A7"/>
 <wire x1="-1181.1" y1="767.08" x2="-1115.06" y2="767.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28199,7 +28167,7 @@ single cathode, 13 mm</description>
 <wire x1="-1191.26" y1="789.94" x2="-1188.72" y2="789.94" width="0.1524" layer="91"/>
 <junction x="-1191.26" y="789.94"/>
 <wire x1="-1188.72" y1="789.94" x2="-1188.72" y2="764.54" width="0.1524" layer="91"/>
-<pinref part="BUFFER-0" gate="A" pin="A8"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="A8"/>
 <wire x1="-1188.72" y1="764.54" x2="-1115.06" y2="764.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28219,7 +28187,7 @@ single cathode, 13 mm</description>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="-1137.92" y1="762" x2="-1137.92" y2="751.84" width="0.1524" layer="91"/>
 <junction x="-1137.92" y="762"/>
-<pinref part="BUFFER-1" gate="A" pin="A1"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A1"/>
 <wire x1="-1135.38" y1="734.06" x2="-1115.06" y2="734.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28239,7 +28207,7 @@ single cathode, 13 mm</description>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="-1145.54" y1="759.46" x2="-1145.54" y2="751.84" width="0.1524" layer="91"/>
 <junction x="-1145.54" y="759.46"/>
-<pinref part="BUFFER-1" gate="A" pin="A2"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A2"/>
 <wire x1="-1143" y1="731.52" x2="-1115.06" y2="731.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28256,7 +28224,7 @@ single cathode, 13 mm</description>
 <wire x1="-1153.16" y1="756.92" x2="-1209.04" y2="756.92" width="0.1524" layer="91"/>
 <wire x1="-1209.04" y1="756.92" x2="-1211.58" y2="759.46" width="0.1524" layer="91"/>
 <label x="-1206.5" y="756.92" size="1.778" layer="95"/>
-<pinref part="BUFFER-1" gate="A" pin="A3"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A3"/>
 <wire x1="-1150.62" y1="728.98" x2="-1115.06" y2="728.98" width="0.1524" layer="91"/>
 <pinref part="LED11" gate="G$1" pin="A"/>
 <wire x1="-1153.16" y1="751.84" x2="-1153.16" y2="756.92" width="0.1524" layer="91"/>
@@ -28279,7 +28247,7 @@ single cathode, 13 mm</description>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="-1160.78" y1="754.38" x2="-1160.78" y2="751.84" width="0.1524" layer="91"/>
 <junction x="-1160.78" y="754.38"/>
-<pinref part="BUFFER-1" gate="A" pin="A4"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A4"/>
 <wire x1="-1158.24" y1="726.44" x2="-1115.06" y2="726.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28299,7 +28267,7 @@ single cathode, 13 mm</description>
 <pinref part="LED9" gate="G$1" pin="A"/>
 <wire x1="-1168.4" y1="741.68" x2="-1168.4" y2="751.84" width="0.1524" layer="91"/>
 <junction x="-1168.4" y="751.84"/>
-<pinref part="BUFFER-1" gate="A" pin="A5"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A5"/>
 <wire x1="-1165.86" y1="723.9" x2="-1115.06" y2="723.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28316,7 +28284,7 @@ single cathode, 13 mm</description>
 <wire x1="-1176.02" y1="749.3" x2="-1209.04" y2="749.3" width="0.1524" layer="91"/>
 <wire x1="-1209.04" y1="749.3" x2="-1211.58" y2="751.84" width="0.1524" layer="91"/>
 <label x="-1206.5" y="749.3" size="1.778" layer="95"/>
-<pinref part="BUFFER-1" gate="A" pin="A6"/>
+<pinref part="MEM-INT-BUF-1" gate="A" pin="A6"/>
 <wire x1="-1173.48" y1="721.36" x2="-1115.06" y2="721.36" width="0.1524" layer="91"/>
 <pinref part="LED10" gate="G$1" pin="A"/>
 <wire x1="-1176.02" y1="741.68" x2="-1176.02" y2="749.3" width="0.1524" layer="91"/>
@@ -28331,7 +28299,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="MEM-EN-B0" class="0">
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B1"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B1"/>
 <wire x1="-1089.66" y1="782.32" x2="-1071.88" y2="782.32" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="782.32" x2="-1069.34" y2="779.78" width="0.1524" layer="91"/>
 <label x="-1087.12" y="782.32" size="1.778" layer="95"/>
@@ -28345,7 +28313,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="MEM-EN-B1" class="0">
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B2"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B2"/>
 <wire x1="-1089.66" y1="779.78" x2="-1071.88" y2="779.78" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="779.78" x2="-1069.34" y2="777.24" width="0.1524" layer="91"/>
 <label x="-1087.12" y="779.78" size="1.778" layer="95"/>
@@ -28359,7 +28327,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="MEM-EN-B2" class="0">
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B3"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B3"/>
 <wire x1="-1089.66" y1="777.24" x2="-1071.88" y2="777.24" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="777.24" x2="-1069.34" y2="774.7" width="0.1524" layer="91"/>
 <label x="-1087.12" y="777.24" size="1.778" layer="95"/>
@@ -28373,7 +28341,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="MEM-EN-B3" class="0">
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B4"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B4"/>
 <wire x1="-1089.66" y1="774.7" x2="-1071.88" y2="774.7" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="774.7" x2="-1069.34" y2="772.16" width="0.1524" layer="91"/>
 <label x="-1087.12" y="774.7" size="1.778" layer="95"/>
@@ -28411,7 +28379,7 @@ single cathode, 13 mm</description>
 <label x="-988.06" y="708.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-0" gate="A" pin="B6"/>
+<pinref part="MEM-INT-BUF-0" gate="A" pin="B6"/>
 <wire x1="-1069.34" y1="767.08" x2="-1071.88" y2="769.62" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="769.62" x2="-1089.66" y2="769.62" width="0.1524" layer="91"/>
 <label x="-1087.12" y="769.62" size="1.778" layer="95"/>
@@ -28419,7 +28387,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-A12" class="0">
 <segment>
-<pinref part="BUFFER-3" gate="A" pin="A1"/>
+<pinref part="MEM-INT-BUF-2" gate="A" pin="A1"/>
 <wire x1="-1115.06" y1="683.26" x2="-1140.46" y2="683.26" width="0.1524" layer="91"/>
 <wire x1="-1140.46" y1="683.26" x2="-1209.04" y2="683.26" width="0.1524" layer="91"/>
 <label x="-1201.42" y="683.26" size="1.778" layer="95"/>
@@ -28448,7 +28416,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="289.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A1"/>
+<pinref part="PC-BUF-L" gate="A" pin="A1"/>
 <wire x1="-1620.52" y1="281.94" x2="-1651" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="281.94" x2="-1653.54" y2="284.48" width="0.1524" layer="91"/>
 <label x="-1643.38" y="281.94" size="1.778" layer="95"/>
@@ -28467,7 +28435,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="287.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A2"/>
+<pinref part="PC-BUF-L" gate="A" pin="A2"/>
 <wire x1="-1620.52" y1="279.4" x2="-1651" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="279.4" x2="-1653.54" y2="281.94" width="0.1524" layer="91"/>
 <label x="-1643.38" y="279.4" size="1.778" layer="95"/>
@@ -28486,7 +28454,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="284.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A3"/>
+<pinref part="PC-BUF-L" gate="A" pin="A3"/>
 <wire x1="-1620.52" y1="276.86" x2="-1651" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="276.86" x2="-1653.54" y2="279.4" width="0.1524" layer="91"/>
 <label x="-1643.38" y="276.86" size="1.778" layer="95"/>
@@ -28505,7 +28473,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="281.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A4"/>
+<pinref part="PC-BUF-L" gate="A" pin="A4"/>
 <wire x1="-1620.52" y1="274.32" x2="-1651" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="274.32" x2="-1653.54" y2="276.86" width="0.1524" layer="91"/>
 <label x="-1643.38" y="274.32" size="1.778" layer="95"/>
@@ -28561,7 +28529,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="254" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A5"/>
+<pinref part="PC-BUF-L" gate="A" pin="A5"/>
 <wire x1="-1620.52" y1="271.78" x2="-1651" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="271.78" x2="-1653.54" y2="274.32" width="0.1524" layer="91"/>
 <label x="-1643.38" y="271.78" size="1.778" layer="95"/>
@@ -28580,7 +28548,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A6"/>
+<pinref part="PC-BUF-L" gate="A" pin="A6"/>
 <wire x1="-1620.52" y1="269.24" x2="-1651" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="269.24" x2="-1653.54" y2="271.78" width="0.1524" layer="91"/>
 <label x="-1643.38" y="269.24" size="1.778" layer="95"/>
@@ -28599,7 +28567,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="248.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A7"/>
+<pinref part="PC-BUF-L" gate="A" pin="A7"/>
 <wire x1="-1620.52" y1="266.7" x2="-1651" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="266.7" x2="-1653.54" y2="269.24" width="0.1524" layer="91"/>
 <label x="-1643.38" y="266.7" size="1.778" layer="95"/>
@@ -28618,7 +28586,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="A8"/>
+<pinref part="PC-BUF-L" gate="A" pin="A8"/>
 <wire x1="-1620.52" y1="264.16" x2="-1651" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="264.16" x2="-1653.54" y2="266.7" width="0.1524" layer="91"/>
 <label x="-1643.38" y="264.16" size="1.778" layer="95"/>
@@ -28637,7 +28605,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A1"/>
+<pinref part="PC-BUF-H" gate="A" pin="A1"/>
 <wire x1="-1620.52" y1="231.14" x2="-1651" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="231.14" x2="-1653.54" y2="233.68" width="0.1524" layer="91"/>
 <label x="-1643.38" y="231.14" size="1.778" layer="95"/>
@@ -29026,7 +28994,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B1"/>
+<pinref part="ALU-BUF" gate="A" pin="B1"/>
 <wire x1="-1595.12" y1="551.18" x2="-1546.86" y2="551.18" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="551.18" x2="-1544.32" y2="553.72" width="0.1524" layer="91"/>
 <label x="-1592.58" y="551.18" size="1.778" layer="95"/>
@@ -29038,7 +29006,7 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="795.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B1"/>
+<pinref part="MEM-BUF" gate="A" pin="B1"/>
 <wire x1="-784.86" y1="673.1" x2="-767.08" y2="673.1" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="673.1" x2="-764.54" y2="670.56" width="0.1524" layer="91"/>
 <label x="-782.32" y="673.1" size="1.778" layer="95"/>
@@ -29051,12 +29019,12 @@ single cathode, 13 mm</description>
 </segment>
 <segment>
 <wire x1="-1544.32" y1="284.48" x2="-1546.86" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="IC17" gate="A" pin="B1"/>
+<pinref part="PC-BUF-L" gate="A" pin="B1"/>
 <wire x1="-1546.86" y1="281.94" x2="-1595.12" y2="281.94" width="0.1524" layer="91"/>
 <label x="-1592.58" y="281.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B1"/>
+<pinref part="PC-BUF-H" gate="A" pin="B1"/>
 <wire x1="-1544.32" y1="233.68" x2="-1546.86" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="231.14" x2="-1595.12" y2="231.14" width="0.1524" layer="91"/>
 <label x="-1592.58" y="231.14" size="1.778" layer="95"/>
@@ -29165,7 +29133,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B2"/>
+<pinref part="ALU-BUF" gate="A" pin="B2"/>
 <wire x1="-1595.12" y1="548.64" x2="-1546.86" y2="548.64" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="548.64" x2="-1544.32" y2="551.18" width="0.1524" layer="91"/>
 <label x="-1592.58" y="548.64" size="1.778" layer="95"/>
@@ -29177,7 +29145,7 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="789.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B2"/>
+<pinref part="MEM-BUF" gate="A" pin="B2"/>
 <wire x1="-784.86" y1="670.56" x2="-767.08" y2="670.56" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="670.56" x2="-764.54" y2="668.02" width="0.1524" layer="91"/>
 <label x="-782.32" y="670.56" size="1.778" layer="95"/>
@@ -29189,13 +29157,13 @@ single cathode, 13 mm</description>
 <label x="-911.86" y="772.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B2"/>
+<pinref part="PC-BUF-L" gate="A" pin="B2"/>
 <wire x1="-1544.32" y1="281.94" x2="-1546.86" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="279.4" x2="-1595.12" y2="279.4" width="0.1524" layer="91"/>
 <label x="-1592.58" y="279.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B2"/>
+<pinref part="PC-BUF-H" gate="A" pin="B2"/>
 <wire x1="-1595.12" y1="228.6" x2="-1546.86" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-1544.32" y1="231.14" x2="-1546.86" y2="228.6" width="0.1524" layer="91"/>
 <label x="-1592.58" y="228.6" size="1.778" layer="95"/>
@@ -29304,7 +29272,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B3"/>
+<pinref part="ALU-BUF" gate="A" pin="B3"/>
 <wire x1="-1595.12" y1="546.1" x2="-1546.86" y2="546.1" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="546.1" x2="-1544.32" y2="548.64" width="0.1524" layer="91"/>
 <label x="-1592.58" y="546.1" size="1.778" layer="95"/>
@@ -29316,7 +29284,7 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="784.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B3"/>
+<pinref part="MEM-BUF" gate="A" pin="B3"/>
 <wire x1="-784.86" y1="668.02" x2="-767.08" y2="668.02" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="668.02" x2="-764.54" y2="665.48" width="0.1524" layer="91"/>
 <label x="-782.32" y="668.02" size="1.778" layer="95"/>
@@ -29328,13 +29296,13 @@ single cathode, 13 mm</description>
 <label x="-911.86" y="769.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B3"/>
+<pinref part="PC-BUF-L" gate="A" pin="B3"/>
 <wire x1="-1544.32" y1="279.4" x2="-1546.86" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="276.86" x2="-1595.12" y2="276.86" width="0.1524" layer="91"/>
 <label x="-1592.58" y="276.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B3"/>
+<pinref part="PC-BUF-H" gate="A" pin="B3"/>
 <wire x1="-1544.32" y1="228.6" x2="-1546.86" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="226.06" x2="-1595.12" y2="226.06" width="0.1524" layer="91"/>
 <label x="-1592.58" y="226.06" size="1.778" layer="95"/>
@@ -29443,7 +29411,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B4"/>
+<pinref part="ALU-BUF" gate="A" pin="B4"/>
 <wire x1="-1595.12" y1="543.56" x2="-1546.86" y2="543.56" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="543.56" x2="-1544.32" y2="546.1" width="0.1524" layer="91"/>
 <label x="-1592.58" y="543.56" size="1.778" layer="95"/>
@@ -29455,7 +29423,7 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="779.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B4"/>
+<pinref part="MEM-BUF" gate="A" pin="B4"/>
 <wire x1="-784.86" y1="665.48" x2="-767.08" y2="665.48" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="665.48" x2="-764.54" y2="662.94" width="0.1524" layer="91"/>
 <label x="-782.32" y="665.48" size="1.778" layer="95"/>
@@ -29467,13 +29435,13 @@ single cathode, 13 mm</description>
 <label x="-911.86" y="767.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B4"/>
+<pinref part="PC-BUF-L" gate="A" pin="B4"/>
 <wire x1="-1544.32" y1="276.86" x2="-1546.86" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="274.32" x2="-1595.12" y2="274.32" width="0.1524" layer="91"/>
 <label x="-1592.58" y="274.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B4"/>
+<pinref part="PC-BUF-H" gate="A" pin="B4"/>
 <wire x1="-1544.32" y1="226.06" x2="-1546.86" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="223.52" x2="-1595.12" y2="223.52" width="0.1524" layer="91"/>
 <label x="-1592.58" y="223.52" size="1.778" layer="95"/>
@@ -29576,7 +29544,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B5"/>
+<pinref part="ALU-BUF" gate="A" pin="B5"/>
 <wire x1="-1595.12" y1="541.02" x2="-1546.86" y2="541.02" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="541.02" x2="-1544.32" y2="543.56" width="0.1524" layer="91"/>
 <label x="-1592.58" y="541.02" size="1.778" layer="95"/>
@@ -29588,19 +29556,19 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="751.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B5"/>
+<pinref part="MEM-BUF" gate="A" pin="B5"/>
 <wire x1="-784.86" y1="662.94" x2="-767.08" y2="662.94" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="662.94" x2="-764.54" y2="660.4" width="0.1524" layer="91"/>
 <label x="-782.32" y="662.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B5"/>
+<pinref part="PC-BUF-L" gate="A" pin="B5"/>
 <wire x1="-1544.32" y1="274.32" x2="-1546.86" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="271.78" x2="-1595.12" y2="271.78" width="0.1524" layer="91"/>
 <label x="-1592.58" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B5"/>
+<pinref part="PC-BUF-H" gate="A" pin="B5"/>
 <wire x1="-1544.32" y1="223.52" x2="-1546.86" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="220.98" x2="-1595.12" y2="220.98" width="0.1524" layer="91"/>
 <label x="-1592.58" y="220.98" size="1.778" layer="95"/>
@@ -29704,7 +29672,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B6"/>
+<pinref part="ALU-BUF" gate="A" pin="B6"/>
 <wire x1="-1595.12" y1="538.48" x2="-1546.86" y2="538.48" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="538.48" x2="-1544.32" y2="541.02" width="0.1524" layer="91"/>
 <label x="-1592.58" y="538.48" size="1.778" layer="95"/>
@@ -29716,19 +29684,19 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="746.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B6"/>
+<pinref part="MEM-BUF" gate="A" pin="B6"/>
 <wire x1="-784.86" y1="660.4" x2="-767.08" y2="660.4" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="660.4" x2="-764.54" y2="657.86" width="0.1524" layer="91"/>
 <label x="-782.32" y="660.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B6"/>
+<pinref part="PC-BUF-L" gate="A" pin="B6"/>
 <wire x1="-1544.32" y1="271.78" x2="-1546.86" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="269.24" x2="-1595.12" y2="269.24" width="0.1524" layer="91"/>
 <label x="-1592.58" y="269.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B6"/>
+<pinref part="PC-BUF-H" gate="A" pin="B6"/>
 <wire x1="-1544.32" y1="220.98" x2="-1546.86" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="218.44" x2="-1595.12" y2="218.44" width="0.1524" layer="91"/>
 <label x="-1592.58" y="218.44" size="1.778" layer="95"/>
@@ -29831,7 +29799,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B7"/>
+<pinref part="ALU-BUF" gate="A" pin="B7"/>
 <wire x1="-1595.12" y1="535.94" x2="-1546.86" y2="535.94" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="535.94" x2="-1544.32" y2="538.48" width="0.1524" layer="91"/>
 <label x="-1592.58" y="535.94" size="1.778" layer="95"/>
@@ -29843,19 +29811,19 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="741.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B7"/>
+<pinref part="MEM-BUF" gate="A" pin="B7"/>
 <wire x1="-784.86" y1="657.86" x2="-767.08" y2="657.86" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="657.86" x2="-764.54" y2="655.32" width="0.1524" layer="91"/>
 <label x="-782.32" y="657.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B7"/>
+<pinref part="PC-BUF-L" gate="A" pin="B7"/>
 <wire x1="-1544.32" y1="269.24" x2="-1546.86" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="266.7" x2="-1595.12" y2="266.7" width="0.1524" layer="91"/>
 <label x="-1592.58" y="266.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B7"/>
+<pinref part="PC-BUF-H" gate="A" pin="B7"/>
 <wire x1="-1544.32" y1="218.44" x2="-1546.86" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="215.9" x2="-1595.12" y2="215.9" width="0.1524" layer="91"/>
 <label x="-1592.58" y="215.9" size="1.778" layer="95"/>
@@ -29958,7 +29926,7 @@ single cathode, 13 mm</description>
 <label x="-1343.66" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="B8"/>
+<pinref part="ALU-BUF" gate="A" pin="B8"/>
 <wire x1="-1595.12" y1="533.4" x2="-1546.86" y2="533.4" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="533.4" x2="-1544.32" y2="535.94" width="0.1524" layer="91"/>
 <label x="-1592.58" y="533.4" size="1.778" layer="95"/>
@@ -29970,19 +29938,19 @@ single cathode, 13 mm</description>
 <label x="-782.32" y="736.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BUFFER-2" gate="A" pin="B8"/>
+<pinref part="MEM-BUF" gate="A" pin="B8"/>
 <wire x1="-784.86" y1="655.32" x2="-767.08" y2="655.32" width="0.1524" layer="91"/>
 <wire x1="-767.08" y1="655.32" x2="-764.54" y2="652.78" width="0.1524" layer="91"/>
 <label x="-782.32" y="655.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="A" pin="B8"/>
+<pinref part="PC-BUF-L" gate="A" pin="B8"/>
 <wire x1="-1544.32" y1="266.7" x2="-1546.86" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="264.16" x2="-1595.12" y2="264.16" width="0.1524" layer="91"/>
 <label x="-1592.58" y="264.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="B8"/>
+<pinref part="PC-BUF-H" gate="A" pin="B8"/>
 <wire x1="-1544.32" y1="215.9" x2="-1546.86" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-1546.86" y1="213.36" x2="-1595.12" y2="213.36" width="0.1524" layer="91"/>
 <label x="-1592.58" y="213.36" size="1.778" layer="95"/>
@@ -30048,7 +30016,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A2"/>
+<pinref part="PC-BUF-H" gate="A" pin="A2"/>
 <wire x1="-1620.52" y1="228.6" x2="-1651" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="228.6" x2="-1653.54" y2="231.14" width="0.1524" layer="91"/>
 <label x="-1643.38" y="228.6" size="1.778" layer="95"/>
@@ -30067,7 +30035,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A3"/>
+<pinref part="PC-BUF-H" gate="A" pin="A3"/>
 <wire x1="-1620.52" y1="226.06" x2="-1651" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="226.06" x2="-1653.54" y2="228.6" width="0.1524" layer="91"/>
 <label x="-1643.38" y="226.06" size="1.778" layer="95"/>
@@ -30094,31 +30062,31 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT0" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D0"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D0"/>
 <wire x1="-1066.8" y1="515.62" x2="-1041.4" y2="515.62" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="515.62" x2="-1038.86" y2="513.08" width="0.1524" layer="91"/>
 <label x="-1064.26" y="515.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="A"/>
 <wire x1="-1010.92" y1="538.48" x2="-1036.32" y2="538.48" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="538.48" x2="-1038.86" y2="541.02" width="0.1524" layer="91"/>
 <label x="-1033.78" y="538.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-1038.86" y1="510.54" x2="-1036.32" y2="508" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="A"/>
 <wire x1="-1036.32" y1="508" x2="-1010.92" y2="508" width="0.1524" layer="91"/>
 <label x="-1033.78" y="508" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="A"/>
 <wire x1="-1010.92" y1="477.52" x2="-1036.32" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="477.52" x2="-1038.86" y2="480.06" width="0.1524" layer="91"/>
 <label x="-1033.78" y="477.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="A"/>
 <wire x1="-1038.86" y1="449.58" x2="-1036.32" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="447.04" x2="-1010.92" y2="447.04" width="0.1524" layer="91"/>
 <label x="-1033.78" y="447.04" size="1.778" layer="95"/>
@@ -30126,31 +30094,31 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT1" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D1"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D1"/>
 <wire x1="-1066.8" y1="513.08" x2="-1041.4" y2="513.08" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="513.08" x2="-1038.86" y2="510.54" width="0.1524" layer="91"/>
 <label x="-1064.26" y="513.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="B"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="B"/>
 <wire x1="-1010.92" y1="535.94" x2="-1036.32" y2="535.94" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="535.94" x2="-1038.86" y2="538.48" width="0.1524" layer="91"/>
 <label x="-1033.78" y="535.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="B"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="B"/>
 <wire x1="-1038.86" y1="508" x2="-1036.32" y2="505.46" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="505.46" x2="-1010.92" y2="505.46" width="0.1524" layer="91"/>
 <label x="-1033.78" y="505.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="B"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="B"/>
 <wire x1="-1010.92" y1="474.98" x2="-1036.32" y2="474.98" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="474.98" x2="-1038.86" y2="477.52" width="0.1524" layer="91"/>
 <label x="-1033.78" y="474.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="B"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="B"/>
 <wire x1="-1038.86" y1="447.04" x2="-1036.32" y2="444.5" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="444.5" x2="-1010.92" y2="444.5" width="0.1524" layer="91"/>
 <label x="-1033.78" y="444.5" size="1.778" layer="95"/>
@@ -30158,31 +30126,31 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT2" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D2"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D2"/>
 <wire x1="-1066.8" y1="510.54" x2="-1041.4" y2="510.54" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="510.54" x2="-1038.86" y2="508" width="0.1524" layer="91"/>
 <label x="-1064.26" y="510.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="C"/>
 <wire x1="-1010.92" y1="533.4" x2="-1036.32" y2="533.4" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="533.4" x2="-1038.86" y2="535.94" width="0.1524" layer="91"/>
 <label x="-1033.78" y="533.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="C"/>
 <wire x1="-1038.86" y1="505.46" x2="-1036.32" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="502.92" x2="-1010.92" y2="502.92" width="0.1524" layer="91"/>
 <label x="-1033.78" y="502.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="C"/>
 <wire x1="-1010.92" y1="472.44" x2="-1036.32" y2="472.44" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="472.44" x2="-1038.86" y2="474.98" width="0.1524" layer="91"/>
 <label x="-1033.78" y="472.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="C"/>
 <wire x1="-1038.86" y1="444.5" x2="-1036.32" y2="441.96" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="441.96" x2="-1010.92" y2="441.96" width="0.1524" layer="91"/>
 <label x="-1033.78" y="441.96" size="1.778" layer="95"/>
@@ -30190,31 +30158,31 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT3" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D3"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D3"/>
 <wire x1="-1066.8" y1="508" x2="-1041.4" y2="508" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="508" x2="-1038.86" y2="505.46" width="0.1524" layer="91"/>
 <label x="-1064.26" y="508" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="D"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="D"/>
 <wire x1="-1010.92" y1="530.86" x2="-1036.32" y2="530.86" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="530.86" x2="-1038.86" y2="533.4" width="0.1524" layer="91"/>
 <label x="-1033.78" y="530.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="D"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="D"/>
 <wire x1="-1038.86" y1="502.92" x2="-1036.32" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="500.38" x2="-1010.92" y2="500.38" width="0.1524" layer="91"/>
 <label x="-1033.78" y="500.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="D"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="D"/>
 <wire x1="-1010.92" y1="469.9" x2="-1036.32" y2="469.9" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="469.9" x2="-1038.86" y2="472.44" width="0.1524" layer="91"/>
 <label x="-1033.78" y="469.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="D"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="D"/>
 <wire x1="-1038.86" y1="441.96" x2="-1036.32" y2="439.42" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="439.42" x2="-1010.92" y2="439.42" width="0.1524" layer="91"/>
 <label x="-1033.78" y="439.42" size="1.778" layer="95"/>
@@ -30222,31 +30190,31 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT4" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D4"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D4"/>
 <wire x1="-1066.8" y1="505.46" x2="-1041.4" y2="505.46" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="505.46" x2="-1038.86" y2="502.92" width="0.1524" layer="91"/>
 <label x="-1064.26" y="505.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="E"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="E"/>
 <wire x1="-1010.92" y1="528.32" x2="-1036.32" y2="528.32" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="528.32" x2="-1038.86" y2="530.86" width="0.1524" layer="91"/>
 <label x="-1033.78" y="528.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="E"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="E"/>
 <wire x1="-1038.86" y1="500.38" x2="-1036.32" y2="497.84" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="497.84" x2="-1010.92" y2="497.84" width="0.1524" layer="91"/>
 <label x="-1033.78" y="497.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="E"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="E"/>
 <wire x1="-1010.92" y1="467.36" x2="-1036.32" y2="467.36" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="467.36" x2="-1038.86" y2="469.9" width="0.1524" layer="91"/>
 <label x="-1033.78" y="467.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="E"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="E"/>
 <wire x1="-1038.86" y1="439.42" x2="-1036.32" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="436.88" x2="-1010.92" y2="436.88" width="0.1524" layer="91"/>
 <label x="-1033.78" y="436.88" size="1.778" layer="95"/>
@@ -30254,7 +30222,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-DATA-OUT5" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D5"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D5"/>
 <wire x1="-1066.8" y1="502.92" x2="-1041.4" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="502.92" x2="-1038.86" y2="500.38" width="0.1524" layer="91"/>
 <label x="-1064.26" y="502.92" size="1.778" layer="95"/>
@@ -30263,7 +30231,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="548.64" x2="-1036.32" y2="546.1" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="546.1" x2="-993.14" y2="546.1" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="546.1" x2="-993.14" y2="538.48" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="F"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="F"/>
 <wire x1="-993.14" y1="538.48" x2="-995.68" y2="538.48" width="0.1524" layer="91"/>
 <label x="-1033.78" y="546.1" size="1.778" layer="95"/>
 </segment>
@@ -30271,7 +30239,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="518.16" x2="-1036.32" y2="515.62" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="515.62" x2="-993.14" y2="515.62" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="515.62" x2="-993.14" y2="508" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="F"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="F"/>
 <wire x1="-993.14" y1="508" x2="-995.68" y2="508" width="0.1524" layer="91"/>
 <label x="-1033.78" y="515.62" size="1.778" layer="95"/>
 </segment>
@@ -30279,7 +30247,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="487.68" x2="-1036.32" y2="485.14" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="485.14" x2="-993.14" y2="485.14" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="485.14" x2="-993.14" y2="477.52" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="F"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="F"/>
 <wire x1="-993.14" y1="477.52" x2="-995.68" y2="477.52" width="0.1524" layer="91"/>
 <label x="-1033.78" y="485.14" size="1.778" layer="95"/>
 </segment>
@@ -30287,14 +30255,14 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="457.2" x2="-1036.32" y2="454.66" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="454.66" x2="-993.14" y2="454.66" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="454.66" x2="-993.14" y2="447.04" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="F"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="F"/>
 <wire x1="-993.14" y1="447.04" x2="-995.68" y2="447.04" width="0.1524" layer="91"/>
 <label x="-1033.78" y="454.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISP-DATA-OUT6" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D6"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D6"/>
 <wire x1="-1066.8" y1="500.38" x2="-1041.4" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="500.38" x2="-1038.86" y2="497.84" width="0.1524" layer="91"/>
 <label x="-1064.26" y="500.38" size="1.778" layer="95"/>
@@ -30303,7 +30271,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="551.18" x2="-1036.32" y2="548.64" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="548.64" x2="-990.6" y2="548.64" width="0.1524" layer="91"/>
 <wire x1="-990.6" y1="548.64" x2="-990.6" y2="535.94" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="G"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="G"/>
 <wire x1="-990.6" y1="535.94" x2="-995.68" y2="535.94" width="0.1524" layer="91"/>
 <label x="-1033.78" y="548.64" size="1.778" layer="95"/>
 </segment>
@@ -30311,7 +30279,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="520.7" x2="-1036.32" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="518.16" x2="-990.6" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="-990.6" y1="518.16" x2="-990.6" y2="505.46" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="G"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="G"/>
 <wire x1="-990.6" y1="505.46" x2="-995.68" y2="505.46" width="0.1524" layer="91"/>
 <label x="-1033.78" y="518.16" size="1.778" layer="95"/>
 </segment>
@@ -30319,7 +30287,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="490.22" x2="-1036.32" y2="487.68" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="487.68" x2="-990.6" y2="487.68" width="0.1524" layer="91"/>
 <wire x1="-990.6" y1="487.68" x2="-990.6" y2="474.98" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="G"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="G"/>
 <wire x1="-990.6" y1="474.98" x2="-995.68" y2="474.98" width="0.1524" layer="91"/>
 <label x="-1033.78" y="487.68" size="1.778" layer="95"/>
 </segment>
@@ -30327,14 +30295,14 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="459.74" x2="-1036.32" y2="457.2" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="457.2" x2="-990.6" y2="457.2" width="0.1524" layer="91"/>
 <wire x1="-990.6" y1="457.2" x2="-990.6" y2="444.5" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="G"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="G"/>
 <wire x1="-990.6" y1="444.5" x2="-995.68" y2="444.5" width="0.1524" layer="91"/>
 <label x="-1033.78" y="457.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISP-DATA-OUT7" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="D7"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="D7"/>
 <wire x1="-1066.8" y1="497.84" x2="-1041.4" y2="497.84" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="497.84" x2="-1038.86" y2="495.3" width="0.1524" layer="91"/>
 <label x="-1064.26" y="497.84" size="1.778" layer="95"/>
@@ -30343,7 +30311,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="553.72" x2="-1036.32" y2="551.18" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="551.18" x2="-988.06" y2="551.18" width="0.1524" layer="91"/>
 <wire x1="-988.06" y1="551.18" x2="-988.06" y2="533.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="DP"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="DP"/>
 <wire x1="-988.06" y1="533.4" x2="-995.68" y2="533.4" width="0.1524" layer="91"/>
 <label x="-1033.78" y="551.18" size="1.778" layer="95"/>
 </segment>
@@ -30351,7 +30319,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="523.24" x2="-1036.32" y2="520.7" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="520.7" x2="-988.06" y2="520.7" width="0.1524" layer="91"/>
 <wire x1="-988.06" y1="520.7" x2="-988.06" y2="502.92" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="DP"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="DP"/>
 <wire x1="-988.06" y1="502.92" x2="-995.68" y2="502.92" width="0.1524" layer="91"/>
 <label x="-1033.78" y="520.7" size="1.778" layer="95"/>
 </segment>
@@ -30359,7 +30327,7 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="492.76" x2="-1036.32" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="490.22" x2="-988.06" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-988.06" y1="490.22" x2="-988.06" y2="472.44" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="DP"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="DP"/>
 <wire x1="-988.06" y1="472.44" x2="-995.68" y2="472.44" width="0.1524" layer="91"/>
 <label x="-1033.78" y="490.22" size="1.778" layer="95"/>
 </segment>
@@ -30367,14 +30335,14 @@ single cathode, 13 mm</description>
 <wire x1="-1038.86" y1="462.28" x2="-1036.32" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="-1036.32" y1="459.74" x2="-988.06" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="-988.06" y1="459.74" x2="-988.06" y2="441.96" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="DP"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="DP"/>
 <wire x1="-988.06" y1="441.96" x2="-995.68" y2="441.96" width="0.1524" layer="91"/>
 <label x="-1033.78" y="459.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC11" gate="A" pin="CV"/>
+<pinref part="SEG-SWITCH" gate="A" pin="CV"/>
 <wire x1="-1272.54" y1="502.92" x2="-1282.7" y2="502.92" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
@@ -30383,12 +30351,12 @@ single cathode, 13 mm</description>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-1239.52" y1="508" x2="-1234.44" y2="508" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="THR"/>
+<pinref part="SEG-SWITCH" gate="A" pin="THR"/>
 <wire x1="-1252.22" y1="502.92" x2="-1234.44" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="-1234.44" y1="502.92" x2="-1234.44" y2="508" width="0.1524" layer="91"/>
 <junction x="-1234.44" y="508"/>
 <wire x1="-1234.44" y1="508" x2="-1234.44" y2="525.78" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="A" pin="TR"/>
+<pinref part="SEG-SWITCH" gate="A" pin="TR"/>
 <wire x1="-1272.54" y1="513.08" x2="-1275.08" y2="513.08" width="0.1524" layer="91"/>
 <label x="-1282.7" y="513.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -30406,19 +30374,19 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-CLK" class="0">
 <segment>
-<pinref part="IC11" gate="A" pin="Q"/>
+<pinref part="SEG-SWITCH" gate="A" pin="Q"/>
 <wire x1="-1252.22" y1="513.08" x2="-1249.68" y2="513.08" width="0.1524" layer="91"/>
 <label x="-1249.68" y="513.08" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="A" pin="CLK"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="CLK"/>
 <wire x1="-1198.88" y1="513.08" x2="-1201.42" y2="513.08" width="0.1524" layer="91"/>
 <label x="-1201.42" y="513.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-FF-OUT0" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="Q"/>
+<pinref part="JK-FLIP-FLOP" gate="A" pin="Q"/>
 <wire x1="-1173.48" y1="518.16" x2="-1165.86" y2="518.16" width="0.1524" layer="91"/>
 <label x="-1163.32" y="518.16" size="1.4224" layer="95" xref="yes"/>
 <pinref part="IC12" gate="A" pin="A"/>
@@ -30430,10 +30398,10 @@ single cathode, 13 mm</description>
 <segment>
 <wire x1="-1198.88" y1="485.14" x2="-1201.42" y2="485.14" width="0.1524" layer="91"/>
 <label x="-1201.42" y="485.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC9" gate="B" pin="CLK"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="CLK"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="A8"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A8"/>
 <wire x1="-1092.2" y1="495.3" x2="-1094.74" y2="495.3" width="0.1524" layer="91"/>
 <label x="-1094.74" y="495.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -30444,14 +30412,14 @@ single cathode, 13 mm</description>
 <wire x1="-1165.86" y1="490.22" x2="-1165.86" y2="505.46" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="A" pin="B"/>
 <wire x1="-1165.86" y1="505.46" x2="-1158.24" y2="505.46" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="Q"/>
+<pinref part="JK-FLIP-FLOP" gate="B" pin="Q"/>
 <wire x1="-1165.86" y1="490.22" x2="-1165.86" y2="487.68" width="0.1524" layer="91"/>
 <junction x="-1165.86" y="490.22"/>
 <wire x1="-1165.86" y1="487.68" x2="-1163.32" y2="487.68" width="0.1524" layer="91"/>
 <label x="-1163.32" y="487.68" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="A9"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A9"/>
 <wire x1="-1092.2" y1="492.76" x2="-1094.74" y2="492.76" width="0.1524" layer="91"/>
 <label x="-1094.74" y="492.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -30464,12 +30432,12 @@ single cathode, 13 mm</description>
 <label x="-1130.3" y="508" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="CK1"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="CK1"/>
 <wire x1="-995.68" y1="530.86" x2="-993.14" y2="530.86" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="530.86" x2="-980.44" y2="530.86" width="0.1524" layer="91"/>
 <wire x1="-980.44" y1="530.86" x2="-977.9" y2="533.4" width="0.1524" layer="91"/>
 <label x="-993.14" y="530.86" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="CK2"/>
+<pinref part="SEG-DISP0" gate="G$1" pin="CK2"/>
 <wire x1="-995.68" y1="528.32" x2="-993.14" y2="528.32" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="528.32" x2="-993.14" y2="530.86" width="0.1524" layer="91"/>
 <junction x="-993.14" y="530.86"/>
@@ -30483,12 +30451,12 @@ single cathode, 13 mm</description>
 <label x="-1130.3" y="505.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="CK1"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="CK1"/>
 <wire x1="-995.68" y1="500.38" x2="-993.14" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="500.38" x2="-980.44" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="-980.44" y1="500.38" x2="-977.9" y2="502.92" width="0.1524" layer="91"/>
 <label x="-993.14" y="500.38" size="1.778" layer="95"/>
-<pinref part="D2" gate="G$1" pin="CK2"/>
+<pinref part="SEG-DISP1" gate="G$1" pin="CK2"/>
 <wire x1="-995.68" y1="497.84" x2="-993.14" y2="497.84" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="497.84" x2="-993.14" y2="500.38" width="0.1524" layer="91"/>
 <junction x="-993.14" y="500.38"/>
@@ -30502,12 +30470,12 @@ single cathode, 13 mm</description>
 <label x="-1130.3" y="502.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="CK1"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="CK1"/>
 <wire x1="-995.68" y1="469.9" x2="-993.14" y2="469.9" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="469.9" x2="-980.44" y2="469.9" width="0.1524" layer="91"/>
 <wire x1="-980.44" y1="469.9" x2="-977.9" y2="472.44" width="0.1524" layer="91"/>
 <label x="-993.14" y="469.9" size="1.778" layer="95"/>
-<pinref part="D3" gate="G$1" pin="CK2"/>
+<pinref part="SEG-DISP2" gate="G$1" pin="CK2"/>
 <wire x1="-995.68" y1="467.36" x2="-993.14" y2="467.36" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="467.36" x2="-993.14" y2="469.9" width="0.1524" layer="91"/>
 <junction x="-993.14" y="469.9"/>
@@ -30521,12 +30489,12 @@ single cathode, 13 mm</description>
 <label x="-1130.3" y="500.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="CK1"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="CK1"/>
 <wire x1="-995.68" y1="439.42" x2="-993.14" y2="439.42" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="439.42" x2="-980.44" y2="439.42" width="0.1524" layer="91"/>
 <wire x1="-980.44" y1="439.42" x2="-977.9" y2="441.96" width="0.1524" layer="91"/>
 <label x="-993.14" y="439.42" size="1.778" layer="95"/>
-<pinref part="D4" gate="G$1" pin="CK2"/>
+<pinref part="SEG-DISP3" gate="G$1" pin="CK2"/>
 <wire x1="-995.68" y1="436.88" x2="-993.14" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="436.88" x2="-993.14" y2="439.42" width="0.1524" layer="91"/>
 <junction x="-993.14" y="439.42"/>
@@ -30534,77 +30502,77 @@ single cathode, 13 mm</description>
 </net>
 <net name="DISP-NEG-SWITCH" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A10"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A10"/>
 <wire x1="-1092.2" y1="490.22" x2="-1094.74" y2="490.22" width="0.1524" layer="91"/>
 <label x="-1094.74" y="490.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN0" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A0"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A0"/>
 <wire x1="-1092.2" y1="515.62" x2="-1094.74" y2="515.62" width="0.1524" layer="91"/>
 <label x="-1094.74" y="515.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN1" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A1"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A1"/>
 <wire x1="-1092.2" y1="513.08" x2="-1094.74" y2="513.08" width="0.1524" layer="91"/>
 <label x="-1094.74" y="513.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN2" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A2"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A2"/>
 <wire x1="-1092.2" y1="510.54" x2="-1094.74" y2="510.54" width="0.1524" layer="91"/>
 <label x="-1094.74" y="510.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN3" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A3"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A3"/>
 <wire x1="-1092.2" y1="508" x2="-1094.74" y2="508" width="0.1524" layer="91"/>
 <label x="-1094.74" y="508" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN4" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A4"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A4"/>
 <wire x1="-1092.2" y1="505.46" x2="-1094.74" y2="505.46" width="0.1524" layer="91"/>
 <label x="-1094.74" y="505.46" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN5" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A5"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A5"/>
 <wire x1="-1092.2" y1="502.92" x2="-1094.74" y2="502.92" width="0.1524" layer="91"/>
 <label x="-1094.74" y="502.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN6" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A6"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A6"/>
 <wire x1="-1092.2" y1="500.38" x2="-1094.74" y2="500.38" width="0.1524" layer="91"/>
 <label x="-1094.74" y="500.38" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISP-DATA-IN7" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="A7"/>
+<pinref part="EEPROM-AT28C16" gate="A" pin="A7"/>
 <wire x1="-1092.2" y1="497.84" x2="-1094.74" y2="497.84" width="0.1524" layer="91"/>
 <label x="-1094.74" y="497.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC11" gate="A" pin="DIS"/>
+<pinref part="SEG-SWITCH" gate="A" pin="DIS"/>
 <wire x1="-1252.22" y1="508" x2="-1249.68" y2="508" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="COUNTER1-OUT" class="0">
 <segment>
-<pinref part="IC18" gate="A" pin="G"/>
+<pinref part="PC-BUF-H" gate="A" pin="G"/>
 <wire x1="-1623.06" y1="205.74" x2="-1620.52" y2="205.74" width="0.1524" layer="91"/>
 <label x="-1623.06" y="205.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -30617,7 +30585,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A4"/>
+<pinref part="PC-BUF-H" gate="A" pin="A4"/>
 <wire x1="-1620.52" y1="223.52" x2="-1651" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="223.52" x2="-1653.54" y2="226.06" width="0.1524" layer="91"/>
 <label x="-1643.38" y="223.52" size="1.778" layer="95"/>
@@ -30636,7 +30604,7 @@ single cathode, 13 mm</description>
 <label x="-1681.48" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="A5"/>
+<pinref part="PC-BUF-H" gate="A" pin="A5"/>
 <wire x1="-1620.52" y1="220.98" x2="-1651" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-1651" y1="220.98" x2="-1653.54" y2="223.52" width="0.1524" layer="91"/>
 <label x="-1643.38" y="220.98" size="1.778" layer="95"/>
@@ -30752,7 +30720,7 @@ single cathode, 13 mm</description>
 <pinref part="PC3" gate="A" pin="CLR"/>
 <wire x1="-1709.42" y1="160.02" x2="-1711.96" y2="160.02" width="0.1524" layer="91"/>
 <label x="-1714.5" y="160.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC19" gate="A" pin="O"/>
+<pinref part="RST-INVERTER" gate="A" pin="O"/>
 <wire x1="-1711.96" y1="160.02" x2="-1714.5" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-1711.96" y1="160.02" x2="-1711.96" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-1711.96" y1="144.78" x2="-1704.34" y2="144.78" width="0.1524" layer="91"/>
@@ -30763,7 +30731,7 @@ single cathode, 13 mm</description>
 <segment>
 <pinref part="PC3" gate="A" pin="QB"/>
 <wire x1="-1684.02" y1="180.34" x2="-1656.08" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="IC19" gate="A" pin="I"/>
+<pinref part="RST-INVERTER" gate="A" pin="I"/>
 <wire x1="-1656.08" y1="180.34" x2="-1656.08" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="144.78" x2="-1684.02" y2="144.78" width="0.1524" layer="91"/>
 </segment>
@@ -32697,7 +32665,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="COUNTER0-OUT" class="0">
 <segment>
-<pinref part="IC17" gate="A" pin="G"/>
+<pinref part="PC-BUF-L" gate="A" pin="G"/>
 <wire x1="-1620.52" y1="256.54" x2="-1623.06" y2="256.54" width="0.1524" layer="91"/>
 <label x="-1623.06" y="256.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
