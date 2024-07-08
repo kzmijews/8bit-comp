@@ -364,22 +364,21 @@ TBD
 
 ## 5. RAM (Random Access Memory)
 
-RAM (Random Access Memory) is one of the most important circuit in micro-computer. Both data to process and instructions
-to perform in form of program compiled to machine code are stored there. In general to build the main memory module one of
-the following type of chips can be used:
+NAT-1 has single memory chip. Both data to process and instructions to perform in form of program compiled to the machine code
+are stored there. In general to build the main memory module one of the following type of chips can be used:
 - DRAM (Dynamic Random Access Memory) - due to internal desing, where each bit of information is represented by state of internal
   capacitor (charged state coresponds to high state of bit - "1", discharged state coresponds to low state of bit - "0")
   and related charging/discharging transitor, these type of memory is usally cheaper than SRAM, and due to different approach of
-  cells addressing it has two times smaller number of address pins. However to keep the state of memory permanent over the time of
-  execution it requires a specialized circuit for cells state refresh, which makes the whole memory module much more complex comparing
+  cells addressing it has reduced number of address pins (twice). However to keep the state of memory permanent over the time of
+  execution it requires a specialized circuit for cells state refresh, which makes the whole memory module more complex comparing
   with modules based on SRAM chips.
 - SRAM (Static Random Access Memory) - this type of chip is built based on D-type flip flops, same as shift registers. As a result
-  the state of the bit is stored by inverting feedback on the circuit's gates. Circuit is more complex then DRAM and as result
-  more expensive, however it doesn't need any additional circuit for memory cells refresh (due to lack of capasitors).
+  the state of the bit is stored by inverting feedback on the circuit's gates. Memory itself is more complex then DRAM and as result
+  more expensive, however it doesn't need any additional circuit for memory cells refresh (due to lack of capacitors).
 
-This solution will use SRAM. There are plenty of chips that can be used for the final memory module application. In general these
+This solution uses SRAM. There are plenty of chips that can be used for the final memory module implementation. In general these
 chips contains:
-- memory cell array to keep instruction and data to process
+- memory cell array to keep instruction and data to process,
 - address decoder splitted into two parts, for rows and for columns where proper address lines are connected.
 
 Size of the memory cells may be different, however the common size is set to 8 bits. Each memory cell can be build based on
@@ -399,8 +398,8 @@ three state output. Functional block diagram was presented below:
 </div>
 
 The maximum size of address bus used for this project was reduced to 11 lines. The only reason for that is to try to reduce the
-number of wires needed to construct the bus. On the other hand we still would like to be able to address a resonable size of memory.
-Like for instance 32KB, which is the minimum size of the RAM needed to run the early Operating Systems like
+number of wires needed to construct the memory bus. On the other hand we still would like to be able to address a resonable size of memory.
+Like for instance 32KB, which is the minimum size of the RAM needed to run the early Operating System like
 [ISIS](https://en.wikipedia.org/wiki/ISIS_(operating_system)) (Intel Systems Implementation Supervisor) or [CP/M](https://en.wikipedia.org/wiki/CP/M)
 (Control Program/Monitor). To make it possible a simple [memory paging](https://en.wikipedia.org/wiki/Memory_paging) mechanism was
 added to the module. The mechanism allows to retrieve data from storage in same-size blocks called pages. At the specific moment
