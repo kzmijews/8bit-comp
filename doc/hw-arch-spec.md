@@ -360,9 +360,49 @@ After taking these changes into account we can build the ALU IC using six TTL ch
 
 ## 4. General Purpose Registers
 
+General Purpose Registers are utilize by ALU unit for computations, to store temporary values and operation results. Each register
+is build based on D-type flip-flops connected in sequence. Single register is 8 bits width, and was implemented with two 74\*74 TTL
+chips connected together. NAT-1 has the same set of registers as original architecture of MARIE, however some of the internal
+connections were modified. Following registers are present:
+- **ACU** - Acumulator, general purpose registers to keep data to process by ALU. It holds also result of the performed operation.
+- **MAR** - Memory Address Register, contains lower part of the memory address (RAM). It's connected directly with PC for "memory jump"
+  operation. As far as PC register is responsible for address iteration, MAR register holds return address.
+- **MBR** - Memory Buffer Register, contains data read from memory, or data to be written into memory. It's connected to the ALU, and
+  together with **ACU** are used for computions.
+- **PC** - Program Counter, contains memory address of the next instruction to be processed by ALU. It can jump to the memory address
+  pointed by **MAR** register, first bit of **IR** and special purpose register **PAR** (Page Address Register). Based on the content
+  of these registers poper value of the memory address used for this operation is calculated. This register is created based on JK
+  flip-flops (74\*76), contrary to the rest of the registers created based on D-type flip-flops. Due to different and more complex
+  internal design of the register it was described in details in separate section (see [Program Counter](##5.-Program-Counter)).
+- **IR** - Instruction Register, It contains opcode (operational code) of the instruction to be processed by ALU. It's splitted into
+  lower part of 4 bits long, which contains optional data which may be needed by instruction, and higher part of 4 bits long which
+  contains instruction code. It gives us possibility to define 16 possible instructions described in a separate section
+  (see [ISA](10.-ISA-(Instruction-Set-Architecture)).
+- **IO[0-3]** - Input/Output Registers, four registers used to connect external devices/controlers to the CPU.
+
+
+Following registers: MAR, MBR, PC, IR, are dedicated for specific operations. These has additional, direct connections to ALU, RAM
+and other registers. These can't be used for different operations. Current state of the CPU is kept by special purpose register FLAG.
+All registers are plugged into **data bus**, used for data exchange between them, as well as memory.
+
+<div>
+    <p align="center" width="100%">
+        <img src="../design/regs/imgs/rel-regs.png.png">
+    </p>
+    <p align="center">
+        <i>Figure 4.1: General Purpose Registers</i>
+    </p>
+</div>
+
+## 5. Program Counter
 TBD
 
-## 5. RAM (Random Access Memory)
+## 6. Special Purpose Registers
+TBD
+- **PAR**
+- **FLAG**
+
+## 7. RAM (Random Access Memory)
 
 NAT-1 has single memory chip. Both data to process and instructions to perform in form of program compiled to the machine code
 are stored there. In general to build the main memory module one of the following type of chips can be used:
@@ -393,7 +433,7 @@ three state output. Functional block diagram was presented below:
         <img src="../design/ram/imgs/km6264bls-10l-diagram.png">
     </p>
     <p align="center">
-        <i>Figure 5.1: SRAM 8Kx8bit module KM6264BLS-10L functional block diagram, source: "KM6264BBL/KM6264BL-L datasheet"</i>
+        <i>Figure 7.1: SRAM 8Kx8bit module KM6264BLS-10L functional block diagram, source: "KM6264BBL/KM6264BL-L datasheet"</i>
     </p>
 </div>
 
@@ -422,6 +462,12 @@ below:
         <img src="../design/ram/imgs/dbg-ram-4x8K.png">
     </p>
     <p align="center">
-        <i>Figure 5.2: Full RAM module schema</i>
+        <i>Figure 7.2: Full RAM module schema</i>
     </p>
 </div>
+
+## 8. ROM
+TBD
+
+## 9. Control Unit
+TBD

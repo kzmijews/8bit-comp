@@ -2742,9 +2742,9 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="REG-MBR-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
 <part name="REG-MBR-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="REG-AC-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="REG-AC-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="REG-AC-BUF" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="REG-ACU-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
+<part name="REG-ACU-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
+<part name="REG-ACU-BUF" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="REG-MBR-BUF" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
@@ -2930,9 +2930,9 @@ Source: www.kingbright.com</description>
 <instances>
 <instance part="REG-MBR-L" gate="A" x="-127" y="1257.3"/>
 <instance part="REG-MBR-H" gate="A" x="-127" y="1216.66"/>
-<instance part="REG-AC-H" gate="A" x="-127" y="1297.94"/>
-<instance part="REG-AC-L" gate="A" x="-127" y="1338.58"/>
-<instance part="REG-AC-BUF" gate="A" x="10.16" y="1303.02"/>
+<instance part="REG-ACU-H" gate="A" x="-127" y="1297.94"/>
+<instance part="REG-ACU-L" gate="A" x="-127" y="1338.58"/>
+<instance part="REG-ACU-BUF" gate="A" x="10.16" y="1303.02"/>
 <instance part="GND1" gate="1" x="-170.18" y="1320.8"/>
 <instance part="GND2" gate="1" x="-170.18" y="1280.16"/>
 <instance part="REG-MBR-BUF" gate="A" x="10.16" y="1221.74"/>
@@ -3297,9 +3297,9 @@ Source: www.kingbright.com</description>
 </bus>
 </busses>
 <nets>
-<net name="REG-AC-DATA0" class="0">
+<net name="REG-ACU-DATA0" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="Q1"/>
+<pinref part="REG-ACU-L" gate="A" pin="Q1"/>
 <wire x1="-114.3" y1="1351.28" x2="-88.9" y2="1351.28" width="0.1524" layer="91"/>
 <label x="-111.76" y="1351.28" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1351.28" x2="-86.36" y2="1348.74" width="0.1524" layer="91"/>
@@ -3314,12 +3314,12 @@ Source: www.kingbright.com</description>
 <wire x1="-2.54" y1="1315.72" x2="-5.08" y2="1315.72" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1351.28" x2="-7.62" y2="1351.28" width="0.1524" layer="91"/>
 <junction x="-7.62" y="1351.28"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A1"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A1"/>
 </segment>
 </net>
-<net name="REG-AC-DATA1" class="0">
+<net name="REG-ACU-DATA1" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="Q2"/>
+<pinref part="REG-ACU-L" gate="A" pin="Q2"/>
 <wire x1="-114.3" y1="1348.74" x2="-88.9" y2="1348.74" width="0.1524" layer="91"/>
 <label x="-111.76" y="1348.74" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1348.74" x2="-86.36" y2="1346.2" width="0.1524" layer="91"/>
@@ -3335,12 +3335,12 @@ Source: www.kingbright.com</description>
 <wire x1="-10.16" y1="1313.18" x2="-2.54" y2="1313.18" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1348.74" x2="-15.24" y2="1348.74" width="0.1524" layer="91"/>
 <junction x="-15.24" y="1348.74"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A2"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A2"/>
 </segment>
 </net>
-<net name="REG-AC-DATA2" class="0">
+<net name="REG-ACU-DATA2" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="Q3"/>
+<pinref part="REG-ACU-L" gate="A" pin="Q3"/>
 <wire x1="-114.3" y1="1346.2" x2="-88.9" y2="1346.2" width="0.1524" layer="91"/>
 <label x="-111.76" y="1346.2" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1346.2" x2="-86.36" y2="1343.66" width="0.1524" layer="91"/>
@@ -3355,12 +3355,12 @@ Source: www.kingbright.com</description>
 <wire x1="-20.32" y1="1310.64" x2="-2.54" y2="1310.64" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1346.2" x2="-22.86" y2="1346.2" width="0.1524" layer="91"/>
 <junction x="-22.86" y="1346.2"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A3"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A3"/>
 </segment>
 </net>
-<net name="REG-AC-DATA3" class="0">
+<net name="REG-ACU-DATA3" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="Q4"/>
+<pinref part="REG-ACU-L" gate="A" pin="Q4"/>
 <wire x1="-114.3" y1="1343.66" x2="-88.9" y2="1343.66" width="0.1524" layer="91"/>
 <label x="-111.76" y="1343.66" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1343.66" x2="-86.36" y2="1341.12" width="0.1524" layer="91"/>
@@ -3375,12 +3375,12 @@ Source: www.kingbright.com</description>
 <wire x1="-27.94" y1="1308.1" x2="-2.54" y2="1308.1" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1343.66" x2="-30.48" y2="1343.66" width="0.1524" layer="91"/>
 <junction x="-30.48" y="1343.66"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A4"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A4"/>
 </segment>
 </net>
-<net name="REG-AC-DATA4" class="0">
+<net name="REG-ACU-DATA4" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="Q1"/>
+<pinref part="REG-ACU-H" gate="A" pin="Q1"/>
 <wire x1="-114.3" y1="1310.64" x2="-88.9" y2="1310.64" width="0.1524" layer="91"/>
 <label x="-111.76" y="1310.64" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1310.64" x2="-86.36" y2="1308.1" width="0.1524" layer="91"/>
@@ -3395,12 +3395,12 @@ Source: www.kingbright.com</description>
 <wire x1="-35.56" y1="1305.56" x2="-2.54" y2="1305.56" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1341.12" x2="-38.1" y2="1341.12" width="0.1524" layer="91"/>
 <junction x="-38.1" y="1341.12"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A5"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A5"/>
 </segment>
 </net>
-<net name="REG-AC-DATA5" class="0">
+<net name="REG-ACU-DATA5" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="Q2"/>
+<pinref part="REG-ACU-H" gate="A" pin="Q2"/>
 <wire x1="-114.3" y1="1308.1" x2="-88.9" y2="1308.1" width="0.1524" layer="91"/>
 <label x="-111.76" y="1308.1" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1308.1" x2="-86.36" y2="1305.56" width="0.1524" layer="91"/>
@@ -3415,12 +3415,12 @@ Source: www.kingbright.com</description>
 <wire x1="-43.18" y1="1303.02" x2="-2.54" y2="1303.02" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1338.58" x2="-45.72" y2="1338.58" width="0.1524" layer="91"/>
 <junction x="-45.72" y="1338.58"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A6"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A6"/>
 </segment>
 </net>
-<net name="REG-AC-DATA6" class="0">
+<net name="REG-ACU-DATA6" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="Q3"/>
+<pinref part="REG-ACU-H" gate="A" pin="Q3"/>
 <wire x1="-114.3" y1="1305.56" x2="-88.9" y2="1305.56" width="0.1524" layer="91"/>
 <label x="-111.76" y="1305.56" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1305.56" x2="-86.36" y2="1303.02" width="0.1524" layer="91"/>
@@ -3435,12 +3435,12 @@ Source: www.kingbright.com</description>
 <wire x1="-50.8" y1="1300.48" x2="-2.54" y2="1300.48" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1336.04" x2="-53.34" y2="1336.04" width="0.1524" layer="91"/>
 <junction x="-53.34" y="1336.04"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A7"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A7"/>
 </segment>
 </net>
-<net name="REG-AC-DATA7" class="0">
+<net name="REG-ACU-DATA7" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="Q4"/>
+<pinref part="REG-ACU-H" gate="A" pin="Q4"/>
 <wire x1="-114.3" y1="1303.02" x2="-88.9" y2="1303.02" width="0.1524" layer="91"/>
 <label x="-111.76" y="1303.02" size="1.778" layer="95"/>
 <wire x1="-88.9" y1="1303.02" x2="-86.36" y2="1300.48" width="0.1524" layer="91"/>
@@ -3455,12 +3455,12 @@ Source: www.kingbright.com</description>
 <wire x1="-58.42" y1="1297.94" x2="-2.54" y2="1297.94" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="1333.5" x2="-60.96" y2="1333.5" width="0.1524" layer="91"/>
 <junction x="-60.96" y="1333.5"/>
-<pinref part="REG-AC-BUF" gate="A" pin="A8"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="A8"/>
 </segment>
 </net>
 <net name="DATA-BUS0" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="D1"/>
+<pinref part="REG-ACU-L" gate="A" pin="D1"/>
 <wire x1="-172.72" y1="1351.28" x2="-139.7" y2="1351.28" width="0.1524" layer="91"/>
 <label x="-154.94" y="1351.28" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1351.28" x2="-175.26" y2="1353.82" width="0.1524" layer="91"/>
@@ -3485,7 +3485,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1313.18" x2="43.18" y2="1315.72" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B1"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B1"/>
 <wire x1="43.18" y1="1315.72" x2="22.86" y2="1315.72" width="0.1524" layer="91"/>
 <label x="25.4" y="1315.72" size="1.778" layer="95"/>
 </segment>
@@ -3558,7 +3558,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS1" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="D2"/>
+<pinref part="REG-ACU-L" gate="A" pin="D2"/>
 <wire x1="-139.7" y1="1348.74" x2="-172.72" y2="1348.74" width="0.1524" layer="91"/>
 <label x="-154.94" y="1348.74" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1348.74" x2="-175.26" y2="1351.28" width="0.1524" layer="91"/>
@@ -3582,7 +3582,7 @@ Source: www.kingbright.com</description>
 <wire x1="43.18" y1="1150.62" x2="45.72" y2="1148.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="REG-AC-BUF" gate="A" pin="B2"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B2"/>
 <wire x1="45.72" y1="1310.64" x2="43.18" y2="1313.18" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="1313.18" x2="22.86" y2="1313.18" width="0.1524" layer="91"/>
 <label x="25.4" y="1313.18" size="1.778" layer="95"/>
@@ -3656,7 +3656,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS2" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="D3"/>
+<pinref part="REG-ACU-L" gate="A" pin="D3"/>
 <wire x1="-139.7" y1="1346.2" x2="-172.72" y2="1346.2" width="0.1524" layer="91"/>
 <label x="-154.94" y="1346.2" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1346.2" x2="-175.26" y2="1348.74" width="0.1524" layer="91"/>
@@ -3681,7 +3681,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1308.1" x2="43.18" y2="1310.64" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B3"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B3"/>
 <wire x1="43.18" y1="1310.64" x2="22.86" y2="1310.64" width="0.1524" layer="91"/>
 <label x="25.4" y="1310.64" size="1.778" layer="95"/>
 </segment>
@@ -3754,7 +3754,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS3" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="D4"/>
+<pinref part="REG-ACU-L" gate="A" pin="D4"/>
 <wire x1="-139.7" y1="1343.66" x2="-172.72" y2="1343.66" width="0.1524" layer="91"/>
 <label x="-154.94" y="1343.66" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1343.66" x2="-175.26" y2="1346.2" width="0.1524" layer="91"/>
@@ -3779,7 +3779,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1305.56" x2="43.18" y2="1308.1" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B4"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B4"/>
 <wire x1="43.18" y1="1308.1" x2="22.86" y2="1308.1" width="0.1524" layer="91"/>
 <label x="25.4" y="1308.1" size="1.778" layer="95"/>
 </segment>
@@ -3852,7 +3852,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS4" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="D1"/>
+<pinref part="REG-ACU-H" gate="A" pin="D1"/>
 <wire x1="-139.7" y1="1310.64" x2="-172.72" y2="1310.64" width="0.1524" layer="91"/>
 <label x="-154.94" y="1310.64" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1310.64" x2="-175.26" y2="1313.18" width="0.1524" layer="91"/>
@@ -3877,7 +3877,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1303.02" x2="43.18" y2="1305.56" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B5"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B5"/>
 <wire x1="43.18" y1="1305.56" x2="22.86" y2="1305.56" width="0.1524" layer="91"/>
 <label x="25.4" y="1305.56" size="1.778" layer="95"/>
 </segment>
@@ -3944,7 +3944,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS5" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="D2"/>
+<pinref part="REG-ACU-H" gate="A" pin="D2"/>
 <wire x1="-139.7" y1="1308.1" x2="-172.72" y2="1308.1" width="0.1524" layer="91"/>
 <label x="-154.94" y="1308.1" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1308.1" x2="-175.26" y2="1310.64" width="0.1524" layer="91"/>
@@ -3970,7 +3970,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="45.72" y1="1300.48" x2="43.18" y2="1303.02" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="1303.02" x2="40.64" y2="1303.02" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B6"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B6"/>
 <wire x1="40.64" y1="1303.02" x2="22.86" y2="1303.02" width="0.1524" layer="91"/>
 <label x="25.4" y="1303.02" size="1.778" layer="95"/>
 </segment>
@@ -4037,7 +4037,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS6" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="D3"/>
+<pinref part="REG-ACU-H" gate="A" pin="D3"/>
 <wire x1="-139.7" y1="1305.56" x2="-172.72" y2="1305.56" width="0.1524" layer="91"/>
 <label x="-154.94" y="1305.56" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1305.56" x2="-175.26" y2="1308.1" width="0.1524" layer="91"/>
@@ -4062,7 +4062,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1297.94" x2="43.18" y2="1300.48" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B7"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B7"/>
 <wire x1="43.18" y1="1300.48" x2="22.86" y2="1300.48" width="0.1524" layer="91"/>
 <label x="25.4" y="1300.48" size="1.778" layer="95"/>
 </segment>
@@ -4129,7 +4129,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="DATA-BUS7" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="D4"/>
+<pinref part="REG-ACU-H" gate="A" pin="D4"/>
 <wire x1="-139.7" y1="1303.02" x2="-172.72" y2="1303.02" width="0.1524" layer="91"/>
 <label x="-154.94" y="1303.02" size="1.778" layer="95"/>
 <wire x1="-172.72" y1="1303.02" x2="-175.26" y2="1305.56" width="0.1524" layer="91"/>
@@ -4154,7 +4154,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="1295.4" x2="43.18" y2="1297.94" width="0.1524" layer="91"/>
-<pinref part="REG-AC-BUF" gate="A" pin="B8"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="B8"/>
 <wire x1="43.18" y1="1297.94" x2="22.86" y2="1297.94" width="0.1524" layer="91"/>
 <label x="25.4" y="1297.94" size="1.778" layer="95"/>
 </segment>
@@ -4237,7 +4237,7 @@ Source: www.kingbright.com</description>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="REG-AC-BUF" gate="A" pin="DIR"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="DIR"/>
 <wire x1="-2.54" y1="1292.86" x2="-27.94" y2="1292.86" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="1292.86" x2="-27.94" y2="1282.7" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="1282.7" x2="25.4" y2="1282.7" width="0.1524" layer="91"/>
@@ -4288,20 +4288,20 @@ Source: www.kingbright.com</description>
 </net>
 <net name="REG-ACU-LOAD-IN" class="0">
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="G2"/>
+<pinref part="REG-ACU-H" gate="A" pin="G2"/>
 <wire x1="-139.7" y1="1287.78" x2="-142.24" y2="1287.78" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1287.78" x2="-142.24" y2="1290.32" width="0.1524" layer="91"/>
-<pinref part="REG-AC-H" gate="A" pin="G1"/>
+<pinref part="REG-ACU-H" gate="A" pin="G1"/>
 <wire x1="-142.24" y1="1290.32" x2="-139.7" y2="1290.32" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1287.78" x2="-144.78" y2="1287.78" width="0.1524" layer="91"/>
 <junction x="-142.24" y="1287.78"/>
 <label x="-144.78" y="1287.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="G1"/>
+<pinref part="REG-ACU-L" gate="A" pin="G1"/>
 <wire x1="-139.7" y1="1330.96" x2="-142.24" y2="1330.96" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1330.96" x2="-142.24" y2="1328.42" width="0.1524" layer="91"/>
-<pinref part="REG-AC-L" gate="A" pin="G2"/>
+<pinref part="REG-ACU-L" gate="A" pin="G2"/>
 <wire x1="-142.24" y1="1328.42" x2="-139.7" y2="1328.42" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1328.42" x2="-144.78" y2="1328.42" width="0.1524" layer="91"/>
 <junction x="-142.24" y="1328.42"/>
@@ -4310,12 +4310,12 @@ Source: www.kingbright.com</description>
 </net>
 <net name="CLK-SIG" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="CLK"/>
+<pinref part="REG-ACU-L" gate="A" pin="CLK"/>
 <wire x1="-139.7" y1="1338.58" x2="-142.24" y2="1338.58" width="0.1524" layer="91"/>
 <label x="-142.24" y="1338.58" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="CLK"/>
+<pinref part="REG-ACU-H" gate="A" pin="CLK"/>
 <wire x1="-139.7" y1="1297.94" x2="-142.24" y2="1297.94" width="0.1524" layer="91"/>
 <label x="-142.24" y="1297.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -4392,15 +4392,15 @@ Source: www.kingbright.com</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="REG-AC-L" gate="A" pin="M"/>
+<pinref part="REG-ACU-L" gate="A" pin="M"/>
 <wire x1="-142.24" y1="1336.04" x2="-139.7" y2="1336.04" width="0.1524" layer="91"/>
-<pinref part="REG-AC-L" gate="A" pin="N"/>
+<pinref part="REG-ACU-L" gate="A" pin="N"/>
 <wire x1="-139.7" y1="1333.5" x2="-142.24" y2="1333.5" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1333.5" x2="-142.24" y2="1336.04" width="0.1524" layer="91"/>
 <junction x="-142.24" y="1333.5"/>
 <wire x1="-167.64" y1="1333.5" x2="-142.24" y2="1333.5" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="1333.5" x2="-170.18" y2="1333.5" width="0.1524" layer="91"/>
-<pinref part="REG-AC-L" gate="A" pin="CLR"/>
+<pinref part="REG-ACU-L" gate="A" pin="CLR"/>
 <wire x1="-139.7" y1="1325.88" x2="-170.18" y2="1325.88" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="1325.88" x2="-170.18" y2="1330.96" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="1333.5" x2="-170.18" y2="1330.96" width="0.1524" layer="91"/>
@@ -4409,12 +4409,12 @@ Source: www.kingbright.com</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="REG-AC-H" gate="A" pin="N"/>
+<pinref part="REG-ACU-H" gate="A" pin="N"/>
 <wire x1="-139.7" y1="1292.86" x2="-142.24" y2="1292.86" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="1292.86" x2="-142.24" y2="1295.4" width="0.1524" layer="91"/>
-<pinref part="REG-AC-H" gate="A" pin="M"/>
+<pinref part="REG-ACU-H" gate="A" pin="M"/>
 <wire x1="-142.24" y1="1295.4" x2="-139.7" y2="1295.4" width="0.1524" layer="91"/>
-<pinref part="REG-AC-H" gate="A" pin="CLR"/>
+<pinref part="REG-ACU-H" gate="A" pin="CLR"/>
 <wire x1="-139.7" y1="1285.24" x2="-170.18" y2="1285.24" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="1285.24" x2="-170.18" y2="1292.86" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="1292.86" x2="-142.24" y2="1292.86" width="0.1524" layer="91"/>
@@ -4993,7 +4993,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="REG-SC-LOAD-OUT" class="0">
 <segment>
-<pinref part="REG-AC-BUF" gate="A" pin="G"/>
+<pinref part="REG-ACU-BUF" gate="A" pin="G"/>
 <wire x1="-2.54" y1="1290.32" x2="-5.08" y2="1290.32" width="0.1524" layer="91"/>
 <label x="-5.08" y="1290.32" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
