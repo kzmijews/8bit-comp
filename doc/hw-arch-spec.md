@@ -35,7 +35,7 @@ The exact schema of described connections was added below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/clock/imgs/ne555n-astable.png"  width="60%" height="60%"/>
+        <img src="../design/clock/imgs/ne555n-astable.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.1.1: main clock circuit</i>
@@ -97,7 +97,7 @@ shown on figure below, where single button push has tiggered two pulses:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/clock/imgs/hw-debug-button-bouncing.png"/>
+        <img src="../design/clock/imgs/hw-debug-button-bouncing.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.1 debug button bouncing issue</i>
@@ -115,7 +115,7 @@ issue model of NE555 timer in monostable mode was prepared in ltspice simulator
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/clock/imgs/ne555n-monostable-debouncing.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.2: schema of timer555 in monostable mode (ltspice simulator)</i>
@@ -134,7 +134,7 @@ issue. Simulation run shows following results:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-1.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-1.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.3: ltspice simulation results for timer 555 in monostable mode - common case</i>
@@ -151,7 +151,7 @@ pulse will be generated:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-2.png"/>
+        <img src="../design/clock/imgs/ne555n-monostable-debouncing-measurements-2.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 2.2.4: ltspice simulation results for timer 555 in monostable mode - bouncing trigger</i>
@@ -293,7 +293,7 @@ presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/alu/imgs/rel-2b-alu.png">
+        <img src="../design/alu/imgs/rel-2b-alu.png" width="60%" height="60%" />
     </p>
     <p align="center">
         <i>Figure 3.1: 2-bit ALU unit, source: "The Essentials of Computer Organization and Architecture" </i>
@@ -310,7 +310,7 @@ On the schema we can recognize few circuits:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/alu/imgs/rel-2b-alu-sections.png">
+        <img src="../design/alu/imgs/rel-2b-alu-sections.png" width="60%" height="60%"/>
     </p>
     <p align="center">
         <i>Figure 3.2: sections of 2-bit ALU unit</i>
@@ -351,7 +351,7 @@ After taking these changes into account we can build the ALU IC using six TTL ch
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/alu/imgs/rel-alu.png">
+        <img src="../design/alu/imgs/rel-alu.png" width="60%" height="60%" />
     </p>
     <p align="center">
         <i>Figure 3.3: 8-bit ALU unit</i>
@@ -387,7 +387,7 @@ All registers are plugged into **data bus**, used for data exchange between them
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/regs/imgs/rel-regs.png">
+        <img src="../design/regs/imgs/rel-regs.png" width="60%" height="60%" />
     </p>
     <p align="center">
         <i>Figure 4.1: General Purpose Registers</i>
@@ -430,7 +430,7 @@ three state output. Functional block diagram was presented below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/ram/imgs/km6264bls-10l-diagram.png">
+        <img src="../design/ram/imgs/km6264bls-10l-diagram.png" width="60%" height="60%">
     </p>
     <p align="center">
         <i>Figure 7.1: SRAM 8Kx8bit module KM6264BLS-10L functional block diagram, source: "KM6264BBL/KM6264BL-L datasheet"</i>
@@ -459,7 +459,7 @@ below:
 
 <div>
     <p align="center" width="100%">
-        <img src="../design/ram/imgs/dbg-ram-4x8K.png">
+        <img src="../design/ram/imgs/dbg-ram-4x8K.png" width="60%" height="60%">
     </p>
     <p align="center">
         <i>Figure 7.2: Full RAM module schema</i>
