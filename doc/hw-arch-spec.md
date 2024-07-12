@@ -380,6 +380,14 @@ connections were modified. Following registers are present:
   (see [ISA](10.-ISA-(Instruction-Set-Architecture)).
 - **IO[0-3]** - Input/Output Registers, four registers used to connect external devices/controlers to the CPU.
 
+<div>
+    <p align="center" width="100%">
+        <img src="../design/regs/imgs/rel-regs-conn.png" width="60%" height="60%" />
+    </p>
+    <p align="center">
+        <i>Figure 4.1: General Purpose Registers - overview</i>
+    </p>
+</div>
 
 Following registers: MAR, MBR, PC, IR, are dedicated for specific operations. These has additional, direct connections to ALU, RAM
 and other registers. These can't be used for different operations. Current state of the CPU is kept by special purpose register FLAG.
@@ -390,7 +398,7 @@ All registers are plugged into **data bus**, used for data exchange between them
         <img src="../design/regs/imgs/rel-regs.png" width="60%" height="60%" />
     </p>
     <p align="center">
-        <i>Figure 4.1: General Purpose Registers</i>
+        <i>Figure 4.2: General Purpose Registers - exact schema</i>
     </p>
 </div>
 
