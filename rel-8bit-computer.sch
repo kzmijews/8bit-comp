@@ -23432,10 +23432,10 @@ single cathode, 13 mm</description>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:26151/1" value="2n"/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PC0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="PC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="PC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="PC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="74LS161N-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="74LS161N-1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="74LS161N-2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="74LS161N-3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*160" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
 <part name="PC-BUF-L" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="PC-BUF-H" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -24248,21 +24248,17 @@ single cathode, 13 mm</description>
 <instance part="GND57" gate="1" x="-1206.5" y="474.98" smashed="yes">
 <attribute name="VALUE" x="-1209.04" y="472.44" size="1.778" layer="96"/>
 </instance>
-<instance part="PC0" gate="A" x="-1696.72" y="279.4" smashed="yes">
-<attribute name="NAME" x="-1704.34" y="292.735" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1704.34" y="261.62" size="1.778" layer="96"/>
+<instance part="74LS161N-0" gate="A" x="-1696.72" y="279.4" smashed="yes">
+<attribute name="NAME" x="-1704.34" y="261.62" size="1.778" layer="95"/>
 </instance>
-<instance part="PC1" gate="A" x="-1696.72" y="243.84" smashed="yes">
-<attribute name="NAME" x="-1704.34" y="257.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1704.34" y="226.06" size="1.778" layer="96"/>
+<instance part="74LS161N-1" gate="A" x="-1696.72" y="243.84" smashed="yes">
+<attribute name="NAME" x="-1704.34" y="226.06" size="1.778" layer="95"/>
 </instance>
-<instance part="PC2" gate="A" x="-1696.72" y="208.28" smashed="yes">
-<attribute name="NAME" x="-1704.34" y="221.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1704.34" y="190.5" size="1.778" layer="96"/>
+<instance part="74LS161N-2" gate="A" x="-1696.72" y="208.28" smashed="yes">
+<attribute name="NAME" x="-1704.34" y="190.5" size="1.778" layer="95"/>
 </instance>
-<instance part="PC3" gate="A" x="-1696.72" y="172.72" smashed="yes">
-<attribute name="NAME" x="-1704.34" y="186.055" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1704.34" y="154.94" size="1.778" layer="96"/>
+<instance part="74LS161N-3" gate="A" x="-1696.72" y="172.72" smashed="yes">
+<attribute name="NAME" x="-1704.34" y="154.94" size="1.778" layer="95"/>
 </instance>
 <instance part="PC-BUF-L" gate="A" x="-1607.82" y="269.24" smashed="yes">
 <attribute name="NAME" x="-1615.44" y="285.115" size="1.778" layer="95"/>
@@ -25581,29 +25577,29 @@ single cathode, 13 mm</description>
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="B"/>
+<pinref part="74LS161N-3" gate="A" pin="B"/>
 <wire x1="-1709.42" y1="180.34" x2="-1734.82" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="180.34" x2="-1734.82" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="PC3" gate="A" pin="C"/>
+<pinref part="74LS161N-3" gate="A" pin="C"/>
 <wire x1="-1734.82" y1="177.8" x2="-1709.42" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="177.8" x2="-1734.82" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-1734.82" y="177.8"/>
-<pinref part="PC3" gate="A" pin="D"/>
+<pinref part="74LS161N-3" gate="A" pin="D"/>
 <wire x1="-1734.82" y1="175.26" x2="-1709.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="175.26" x2="-1734.82" y2="172.72" width="0.1524" layer="91"/>
 <junction x="-1734.82" y="175.26"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="QC"/>
+<pinref part="74LS161N-3" gate="A" pin="QC"/>
 <wire x1="-1661.16" y1="177.8" x2="-1684.02" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-1661.16" y1="177.8" x2="-1661.16" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="PC3" gate="A" pin="QD"/>
+<pinref part="74LS161N-3" gate="A" pin="QD"/>
 <wire x1="-1661.16" y1="175.26" x2="-1684.02" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-1661.16" y1="175.26" x2="-1661.16" y2="160.02" width="0.1524" layer="91"/>
 <junction x="-1661.16" y="175.26"/>
 <pinref part="GND59" gate="1" pin="GND"/>
-<pinref part="PC3" gate="A" pin="RCO"/>
+<pinref part="74LS161N-3" gate="A" pin="RCO"/>
 <wire x1="-1661.16" y1="160.02" x2="-1661.16" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-1684.02" y1="160.02" x2="-1661.16" y2="160.02" width="0.1524" layer="91"/>
 <junction x="-1661.16" y="160.02"/>
@@ -27163,22 +27159,22 @@ single cathode, 13 mm</description>
 <label x="-901.7" y="762" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="CLK"/>
+<pinref part="74LS161N-0" gate="A" pin="CLK"/>
 <wire x1="-1709.42" y1="276.86" x2="-1714.5" y2="276.86" width="0.1524" layer="91"/>
 <label x="-1714.5" y="276.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="CLK"/>
+<pinref part="74LS161N-1" gate="A" pin="CLK"/>
 <wire x1="-1709.42" y1="241.3" x2="-1714.5" y2="241.3" width="0.1524" layer="91"/>
 <label x="-1714.5" y="241.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="CLK"/>
+<pinref part="74LS161N-2" gate="A" pin="CLK"/>
 <wire x1="-1709.42" y1="205.74" x2="-1714.5" y2="205.74" width="0.1524" layer="91"/>
 <label x="-1714.5" y="205.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="CLK"/>
+<pinref part="74LS161N-3" gate="A" pin="CLK"/>
 <wire x1="-1709.42" y1="170.18" x2="-1714.5" y2="170.18" width="0.1524" layer="91"/>
 <label x="-1714.5" y="170.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -28410,7 +28406,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="802.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="QA"/>
+<pinref part="74LS161N-0" gate="A" pin="QA"/>
 <wire x1="-1653.54" y1="287.02" x2="-1656.08" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="289.56" x2="-1684.02" y2="289.56" width="0.1524" layer="91"/>
 <label x="-1681.48" y="289.56" size="1.778" layer="95"/>
@@ -28429,7 +28425,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="797.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="QB"/>
+<pinref part="74LS161N-0" gate="A" pin="QB"/>
 <wire x1="-1684.02" y1="287.02" x2="-1656.08" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="287.02" x2="-1653.54" y2="284.48" width="0.1524" layer="91"/>
 <label x="-1681.48" y="287.02" size="1.778" layer="95"/>
@@ -28448,7 +28444,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="792.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="QC"/>
+<pinref part="74LS161N-0" gate="A" pin="QC"/>
 <wire x1="-1684.02" y1="284.48" x2="-1656.08" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="284.48" x2="-1653.54" y2="281.94" width="0.1524" layer="91"/>
 <label x="-1681.48" y="284.48" size="1.778" layer="95"/>
@@ -28467,7 +28463,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="787.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="QD"/>
+<pinref part="74LS161N-0" gate="A" pin="QD"/>
 <wire x1="-1684.02" y1="281.94" x2="-1656.08" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="281.94" x2="-1653.54" y2="279.4" width="0.1524" layer="91"/>
 <label x="-1681.48" y="281.94" size="1.778" layer="95"/>
@@ -28523,7 +28519,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="762" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="QA"/>
+<pinref part="74LS161N-1" gate="A" pin="QA"/>
 <wire x1="-1684.02" y1="254" x2="-1656.08" y2="254" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="254" x2="-1653.54" y2="251.46" width="0.1524" layer="91"/>
 <label x="-1681.48" y="254" size="1.778" layer="95"/>
@@ -28542,7 +28538,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="756.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="QB"/>
+<pinref part="74LS161N-1" gate="A" pin="QB"/>
 <wire x1="-1684.02" y1="251.46" x2="-1656.08" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="251.46" x2="-1653.54" y2="248.92" width="0.1524" layer="91"/>
 <label x="-1681.48" y="251.46" size="1.778" layer="95"/>
@@ -28561,7 +28557,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="751.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="QC"/>
+<pinref part="74LS161N-1" gate="A" pin="QC"/>
 <wire x1="-1684.02" y1="248.92" x2="-1656.08" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="248.92" x2="-1653.54" y2="246.38" width="0.1524" layer="91"/>
 <label x="-1681.48" y="248.92" size="1.778" layer="95"/>
@@ -28580,7 +28576,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="746.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="QD"/>
+<pinref part="74LS161N-1" gate="A" pin="QD"/>
 <wire x1="-1684.02" y1="246.38" x2="-1656.08" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="246.38" x2="-1653.54" y2="243.84" width="0.1524" layer="91"/>
 <label x="-1681.48" y="246.38" size="1.778" layer="95"/>
@@ -28599,7 +28595,7 @@ single cathode, 13 mm</description>
 <label x="-1262.38" y="721.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="QA"/>
+<pinref part="74LS161N-2" gate="A" pin="QA"/>
 <wire x1="-1684.02" y1="218.44" x2="-1656.08" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="218.44" x2="-1653.54" y2="215.9" width="0.1524" layer="91"/>
 <label x="-1681.48" y="218.44" size="1.778" layer="95"/>
@@ -29963,7 +29959,7 @@ single cathode, 13 mm</description>
 <label x="-868.68" y="774.7" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="B"/>
+<pinref part="74LS161N-2" gate="A" pin="B"/>
 <wire x1="-1709.42" y1="215.9" x2="-1734.82" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="215.9" x2="-1737.36" y2="218.44" width="0.1524" layer="91"/>
 <label x="-1727.2" y="215.9" size="1.778" layer="95"/>
@@ -29976,7 +29972,7 @@ single cathode, 13 mm</description>
 <label x="-868.68" y="772.16" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="C"/>
+<pinref part="74LS161N-2" gate="A" pin="C"/>
 <wire x1="-1709.42" y1="213.36" x2="-1734.82" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="213.36" x2="-1737.36" y2="215.9" width="0.1524" layer="91"/>
 <label x="-1727.2" y="213.36" size="1.778" layer="95"/>
@@ -29989,7 +29985,7 @@ single cathode, 13 mm</description>
 <label x="-868.68" y="769.62" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="D"/>
+<pinref part="74LS161N-2" gate="A" pin="D"/>
 <wire x1="-1709.42" y1="210.82" x2="-1734.82" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="210.82" x2="-1737.36" y2="213.36" width="0.1524" layer="91"/>
 <label x="-1727.2" y="210.82" size="1.778" layer="95"/>
@@ -30002,7 +29998,7 @@ single cathode, 13 mm</description>
 <label x="-868.68" y="767.08" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="A"/>
+<pinref part="74LS161N-3" gate="A" pin="A"/>
 <wire x1="-1709.42" y1="182.88" x2="-1734.82" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="182.88" x2="-1737.36" y2="185.42" width="0.1524" layer="91"/>
 <label x="-1727.2" y="182.88" size="1.778" layer="95"/>
@@ -30010,7 +30006,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-BUS9" class="0">
 <segment>
-<pinref part="PC2" gate="A" pin="QB"/>
+<pinref part="74LS161N-2" gate="A" pin="QB"/>
 <wire x1="-1684.02" y1="215.9" x2="-1656.08" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="215.9" x2="-1653.54" y2="213.36" width="0.1524" layer="91"/>
 <label x="-1681.48" y="215.9" size="1.778" layer="95"/>
@@ -30029,7 +30025,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-BUS10" class="0">
 <segment>
-<pinref part="PC2" gate="A" pin="QC"/>
+<pinref part="74LS161N-2" gate="A" pin="QC"/>
 <wire x1="-1684.02" y1="213.36" x2="-1656.08" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="213.36" x2="-1653.54" y2="210.82" width="0.1524" layer="91"/>
 <label x="-1681.48" y="213.36" size="1.778" layer="95"/>
@@ -30579,7 +30575,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-BUS11" class="0">
 <segment>
-<pinref part="PC2" gate="A" pin="QD"/>
+<pinref part="74LS161N-2" gate="A" pin="QD"/>
 <wire x1="-1684.02" y1="210.82" x2="-1656.08" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="210.82" x2="-1653.54" y2="208.28" width="0.1524" layer="91"/>
 <label x="-1681.48" y="210.82" size="1.778" layer="95"/>
@@ -30598,7 +30594,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="ADDR-BUS12" class="0">
 <segment>
-<pinref part="PC3" gate="A" pin="QA"/>
+<pinref part="74LS161N-3" gate="A" pin="QA"/>
 <wire x1="-1684.02" y1="182.88" x2="-1656.08" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-1656.08" y1="182.88" x2="-1653.54" y2="180.34" width="0.1524" layer="91"/>
 <label x="-1681.48" y="182.88" size="1.778" layer="95"/>
@@ -30617,107 +30613,107 @@ single cathode, 13 mm</description>
 </net>
 <net name="COUNTER-EN" class="0">
 <segment>
-<pinref part="PC0" gate="A" pin="ENP"/>
+<pinref part="74LS161N-0" gate="A" pin="ENP"/>
 <label x="-1714.5" y="274.32" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <wire x1="-1709.42" y1="274.32" x2="-1711.96" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="PC0" gate="A" pin="ENT"/>
+<pinref part="74LS161N-0" gate="A" pin="ENT"/>
 <wire x1="-1711.96" y1="274.32" x2="-1714.5" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="-1709.42" y1="271.78" x2="-1711.96" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-1711.96" y1="271.78" x2="-1711.96" y2="274.32" width="0.1524" layer="91"/>
 <junction x="-1711.96" y="274.32"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="ENP"/>
+<pinref part="74LS161N-1" gate="A" pin="ENP"/>
 <wire x1="-1709.42" y1="238.76" x2="-1714.5" y2="238.76" width="0.1524" layer="91"/>
 <label x="-1714.5" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="ENP"/>
+<pinref part="74LS161N-2" gate="A" pin="ENP"/>
 <wire x1="-1709.42" y1="203.2" x2="-1714.5" y2="203.2" width="0.1524" layer="91"/>
 <label x="-1714.5" y="203.2" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="ENP"/>
+<pinref part="74LS161N-3" gate="A" pin="ENP"/>
 <wire x1="-1709.42" y1="167.64" x2="-1714.5" y2="167.64" width="0.1524" layer="91"/>
 <label x="-1714.5" y="167.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JMP-SIG" class="0">
 <segment>
-<pinref part="PC0" gate="A" pin="LD"/>
+<pinref part="74LS161N-0" gate="A" pin="LD"/>
 <wire x1="-1709.42" y1="269.24" x2="-1714.5" y2="269.24" width="0.1524" layer="91"/>
 <label x="-1714.5" y="269.24" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="LD"/>
+<pinref part="74LS161N-1" gate="A" pin="LD"/>
 <wire x1="-1709.42" y1="233.68" x2="-1714.5" y2="233.68" width="0.1524" layer="91"/>
 <label x="-1714.5" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="LD"/>
+<pinref part="74LS161N-2" gate="A" pin="LD"/>
 <wire x1="-1709.42" y1="198.12" x2="-1714.5" y2="198.12" width="0.1524" layer="91"/>
 <label x="-1714.5" y="198.12" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="LD"/>
+<pinref part="74LS161N-3" gate="A" pin="LD"/>
 <wire x1="-1709.42" y1="162.56" x2="-1714.5" y2="162.56" width="0.1524" layer="91"/>
 <label x="-1714.5" y="162.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COUNTER-CARRY-0" class="0">
 <segment>
-<pinref part="PC0" gate="A" pin="RCO"/>
+<pinref part="74LS161N-0" gate="A" pin="RCO"/>
 <wire x1="-1684.02" y1="266.7" x2="-1678.94" y2="266.7" width="0.1524" layer="91"/>
 <label x="-1678.94" y="266.7" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="ENT"/>
+<pinref part="74LS161N-1" gate="A" pin="ENT"/>
 <wire x1="-1714.5" y1="236.22" x2="-1709.42" y2="236.22" width="0.1524" layer="91"/>
 <label x="-1714.5" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COUNTER-CARRY-1" class="0">
 <segment>
-<pinref part="PC1" gate="A" pin="RCO"/>
+<pinref part="74LS161N-1" gate="A" pin="RCO"/>
 <wire x1="-1684.02" y1="231.14" x2="-1678.94" y2="231.14" width="0.1524" layer="91"/>
 <label x="-1678.94" y="231.14" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="ENT"/>
+<pinref part="74LS161N-2" gate="A" pin="ENT"/>
 <wire x1="-1714.5" y1="200.66" x2="-1709.42" y2="200.66" width="0.1524" layer="91"/>
 <label x="-1714.5" y="200.66" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COUNTER-CARRY-2" class="0">
 <segment>
-<pinref part="PC2" gate="A" pin="RCO"/>
+<pinref part="74LS161N-2" gate="A" pin="RCO"/>
 <wire x1="-1684.02" y1="195.58" x2="-1678.94" y2="195.58" width="0.1524" layer="91"/>
 <label x="-1678.94" y="195.58" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="ENT"/>
+<pinref part="74LS161N-3" gate="A" pin="ENT"/>
 <wire x1="-1714.5" y1="165.1" x2="-1709.42" y2="165.1" width="0.1524" layer="91"/>
 <label x="-1714.5" y="165.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COUNTER-RST" class="0">
 <segment>
-<pinref part="PC0" gate="A" pin="CLR"/>
+<pinref part="74LS161N-0" gate="A" pin="CLR"/>
 <wire x1="-1709.42" y1="266.7" x2="-1714.5" y2="266.7" width="0.1524" layer="91"/>
 <label x="-1714.5" y="266.7" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="CLR"/>
+<pinref part="74LS161N-1" gate="A" pin="CLR"/>
 <wire x1="-1709.42" y1="231.14" x2="-1714.5" y2="231.14" width="0.1524" layer="91"/>
 <label x="-1714.5" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="CLR"/>
+<pinref part="74LS161N-2" gate="A" pin="CLR"/>
 <wire x1="-1709.42" y1="195.58" x2="-1714.5" y2="195.58" width="0.1524" layer="91"/>
 <label x="-1714.5" y="195.58" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PC3" gate="A" pin="CLR"/>
+<pinref part="74LS161N-3" gate="A" pin="CLR"/>
 <wire x1="-1709.42" y1="160.02" x2="-1711.96" y2="160.02" width="0.1524" layer="91"/>
 <label x="-1714.5" y="160.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="RST-INVERTER" gate="A" pin="O"/>
@@ -30729,7 +30725,7 @@ single cathode, 13 mm</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="PC3" gate="A" pin="QB"/>
+<pinref part="74LS161N-3" gate="A" pin="QB"/>
 <wire x1="-1684.02" y1="180.34" x2="-1656.08" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="RST-INVERTER" gate="A" pin="I"/>
 <wire x1="-1656.08" y1="180.34" x2="-1656.08" y2="144.78" width="0.1524" layer="91"/>
@@ -31411,7 +31407,7 @@ single cathode, 13 mm</description>
 <pinref part="LED42" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="A"/>
+<pinref part="74LS161N-0" gate="A" pin="A"/>
 <wire x1="-1709.42" y1="289.56" x2="-1734.82" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="289.56" x2="-1737.36" y2="292.1" width="0.1524" layer="91"/>
 <label x="-1732.28" y="289.56" size="1.778" layer="95"/>
@@ -31438,7 +31434,7 @@ single cathode, 13 mm</description>
 <pinref part="LED43" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="B"/>
+<pinref part="74LS161N-0" gate="A" pin="B"/>
 <wire x1="-1709.42" y1="287.02" x2="-1734.82" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="287.02" x2="-1737.36" y2="289.56" width="0.1524" layer="91"/>
 <label x="-1732.28" y="287.02" size="1.778" layer="95"/>
@@ -31465,7 +31461,7 @@ single cathode, 13 mm</description>
 <pinref part="LED44" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="C"/>
+<pinref part="74LS161N-0" gate="A" pin="C"/>
 <wire x1="-1709.42" y1="284.48" x2="-1734.82" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="284.48" x2="-1737.36" y2="287.02" width="0.1524" layer="91"/>
 <label x="-1732.28" y="284.48" size="1.778" layer="95"/>
@@ -31492,7 +31488,7 @@ single cathode, 13 mm</description>
 <pinref part="LED45" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC0" gate="A" pin="D"/>
+<pinref part="74LS161N-0" gate="A" pin="D"/>
 <wire x1="-1709.42" y1="281.94" x2="-1734.82" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="281.94" x2="-1737.36" y2="284.48" width="0.1524" layer="91"/>
 <label x="-1732.28" y="281.94" size="1.778" layer="95"/>
@@ -31518,7 +31514,7 @@ single cathode, 13 mm</description>
 <pinref part="LED46" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="A"/>
+<pinref part="74LS161N-1" gate="A" pin="A"/>
 <wire x1="-1709.42" y1="254" x2="-1734.82" y2="254" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="254" x2="-1737.36" y2="256.54" width="0.1524" layer="91"/>
 <label x="-1732.28" y="254" size="1.778" layer="95"/>
@@ -31544,7 +31540,7 @@ single cathode, 13 mm</description>
 <pinref part="LED47" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="B"/>
+<pinref part="74LS161N-1" gate="A" pin="B"/>
 <wire x1="-1709.42" y1="251.46" x2="-1734.82" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="251.46" x2="-1737.36" y2="254" width="0.1524" layer="91"/>
 <label x="-1732.28" y="251.46" size="1.778" layer="95"/>
@@ -31570,7 +31566,7 @@ single cathode, 13 mm</description>
 <pinref part="LED48" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="C"/>
+<pinref part="74LS161N-1" gate="A" pin="C"/>
 <wire x1="-1709.42" y1="248.92" x2="-1734.82" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="248.92" x2="-1737.36" y2="251.46" width="0.1524" layer="91"/>
 <label x="-1732.28" y="248.92" size="1.778" layer="95"/>
@@ -31596,7 +31592,7 @@ single cathode, 13 mm</description>
 <pinref part="LED49" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC1" gate="A" pin="D"/>
+<pinref part="74LS161N-1" gate="A" pin="D"/>
 <wire x1="-1709.42" y1="246.38" x2="-1734.82" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="246.38" x2="-1737.36" y2="248.92" width="0.1524" layer="91"/>
 <label x="-1732.28" y="246.38" size="1.778" layer="95"/>
@@ -31623,7 +31619,7 @@ single cathode, 13 mm</description>
 <pinref part="LED50" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="PC2" gate="A" pin="A"/>
+<pinref part="74LS161N-2" gate="A" pin="A"/>
 <wire x1="-1709.42" y1="218.44" x2="-1734.82" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-1734.82" y1="218.44" x2="-1737.36" y2="220.98" width="0.1524" layer="91"/>
 <label x="-1727.2" y="218.44" size="1.778" layer="95"/>

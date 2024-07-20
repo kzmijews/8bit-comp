@@ -1,10 +1,10 @@
 # Hardware Architecture Spec
 ## 1. Overview
 The main purpose of this document is to describe hardware architecture of presented solution.
-This 8bit computer was created based on hight level architecture of 16bit MARIE (Machine
+This 8bit computer was created based on high level architecture of 16bit MARIE (Machine
 Architecture that is Really Intuitive and Easy) described in book "The Essentials of Computer
-Organization and Architecture" written by L.M. Null & J.M. Lobur. It was created for educational
-purposes.
+Organization and Architecture" written by L.M. Null & J.M. Lobur with some architectural changes applied.
+It was created for educational purposes.
 
 ## 2. Clock
 Main clock was done based on popular timer 555 designed by Hans Camenzind in 1971.
@@ -373,11 +373,11 @@ connections were modified. Following registers are present:
   pointed by **MAR** register, first bit of **IR** and special purpose register **PAR** (Page Address Register). Based on the content
   of these registers poper value of the memory address used for this operation is calculated. This register is created based on JK
   flip-flops (74\*76), contrary to the rest of the registers created based on D-type flip-flops. Due to different and more complex
-  internal design of the register it was described in details in separate section (see [Program Counter](##5.-Program-Counter)).
+  internal design of the register it was described in details in separate section (see [Program Counter](5.-Program-Counter)).
 - **IR** - Instruction Register, It contains opcode (operational code) of the instruction to be processed by ALU. It's splitted into
   lower part of 4 bits long, which contains optional data which may be needed by instruction, and higher part of 4 bits long which
   contains instruction code. It gives us possibility to define 16 possible instructions described in a separate section
-  (see [ISA](10.-ISA-(Instruction-Set-Architecture)).
+  (see [ISA](10.-Instruction-Set-Architecture)).
 - **IO[0-3]** - Input/Output Registers, four registers used to connect external devices/controlers to the CPU.
 
 <div>
@@ -403,7 +403,27 @@ All registers are plugged into **data bus**, used for data exchange between them
 </div>
 
 ## 5. Program Counter
-TBD
+
+Program counter is reponsible for iterating through the addresses of RAM and make possible for the CPU to load consecutive instructions
+from there and execute them. It's one of the [General Purpose Registers](4.-General-Purpose-Registers), however it's created in a
+different, more complex way. It was built based on synchronous JK flip-flops binary counters connected in sequence. Single chip `74*161`
+has four JK flip-flops connected together. All JK flip-flopps are clocked simultaneously, to eliminated the output counting spikes, which
+are normally associated with asynchronous counters. Due to `RCO` (ripple carry output) it is possible to cascading several chips together.
+This application has four chips connected together to be able to address memory (13 address lines in total). It's also possible to load
+value of starting address via `A-D` pins and `LD` (load) signal, which is crucial for all jump instructions exposed as a part of CPU ISA.
+
+<div>
+    <p align="center" width="100%">
+        <img src="../design/pc/imgs/rel-prog-counter.png" width="60%" height="60%" />
+    </p>
+    <p align="center">
+        <i>Figure 5.1: Program Counter - exact schema</i>
+    </p>
+</div>
+
+In our application due to limitted size of `MAR` register only first 8 bits out of 13 can be loaded directly from there to the `PC`.
+Bit number 9 is loaded from the very first bit of `IR` register, and the rest of the address is taken from 4bit width `PAR` register.
+As a result to load a new address for jump instruction we need to split the address value and load it into three separate registers.
 
 ## 6. Special Purpose Registers
 TBD
@@ -478,4 +498,7 @@ below:
 TBD
 
 ## 9. Control Unit
+TBD
+
+## 10. Instruction Set Architecture
 TBD
