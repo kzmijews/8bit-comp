@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8418,7 +8418,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="284.48" y1="139.7" x2="-48.26" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-48.26" y1="139.7" x2="-48.26" y2="276.86" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-48.26" y1="276.86" x2="284.48" y2="276.86" width="0.1524" layer="97" style="shortdash"/>
-<text x="251.46" y="271.78" size="2.54" layer="97">Numerical Display</text>
+<text x="243.84" y="271.78" size="2.54" layer="97">NUMERICAL DISPLAY</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="73.66" y="220.98" smashed="yes">
