@@ -8419,6 +8419,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-48.26" y1="139.7" x2="-48.26" y2="276.86" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-48.26" y1="276.86" x2="284.48" y2="276.86" width="0.1524" layer="97" style="shortdash"/>
 <text x="243.84" y="271.78" size="2.54" layer="97">NUMERICAL DISPLAY</text>
+<wire x1="-43.18" y1="160.02" x2="-43.18" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="-43.18" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="27.94" y1="144.78" x2="27.94" y2="160.02" width="0.1524" layer="97"/>
+<wire x1="27.94" y1="160.02" x2="-43.18" y2="160.02" width="0.1524" layer="97"/>
+<text x="-35.56" y="149.86" size="5.08" layer="97">VER 1.3</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="73.66" y="220.98" smashed="yes">

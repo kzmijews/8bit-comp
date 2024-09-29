@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -997,6 +997,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0" y1="-2.54" x2="0" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="160.02" x2="-185.42" y2="160.02" width="0.1524" layer="97" style="shortdash"/>
 <text x="-40.64" y="154.94" size="2.54" layer="97">PROGRAM COUNTER</text>
+<wire x1="-68.58" y1="17.78" x2="-68.58" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-68.58" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-5.08" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="97"/>
+<text x="-60.96" y="7.62" size="5.08" layer="97">VER 1.3</text>
 </plain>
 <instances>
 <instance part="74LS161N-0" gate="A" x="-137.16" y="139.7" smashed="yes">
@@ -1011,15 +1016,36 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="74LS161N-3" gate="A" x="-137.16" y="33.02" smashed="yes">
 <attribute name="NAME" x="-144.78" y="15.24" size="1.778" layer="95"/>
 </instance>
-<instance part="PC-BUF-L" gate="A" x="-50.8" y="129.54"/>
-<instance part="PC-BUF-H" gate="A" x="-50.8" y="78.74"/>
-<instance part="SUPPLY1" gate="G$1" x="-25.4" y="58.42"/>
-<instance part="SUPPLY2" gate="G$1" x="-22.86" y="109.22" rot="MR0"/>
-<instance part="GND2" gate="1" x="-175.26" y="30.48"/>
-<instance part="GND3" gate="1" x="-101.6" y="15.24"/>
-<instance part="GND1" gate="1" x="-88.9" y="68.58"/>
-<instance part="GND4" gate="1" x="-12.7" y="68.58"/>
-<instance part="RST-INVERTER" gate="A" x="-134.62" y="5.08" rot="R180"/>
+<instance part="PC-BUF-L" gate="A" x="-50.8" y="129.54" smashed="yes">
+<attribute name="NAME" x="-58.42" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-58.42" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="PC-BUF-H" gate="A" x="-50.8" y="78.74" smashed="yes">
+<attribute name="NAME" x="-58.42" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-58.42" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="-25.4" y="58.42" smashed="yes">
+<attribute name="VALUE" x="-27.305" y="61.595" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="-22.86" y="109.22" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-20.955" y="112.395" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND2" gate="1" x="-175.26" y="30.48" smashed="yes">
+<attribute name="VALUE" x="-177.8" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="-101.6" y="15.24" smashed="yes">
+<attribute name="VALUE" x="-104.14" y="12.7" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="-88.9" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-91.44" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="-12.7" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-15.24" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="RST-INVERTER" gate="A" x="-134.62" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="-137.16" y="1.905" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-137.16" y="10.16" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 <bus name="DATA-OUT[0..12]">

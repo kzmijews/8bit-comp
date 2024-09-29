@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1703,6 +1703,11 @@ Based on the following sources:
 <wire x1="78.74" y1="429.26" x2="-167.64" y2="429.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-167.64" y1="429.26" x2="-167.64" y2="421.64" width="0.1524" layer="97" style="shortdash"/>
 <text x="20.32" y="424.18" size="2.54" layer="97">ALU (ARITHMETIC LOGIC UNIT)</text>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="7.62" width="0.1524" layer="97"/>
+<wire x1="10.16" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="97"/>
+<wire x1="73.66" y1="7.62" x2="73.66" y2="22.86" width="0.1524" layer="97"/>
+<wire x1="73.66" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="97"/>
+<text x="17.78" y="12.7" size="5.08" layer="97">VER 1.3</text>
 </plain>
 <instances>
 <instance part="DUAL-4X1-MUX-0" gate="A" x="-12.7" y="383.54" smashed="yes">
@@ -1831,18 +1836,45 @@ Based on the following sources:
 <attribute name="NAME" x="-55.88" y="48.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="IC59" gate="A" x="25.4" y="226.06"/>
+<instance part="IC59" gate="A" x="25.4" y="226.06" smashed="yes">
+<attribute name="NAME" x="17.78" y="241.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="17.78" y="208.28" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY1" gate="G$1" x="-7.62" y="251.46" smashed="yes">
 <attribute name="VALUE" x="-12.065" y="254.635" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="A" x="-91.44" y="421.64"/>
-<instance part="IC2" gate="A" x="-91.44" y="381"/>
-<instance part="IC3" gate="A" x="-91.44" y="337.82"/>
-<instance part="IC4" gate="A" x="-91.44" y="297.18"/>
-<instance part="IC5" gate="A" x="-55.88" y="198.12"/>
-<instance part="IC6" gate="A" x="-55.88" y="157.48"/>
-<instance part="IC7" gate="A" x="-55.88" y="114.3"/>
-<instance part="IC8" gate="A" x="-55.88" y="73.66"/>
+<instance part="IC1" gate="A" x="-91.44" y="421.64" smashed="yes">
+<attribute name="NAME" x="-88.9" y="424.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="416.56" size="1.778" layer="96"/>
+</instance>
+<instance part="IC2" gate="A" x="-91.44" y="381" smashed="yes">
+<attribute name="NAME" x="-88.9" y="384.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="375.92" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="A" x="-91.44" y="337.82" smashed="yes">
+<attribute name="NAME" x="-88.9" y="340.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="332.74" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="A" x="-91.44" y="297.18" smashed="yes">
+<attribute name="NAME" x="-88.9" y="300.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="292.1" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="A" x="-55.88" y="198.12" smashed="yes">
+<attribute name="NAME" x="-53.34" y="201.295" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-53.34" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="IC6" gate="A" x="-55.88" y="157.48" smashed="yes">
+<attribute name="NAME" x="-53.34" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-53.34" y="152.4" size="1.778" layer="96"/>
+</instance>
+<instance part="IC7" gate="A" x="-55.88" y="114.3" smashed="yes">
+<attribute name="NAME" x="-53.34" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-53.34" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="IC8" gate="A" x="-55.88" y="73.66" smashed="yes">
+<attribute name="NAME" x="-53.34" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-53.34" y="68.58" size="1.778" layer="96"/>
+</instance>
 <instance part="GND3" gate="1" x="-27.94" y="360.68" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="358.14" size="1.778" layer="96"/>
 </instance>
