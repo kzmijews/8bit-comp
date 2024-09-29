@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4026,27 +4026,35 @@ Source: www.kingbright.com</description>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CHIP-SELECT-REG-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
+<part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-45.72" y="1112.52" size="2.54" layer="97">SRAM (STATIC RANDOM ACCESS MEMORY) 4x8K</text>
-<wire x1="-502.92" y1="1120.14" x2="-502.92" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-502.92" y1="1122.68" x2="-502.92" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-502.92" y1="871.22" x2="48.26" y2="871.22" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="871.22" x2="48.26" y2="1120.14" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="1120.14" x2="-502.92" y2="1120.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="48.26" y1="871.22" x2="48.26" y2="1122.68" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="48.26" y1="1122.68" x2="-502.92" y2="1122.68" width="0.1524" layer="97" style="shortdash"/>
+<text x="-20.32" y="883.92" size="5.08" layer="97">VER 1.6</text>
+<wire x1="-30.48" y1="896.62" x2="-30.48" y2="876.3" width="0.1524" layer="97"/>
+<wire x1="-30.48" y1="876.3" x2="43.18" y2="876.3" width="0.1524" layer="97"/>
+<wire x1="43.18" y1="876.3" x2="43.18" y2="896.62" width="0.1524" layer="97"/>
+<wire x1="43.18" y1="896.62" x2="-30.48" y2="896.62" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="DEMUX-2X4-0" gate="A" x="-386.08" y="1109.98" smashed="yes">
 <attribute name="NAME" x="-393.7" y="1115.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-393.7" y="1099.82" size="1.778" layer="96"/>
 </instance>
-<instance part="PAGE-ADDR-REG-0" gate="A" x="-81.28" y="1059.18" smashed="yes">
-<attribute name="NAME" x="-88.9" y="1075.055" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-88.9" y="1041.4" size="1.778" layer="96"/>
+<instance part="PAGE-ADDR-REG-0" gate="A" x="-81.28" y="1021.08" smashed="yes">
+<attribute name="NAME" x="-88.9" y="1036.955" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="1003.3" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-111.76" y="1041.4" smashed="yes">
-<attribute name="VALUE" x="-114.3" y="1038.86" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-111.76" y="1003.3" smashed="yes">
+<attribute name="VALUE" x="-114.3" y="1000.76" size="1.778" layer="96"/>
 </instance>
 <instance part="MEMORY-0-8KX8-6264" gate="G$1" x="-226.06" y="1054.1" smashed="yes">
 <attribute name="NAME" x="-236.22" y="1077.595" size="1.778" layer="95"/>
@@ -4341,9 +4349,19 @@ Source: www.kingbright.com</description>
 <instance part="GND43" gate="1" x="-271.78" y="947.42" smashed="yes">
 <attribute name="VALUE" x="-274.32" y="944.88" size="1.778" layer="96"/>
 </instance>
+<instance part="CHIP-SELECT-REG-0" gate="A" x="-81.28" y="1069.34" smashed="yes">
+<attribute name="NAME" x="-88.9" y="1085.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-88.9" y="1051.56" size="1.778" layer="96"/>
+</instance>
+<instance part="GND44" gate="1" x="-66.04" y="1069.34" smashed="yes">
+<attribute name="VALUE" x="-68.58" y="1066.8" size="1.778" layer="96"/>
+</instance>
+<instance part="GND45" gate="1" x="-109.22" y="1051.56" smashed="yes">
+<attribute name="VALUE" x="-111.76" y="1049.02" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
-<bus name="ADDR-B[0..12],PAGE-EN-B[0..3]">
+<bus name="ADDR-B[0..12],CEN-B[0..3]">
 <segment>
 <wire x1="-264.16" y1="1076.96" x2="-264.16" y2="937.26" width="0.762" layer="92"/>
 <wire x1="-264.16" y1="937.26" x2="-261.62" y2="934.72" width="0.762" layer="92"/>
@@ -4382,7 +4400,7 @@ Source: www.kingbright.com</description>
 <wire x1="33.02" y1="1097.28" x2="30.48" y2="1099.82" width="0.762" layer="92"/>
 <wire x1="30.48" y1="1099.82" x2="-109.22" y2="1099.82" width="0.762" layer="92"/>
 <wire x1="-109.22" y1="1099.82" x2="-111.76" y2="1097.28" width="0.762" layer="92"/>
-<wire x1="-111.76" y1="1097.28" x2="-111.76" y2="1066.8" width="0.762" layer="92"/>
+<wire x1="-111.76" y1="1097.28" x2="-111.76" y2="1028.7" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="DATA-P[0..7]">
@@ -4450,17 +4468,17 @@ Source: www.kingbright.com</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="CLR"/>
-<wire x1="-93.98" y1="1046.48" x2="-111.76" y2="1046.48" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="1046.48" x2="-111.76" y2="1043.94" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="1008.38" x2="-111.76" y2="1008.38" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="1008.38" x2="-111.76" y2="1005.84" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="N"/>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="M"/>
-<wire x1="-111.76" y1="1054.1" x2="-93.98" y2="1054.1" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="1056.64" x2="-111.76" y2="1056.64" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="1056.64" x2="-111.76" y2="1054.1" width="0.1524" layer="91"/>
-<junction x="-111.76" y="1054.1"/>
-<wire x1="-111.76" y1="1054.1" x2="-111.76" y2="1046.48" width="0.1524" layer="91"/>
-<junction x="-111.76" y="1046.48"/>
+<wire x1="-111.76" y1="1016" x2="-93.98" y2="1016" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="1018.54" x2="-111.76" y2="1018.54" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="1018.54" x2="-111.76" y2="1016" width="0.1524" layer="91"/>
+<junction x="-111.76" y="1016"/>
+<wire x1="-111.76" y1="1016" x2="-111.76" y2="1008.38" width="0.1524" layer="91"/>
+<junction x="-111.76" y="1008.38"/>
 </segment>
 <segment>
 <pinref part="MEMORY-0-8KX8-6264" gate="G$1" pin="VSS"/>
@@ -4853,12 +4871,37 @@ Source: www.kingbright.com</description>
 <junction x="-271.78" y="962.66"/>
 <pinref part="GND43" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="Q4"/>
+<wire x1="-68.58" y1="1074.42" x2="-66.04" y2="1074.42" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="1074.42" x2="-66.04" y2="1071.88" width="0.1524" layer="91"/>
+<pinref part="GND44" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="M"/>
+<wire x1="-93.98" y1="1066.8" x2="-109.22" y2="1066.8" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1066.8" x2="-109.22" y2="1064.26" width="0.1524" layer="91"/>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="CLR"/>
+<wire x1="-109.22" y1="1064.26" x2="-109.22" y2="1056.64" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1056.64" x2="-93.98" y2="1056.64" width="0.1524" layer="91"/>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="N"/>
+<wire x1="-93.98" y1="1064.26" x2="-109.22" y2="1064.26" width="0.1524" layer="91"/>
+<junction x="-109.22" y="1064.26"/>
+<wire x1="-109.22" y1="1056.64" x2="-109.22" y2="1054.1" width="0.1524" layer="91"/>
+<junction x="-109.22" y="1056.64"/>
+<pinref part="GND45" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="CLK-SIG" class="0">
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="CLK"/>
-<wire x1="-93.98" y1="1059.18" x2="-99.06" y2="1059.18" width="0.1524" layer="91"/>
-<label x="-99.06" y="1059.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<wire x1="-93.98" y1="1021.08" x2="-99.06" y2="1021.08" width="0.1524" layer="91"/>
+<label x="-99.06" y="1021.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="CLK"/>
+<wire x1="-93.98" y1="1069.34" x2="-96.52" y2="1069.34" width="0.1524" layer="91"/>
+<label x="-96.52" y="1069.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR-B10" class="0">
@@ -5549,7 +5592,7 @@ Source: www.kingbright.com</description>
 <pinref part="LED18" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="PAGE-EN-A0" class="0">
+<net name="CEN-A0" class="0">
 <segment>
 <pinref part="LED11" gate="G$1" pin="A"/>
 <wire x1="-332.74" y1="1097.28" x2="-332.74" y2="1112.52" width="0.1524" layer="91"/>
@@ -5565,7 +5608,7 @@ Source: www.kingbright.com</description>
 <label x="-370.84" y="1112.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PAGE-EN-A1" class="0">
+<net name="CEN-A1" class="0">
 <segment>
 <pinref part="LED12" gate="G$1" pin="A"/>
 <wire x1="-340.36" y1="1097.28" x2="-340.36" y2="1109.98" width="0.1524" layer="91"/>
@@ -5581,7 +5624,7 @@ Source: www.kingbright.com</description>
 <label x="-370.84" y="1109.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PAGE-EN-A2" class="0">
+<net name="CEN-A2" class="0">
 <segment>
 <pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="-347.98" y1="1097.28" x2="-347.98" y2="1107.44" width="0.1524" layer="91"/>
@@ -5597,7 +5640,7 @@ Source: www.kingbright.com</description>
 <label x="-370.84" y="1107.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PAGE-EN-A3" class="0">
+<net name="CEN-A3" class="0">
 <segment>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="-355.6" y1="1097.28" x2="-355.6" y2="1104.9" width="0.1524" layer="91"/>
@@ -5755,13 +5798,13 @@ Source: www.kingbright.com</description>
 <net name="PR-LOAD" class="0">
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="G1"/>
-<wire x1="-96.52" y1="1051.56" x2="-93.98" y2="1051.56" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="1051.56" x2="-96.52" y2="1049.02" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="1013.46" x2="-93.98" y2="1013.46" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="1013.46" x2="-96.52" y2="1010.92" width="0.1524" layer="91"/>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="G2"/>
-<wire x1="-96.52" y1="1049.02" x2="-93.98" y2="1049.02" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="1051.56" x2="-99.06" y2="1051.56" width="0.1524" layer="91"/>
-<junction x="-96.52" y="1051.56"/>
-<label x="-99.06" y="1051.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<wire x1="-96.52" y1="1010.92" x2="-93.98" y2="1010.92" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="1013.46" x2="-99.06" y2="1013.46" width="0.1524" layer="91"/>
+<junction x="-96.52" y="1013.46"/>
+<label x="-99.06" y="1013.46" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR-A0" class="0">
@@ -5964,62 +6007,6 @@ Source: www.kingbright.com</description>
 <label x="-426.72" y="1013.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PAGE-EN-B0" class="0">
-<segment>
-<pinref part="BUFFER-0" gate="A" pin="B1"/>
-<wire x1="-284.48" y1="1079.5" x2="-266.7" y2="1079.5" width="0.1524" layer="91"/>
-<wire x1="-266.7" y1="1079.5" x2="-264.16" y2="1076.96" width="0.1524" layer="91"/>
-<label x="-281.94" y="1079.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MEMORY-0-8KX8-6264" gate="G$1" pin="!CS1"/>
-<wire x1="-241.3" y1="1033.78" x2="-261.62" y2="1033.78" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="1033.78" x2="-264.16" y2="1036.32" width="0.1524" layer="91"/>
-<label x="-259.08" y="1033.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAGE-EN-B1" class="0">
-<segment>
-<pinref part="BUFFER-0" gate="A" pin="B2"/>
-<wire x1="-284.48" y1="1076.96" x2="-266.7" y2="1076.96" width="0.1524" layer="91"/>
-<wire x1="-266.7" y1="1076.96" x2="-264.16" y2="1074.42" width="0.1524" layer="91"/>
-<label x="-281.94" y="1076.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MEMORY-1-8KX8-6264" gate="G$1" pin="!CS1"/>
-<wire x1="-165.1" y1="1033.78" x2="-185.42" y2="1033.78" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="1033.78" x2="-187.96" y2="1036.32" width="0.1524" layer="91"/>
-<label x="-182.88" y="1033.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAGE-EN-B2" class="0">
-<segment>
-<pinref part="BUFFER-0" gate="A" pin="B3"/>
-<wire x1="-284.48" y1="1074.42" x2="-266.7" y2="1074.42" width="0.1524" layer="91"/>
-<wire x1="-266.7" y1="1074.42" x2="-264.16" y2="1071.88" width="0.1524" layer="91"/>
-<label x="-281.94" y="1074.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MEMORY-2-8KX8-6264" gate="G$1" pin="!CS1"/>
-<wire x1="-165.1" y1="967.74" x2="-185.42" y2="967.74" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="967.74" x2="-187.96" y2="970.28" width="0.1524" layer="91"/>
-<label x="-182.88" y="967.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAGE-EN-B3" class="0">
-<segment>
-<pinref part="BUFFER-0" gate="A" pin="B4"/>
-<wire x1="-284.48" y1="1071.88" x2="-266.7" y2="1071.88" width="0.1524" layer="91"/>
-<wire x1="-266.7" y1="1071.88" x2="-264.16" y2="1069.34" width="0.1524" layer="91"/>
-<label x="-281.94" y="1071.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MEMORY-3-8KX8-6264" gate="G$1" pin="!CS1"/>
-<wire x1="-241.3" y1="967.74" x2="-261.62" y2="967.74" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="967.74" x2="-264.16" y2="970.28" width="0.1524" layer="91"/>
-<label x="-259.08" y="967.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ADDR-B1" class="0">
 <segment>
 <pinref part="MEMORY-0-8KX8-6264" gate="G$1" pin="A1"/>
@@ -6163,11 +6150,16 @@ Source: www.kingbright.com</description>
 <label x="-457.2" y="1043.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ADDR-BUS8" class="0">
+<net name="ADDR-PAGE8" class="0">
 <segment>
 <pinref part="ADDR-R/P-SW-2" gate="A" pin="1A"/>
 <wire x1="-454.66" y1="1018.54" x2="-457.2" y2="1018.54" width="0.1524" layer="91"/>
 <label x="-457.2" y="1018.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q1"/>
+<wire x1="-68.58" y1="1033.78" x2="-66.04" y2="1033.78" width="0.1524" layer="91"/>
+<label x="-66.04" y="1033.78" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR-PROG0" class="0">
@@ -6367,9 +6359,9 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="D1"/>
-<wire x1="-93.98" y1="1071.88" x2="-109.22" y2="1071.88" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="1071.88" x2="-111.76" y2="1074.42" width="0.1524" layer="91"/>
-<label x="-106.68" y="1071.88" size="1.778" layer="95"/>
+<wire x1="-93.98" y1="1033.78" x2="-109.22" y2="1033.78" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1033.78" x2="-111.76" y2="1036.32" width="0.1524" layer="91"/>
+<label x="-106.68" y="1033.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-A1" class="0">
@@ -6387,9 +6379,9 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="D2"/>
-<wire x1="-93.98" y1="1069.34" x2="-109.22" y2="1069.34" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="1069.34" x2="-111.76" y2="1071.88" width="0.1524" layer="91"/>
-<label x="-106.68" y="1069.34" size="1.778" layer="95"/>
+<wire x1="-93.98" y1="1031.24" x2="-109.22" y2="1031.24" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1031.24" x2="-111.76" y2="1033.78" width="0.1524" layer="91"/>
+<label x="-106.68" y="1031.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-A2" class="0">
@@ -6407,9 +6399,9 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="D3"/>
-<wire x1="-93.98" y1="1066.8" x2="-109.22" y2="1066.8" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="1066.8" x2="-111.76" y2="1069.34" width="0.1524" layer="91"/>
-<label x="-106.68" y="1066.8" size="1.778" layer="95"/>
+<wire x1="-93.98" y1="1028.7" x2="-109.22" y2="1028.7" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1028.7" x2="-111.76" y2="1031.24" width="0.1524" layer="91"/>
+<label x="-106.68" y="1028.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-A3" class="0">
@@ -6427,9 +6419,9 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="PAGE-ADDR-REG-0" gate="A" pin="D4"/>
-<wire x1="-93.98" y1="1064.26" x2="-109.22" y2="1064.26" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="1064.26" x2="-111.76" y2="1066.8" width="0.1524" layer="91"/>
-<label x="-106.68" y="1064.26" size="1.778" layer="95"/>
+<wire x1="-93.98" y1="1026.16" x2="-109.22" y2="1026.16" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1026.16" x2="-111.76" y2="1028.7" width="0.1524" layer="91"/>
+<label x="-106.68" y="1026.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-A4" class="0">
@@ -6445,6 +6437,12 @@ Source: www.kingbright.com</description>
 <wire x1="30.48" y1="960.12" x2="33.02" y2="957.58" width="0.1524" layer="91"/>
 <label x="17.78" y="960.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="D1"/>
+<wire x1="-93.98" y1="1082.04" x2="-109.22" y2="1082.04" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1082.04" x2="-111.76" y2="1084.58" width="0.1524" layer="91"/>
+<label x="-106.68" y="1082.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DATA-A5" class="0">
 <segment>
@@ -6458,6 +6456,12 @@ Source: www.kingbright.com</description>
 <wire x1="15.24" y1="957.58" x2="30.48" y2="957.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="957.58" x2="33.02" y2="955.04" width="0.1524" layer="91"/>
 <label x="17.78" y="957.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="D2"/>
+<wire x1="-93.98" y1="1079.5" x2="-109.22" y2="1079.5" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1079.5" x2="-111.76" y2="1082.04" width="0.1524" layer="91"/>
+<label x="-106.68" y="1079.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-A6" class="0">
@@ -6473,6 +6477,12 @@ Source: www.kingbright.com</description>
 <wire x1="30.48" y1="955.04" x2="33.02" y2="952.5" width="0.1524" layer="91"/>
 <label x="17.78" y="955.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="D3"/>
+<wire x1="-93.98" y1="1076.96" x2="-109.22" y2="1076.96" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1076.96" x2="-111.76" y2="1079.5" width="0.1524" layer="91"/>
+<label x="-106.68" y="1076.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DATA-A7" class="0">
 <segment>
@@ -6486,6 +6496,12 @@ Source: www.kingbright.com</description>
 <wire x1="15.24" y1="952.5" x2="30.48" y2="952.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="952.5" x2="33.02" y2="949.96" width="0.1524" layer="91"/>
 <label x="17.78" y="952.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="D4"/>
+<wire x1="-93.98" y1="1074.42" x2="-109.22" y2="1074.42" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="1074.42" x2="-111.76" y2="1076.96" width="0.1524" layer="91"/>
+<label x="-106.68" y="1074.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA-PROG0" class="0">
@@ -6649,9 +6665,9 @@ Source: www.kingbright.com</description>
 <label x="-457.2" y="1013.46" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q1"/>
-<wire x1="-68.58" y1="1071.88" x2="-66.04" y2="1071.88" width="0.1524" layer="91"/>
-<label x="-66.04" y="1071.88" size="1.4224" layer="95" xref="yes"/>
+<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q2"/>
+<wire x1="-68.58" y1="1031.24" x2="-66.04" y2="1031.24" width="0.1524" layer="91"/>
+<label x="-66.04" y="1031.24" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR-PAGE10" class="0">
@@ -6661,9 +6677,9 @@ Source: www.kingbright.com</description>
 <label x="-457.2" y="1008.38" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q2"/>
-<wire x1="-68.58" y1="1069.34" x2="-66.04" y2="1069.34" width="0.1524" layer="91"/>
-<label x="-66.04" y="1069.34" size="1.4224" layer="95" xref="yes"/>
+<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q3"/>
+<wire x1="-68.58" y1="1028.7" x2="-66.04" y2="1028.7" width="0.1524" layer="91"/>
+<label x="-66.04" y="1028.7" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR-PAGE11" class="0">
@@ -6673,35 +6689,29 @@ Source: www.kingbright.com</description>
 <label x="-457.2" y="1003.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q3"/>
-<wire x1="-68.58" y1="1066.8" x2="-66.04" y2="1066.8" width="0.1524" layer="91"/>
-<label x="-66.04" y="1066.8" size="1.4224" layer="95" xref="yes"/>
+<wire x1="-66.04" y1="1026.16" x2="-68.58" y2="1026.16" width="0.1524" layer="91"/>
+<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q4"/>
+<label x="-66.04" y="1026.16" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADDR-PAGE12" class="0">
+<net name="ADDR-BUS12" class="0">
 <segment>
 <pinref part="ADDR-R/P-SW-3" gate="A" pin="1A"/>
 <wire x1="-454.66" y1="977.9" x2="-457.2" y2="977.9" width="0.1524" layer="91"/>
 <label x="-457.2" y="977.9" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-66.04" y1="1064.26" x2="-68.58" y2="1064.26" width="0.1524" layer="91"/>
-<pinref part="PAGE-ADDR-REG-0" gate="A" pin="Q4"/>
-<label x="-66.04" y="1064.26" size="1.4224" layer="95" xref="yes"/>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="Q3"/>
+<wire x1="-68.58" y1="1076.96" x2="-66.04" y2="1076.96" width="0.1524" layer="91"/>
+<label x="-66.04" y="1076.96" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADDR-BUS9" class="0">
-<segment>
-<pinref part="DEMUX-2X4-0" gate="A" pin="A"/>
-<wire x1="-398.78" y1="1112.52" x2="-457.2" y2="1112.52" width="0.1524" layer="91"/>
-<label x="-457.2" y="1112.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADDR-BUS10" class="0">
+<net name="CS1" class="0">
 <segment>
 <pinref part="DEMUX-2X4-0" gate="A" pin="B"/>
-<wire x1="-398.78" y1="1109.98" x2="-457.2" y2="1109.98" width="0.1524" layer="91"/>
-<label x="-457.2" y="1109.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<wire x1="-398.78" y1="1109.98" x2="-401.32" y2="1109.98" width="0.1524" layer="91"/>
+<label x="-66.04" y="1079.5" size="1.4224" layer="95" xref="yes"/>
+<label x="-401.32" y="1109.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DATA-PROG3" class="0">
@@ -6716,6 +6726,94 @@ Source: www.kingbright.com</description>
 <wire x1="-7.62" y1="998.22" x2="-45.72" y2="998.22" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="998.22" x2="-48.26" y2="1000.76" width="0.1524" layer="91"/>
 <label x="-43.18" y="998.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CEN-B0" class="0">
+<segment>
+<pinref part="BUFFER-0" gate="A" pin="B1"/>
+<wire x1="-284.48" y1="1079.5" x2="-266.7" y2="1079.5" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="1079.5" x2="-264.16" y2="1076.96" width="0.1524" layer="91"/>
+<label x="-281.94" y="1079.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MEMORY-0-8KX8-6264" gate="G$1" pin="!CS1"/>
+<wire x1="-241.3" y1="1033.78" x2="-261.62" y2="1033.78" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="1033.78" x2="-264.16" y2="1036.32" width="0.1524" layer="91"/>
+<label x="-259.08" y="1033.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CEN-B1" class="0">
+<segment>
+<pinref part="BUFFER-0" gate="A" pin="B2"/>
+<wire x1="-284.48" y1="1076.96" x2="-266.7" y2="1076.96" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="1076.96" x2="-264.16" y2="1074.42" width="0.1524" layer="91"/>
+<label x="-281.94" y="1076.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MEMORY-1-8KX8-6264" gate="G$1" pin="!CS1"/>
+<wire x1="-165.1" y1="1033.78" x2="-185.42" y2="1033.78" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="1033.78" x2="-187.96" y2="1036.32" width="0.1524" layer="91"/>
+<label x="-182.88" y="1033.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CEN-B2" class="0">
+<segment>
+<pinref part="BUFFER-0" gate="A" pin="B3"/>
+<wire x1="-284.48" y1="1074.42" x2="-266.7" y2="1074.42" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="1074.42" x2="-264.16" y2="1071.88" width="0.1524" layer="91"/>
+<label x="-281.94" y="1074.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MEMORY-2-8KX8-6264" gate="G$1" pin="!CS1"/>
+<wire x1="-165.1" y1="967.74" x2="-185.42" y2="967.74" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="967.74" x2="-187.96" y2="970.28" width="0.1524" layer="91"/>
+<label x="-182.88" y="967.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CEN-B3" class="0">
+<segment>
+<pinref part="BUFFER-0" gate="A" pin="B4"/>
+<wire x1="-284.48" y1="1071.88" x2="-266.7" y2="1071.88" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="1071.88" x2="-264.16" y2="1069.34" width="0.1524" layer="91"/>
+<label x="-281.94" y="1071.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MEMORY-3-8KX8-6264" gate="G$1" pin="!CS1"/>
+<wire x1="-241.3" y1="967.74" x2="-261.62" y2="967.74" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="967.74" x2="-264.16" y2="970.28" width="0.1524" layer="91"/>
+<label x="-259.08" y="967.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CS0" class="0">
+<segment>
+<pinref part="DEMUX-2X4-0" gate="A" pin="A"/>
+<wire x1="-398.78" y1="1112.52" x2="-401.32" y2="1112.52" width="0.1524" layer="91"/>
+<label x="-66.04" y="1082.04" size="1.4224" layer="95" xref="yes"/>
+<label x="-401.32" y="1112.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="Q1"/>
+<wire x1="-68.58" y1="1082.04" x2="-66.04" y2="1082.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="Q2"/>
+<wire x1="-68.58" y1="1079.5" x2="-66.04" y2="1079.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CS-EN" class="0">
+<segment>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="G2"/>
+<wire x1="-93.98" y1="1059.18" x2="-96.52" y2="1059.18" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="1059.18" x2="-96.52" y2="1061.72" width="0.1524" layer="91"/>
+<pinref part="CHIP-SELECT-REG-0" gate="A" pin="G1"/>
+<wire x1="-96.52" y1="1061.72" x2="-93.98" y2="1061.72" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="1061.72" x2="-99.06" y2="1061.72" width="0.1524" layer="91"/>
+<junction x="-96.52" y="1061.72"/>
+<label x="-99.06" y="1061.72" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
