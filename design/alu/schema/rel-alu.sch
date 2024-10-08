@@ -1697,17 +1697,16 @@ Based on the following sources:
 <sheets>
 <sheet>
 <plain>
-<wire x1="-167.64" y1="421.64" x2="-165.1" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-165.1" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-167.64" y1="429.26" x2="-167.64" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-167.64" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="2.54" x2="78.74" y2="429.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="429.26" x2="-167.64" y2="429.26" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-167.64" y1="429.26" x2="-167.64" y2="421.64" width="0.1524" layer="97" style="shortdash"/>
 <text x="20.32" y="424.18" size="2.54" layer="97">ALU (ARITHMETIC LOGIC UNIT)</text>
 <wire x1="10.16" y1="22.86" x2="10.16" y2="7.62" width="0.1524" layer="97"/>
 <wire x1="10.16" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="7.62" x2="73.66" y2="22.86" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="97"/>
-<text x="17.78" y="12.7" size="5.08" layer="97">VER 1.3</text>
+<text x="17.78" y="12.7" size="5.08" layer="97">VER 1.4</text>
 </plain>
 <instances>
 <instance part="DUAL-4X1-MUX-0" gate="A" x="-12.7" y="383.54" smashed="yes">
@@ -2024,30 +2023,27 @@ Based on the following sources:
 <label x="10.16" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ADD0-A2-IN" class="0">
+<net name="ALU-A2-IN" class="0">
 <segment>
 <pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A3"/>
 <wire x1="-124.46" y1="233.68" x2="-127" y2="233.68" width="0.1524" layer="91"/>
 <label x="-127" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="C" pin="O"/>
-<wire x1="-137.16" y1="137.16" x2="-137.16" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="134.62" x2="-144.78" y2="134.62" width="0.1524" layer="91"/>
-<label x="-144.78" y="134.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD0-A3-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A4"/>
-<wire x1="-124.46" y1="231.14" x2="-127" y2="231.14" width="0.1524" layer="91"/>
-<label x="-127" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="D" pin="O"/>
-<wire x1="-137.16" y1="111.76" x2="-137.16" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="109.22" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
-<label x="-144.78" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<wire x1="-101.6" y1="337.82" x2="-104.14" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="337.82" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="IC41" gate="D" pin="I0"/>
+<wire x1="-104.14" y1="332.74" x2="-104.14" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="327.66" x2="-101.6" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="IC42" gate="D" pin="I1"/>
+<wire x1="-101.6" y1="307.34" x2="-124.46" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="307.34" x2="-124.46" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="332.74" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
+<junction x="-104.14" y="332.74"/>
+<wire x1="-124.46" y1="332.74" x2="-127" y2="332.74" width="0.1524" layer="91"/>
+<junction x="-124.46" y="332.74"/>
+<label x="-127" y="332.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC3" gate="A" pin="I"/>
 </segment>
 </net>
 <net name="MUX1-2C1-IN" class="0">
@@ -2099,58 +2095,6 @@ Based on the following sources:
 <label x="10.16" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ADD1-A4-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A1"/>
-<wire x1="-58.42" y1="238.76" x2="-60.96" y2="238.76" width="0.1524" layer="91"/>
-<label x="-60.96" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="A" pin="O"/>
-<wire x1="-137.16" y1="86.36" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
-<label x="-144.78" y="83.82" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A5-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A2"/>
-<wire x1="-58.42" y1="236.22" x2="-60.96" y2="236.22" width="0.1524" layer="91"/>
-<label x="-60.96" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="B" pin="O"/>
-<wire x1="-137.16" y1="60.96" x2="-137.16" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="58.42" x2="-144.78" y2="58.42" width="0.1524" layer="91"/>
-<label x="-144.78" y="58.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A6-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A3"/>
-<wire x1="-58.42" y1="233.68" x2="-60.96" y2="233.68" width="0.1524" layer="91"/>
-<label x="-60.96" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="C" pin="O"/>
-<wire x1="-137.16" y1="35.56" x2="-137.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="33.02" x2="-144.78" y2="33.02" width="0.1524" layer="91"/>
-<label x="-144.78" y="33.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A7-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A4"/>
-<wire x1="-58.42" y1="231.14" x2="-60.96" y2="231.14" width="0.1524" layer="91"/>
-<label x="-60.96" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="D" pin="O"/>
-<wire x1="-137.16" y1="10.16" x2="-137.16" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="7.62" x2="-144.78" y2="7.62" width="0.1524" layer="91"/>
-<label x="-144.78" y="7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="CARRY-1" class="0">
 <segment>
 <wire x1="-33.02" y1="213.36" x2="-30.48" y2="213.36" width="0.1524" layer="91"/>
@@ -2158,37 +2102,7 @@ Based on the following sources:
 <pinref part="4BIT-FULL-ADDER-3" gate="A" pin="C4"/>
 </segment>
 </net>
-<net name="ALU-A0-IN" class="0">
-<segment>
-<pinref part="IC46" gate="A" pin="I1"/>
-<wire x1="-139.7" y1="203.2" x2="-139.7" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="205.74" x2="-149.86" y2="205.74" width="0.1524" layer="91"/>
-<label x="-149.86" y="205.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC35" gate="D" pin="I1"/>
-<wire x1="-101.6" y1="391.16" x2="-124.46" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="IC37" gate="D" pin="I0"/>
-<wire x1="-101.6" y1="411.48" x2="-104.14" y2="411.48" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="411.48" x2="-104.14" y2="416.56" width="0.1524" layer="91"/>
-<label x="-127" y="416.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<wire x1="-104.14" y1="416.56" x2="-124.46" y2="416.56" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="416.56" x2="-127" y2="416.56" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="421.64" x2="-104.14" y2="421.64" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="416.56" x2="-104.14" y2="421.64" width="0.1524" layer="91"/>
-<junction x="-104.14" y="416.56"/>
-<wire x1="-124.46" y1="391.16" x2="-124.46" y2="416.56" width="0.1524" layer="91"/>
-<junction x="-124.46" y="416.56"/>
-<pinref part="IC1" gate="A" pin="I"/>
-</segment>
-</net>
 <net name="ALU-A1-IN" class="0">
-<segment>
-<pinref part="IC46" gate="B" pin="I1"/>
-<wire x1="-139.7" y1="177.8" x2="-139.7" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="180.34" x2="-149.86" y2="180.34" width="0.1524" layer="91"/>
-<label x="-149.86" y="180.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC38" gate="A" pin="I0"/>
 <wire x1="-101.6" y1="370.84" x2="-104.14" y2="370.84" width="0.1524" layer="91"/>
@@ -2205,38 +2119,13 @@ Based on the following sources:
 <junction x="-124.46" y="375.92"/>
 <pinref part="IC2" gate="A" pin="I"/>
 </segment>
-</net>
-<net name="ALU-A2-IN" class="0">
 <segment>
-<pinref part="IC46" gate="C" pin="I1"/>
-<wire x1="-139.7" y1="152.4" x2="-139.7" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="154.94" x2="-149.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="-149.86" y="154.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="-101.6" y1="337.82" x2="-104.14" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="337.82" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="IC41" gate="D" pin="I0"/>
-<wire x1="-104.14" y1="332.74" x2="-104.14" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="327.66" x2="-101.6" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="IC42" gate="D" pin="I1"/>
-<wire x1="-101.6" y1="307.34" x2="-124.46" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="307.34" x2="-124.46" y2="332.74" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="332.74" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
-<junction x="-104.14" y="332.74"/>
-<wire x1="-124.46" y1="332.74" x2="-127" y2="332.74" width="0.1524" layer="91"/>
-<junction x="-124.46" y="332.74"/>
-<label x="-127" y="332.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC3" gate="A" pin="I"/>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A2"/>
+<wire x1="-124.46" y1="236.22" x2="-127" y2="236.22" width="0.1524" layer="91"/>
+<label x="-127" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-A3-IN" class="0">
-<segment>
-<pinref part="IC46" gate="D" pin="I1"/>
-<wire x1="-139.7" y1="127" x2="-139.7" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="129.54" x2="-149.86" y2="129.54" width="0.1524" layer="91"/>
-<label x="-149.86" y="129.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="-101.6" y1="297.18" x2="-104.14" y2="297.18" width="0.1524" layer="91"/>
 <pinref part="IC44" gate="A" pin="I0"/>
@@ -2251,6 +2140,11 @@ Based on the following sources:
 <junction x="-124.46" y="292.1"/>
 <label x="-127" y="292.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC4" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A4"/>
+<wire x1="-124.46" y1="231.14" x2="-127" y2="231.14" width="0.1524" layer="91"/>
+<label x="-127" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -2301,39 +2195,30 @@ Based on the following sources:
 <label x="-127" y="25.4" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="ADD0-A0-IN" class="0">
+<net name="ALU-A0-IN" class="0">
 <segment>
 <pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A1"/>
 <wire x1="-124.46" y1="238.76" x2="-127" y2="238.76" width="0.1524" layer="91"/>
 <label x="-127" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="A" pin="O"/>
-<wire x1="-137.16" y1="187.96" x2="-137.16" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="185.42" x2="-144.78" y2="185.42" width="0.1524" layer="91"/>
-<label x="-144.78" y="185.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD0-A1-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A2"/>
-<wire x1="-124.46" y1="236.22" x2="-127" y2="236.22" width="0.1524" layer="91"/>
-<label x="-127" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="B" pin="O"/>
-<wire x1="-137.16" y1="162.56" x2="-137.16" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="160.02" x2="-144.78" y2="160.02" width="0.1524" layer="91"/>
-<label x="-144.78" y="160.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC35" gate="D" pin="I1"/>
+<wire x1="-101.6" y1="391.16" x2="-124.46" y2="391.16" width="0.1524" layer="91"/>
+<pinref part="IC37" gate="D" pin="I0"/>
+<wire x1="-101.6" y1="411.48" x2="-104.14" y2="411.48" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="411.48" x2="-104.14" y2="416.56" width="0.1524" layer="91"/>
+<label x="-127" y="416.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<wire x1="-104.14" y1="416.56" x2="-124.46" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="416.56" x2="-127" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="421.64" x2="-104.14" y2="421.64" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="416.56" x2="-104.14" y2="421.64" width="0.1524" layer="91"/>
+<junction x="-104.14" y="416.56"/>
+<wire x1="-124.46" y1="391.16" x2="-124.46" y2="416.56" width="0.1524" layer="91"/>
+<junction x="-124.46" y="416.56"/>
+<pinref part="IC1" gate="A" pin="I"/>
 </segment>
 </net>
 <net name="ALU-A4-IN" class="0">
-<segment>
-<pinref part="IC47" gate="A" pin="I1"/>
-<wire x1="-139.7" y1="101.6" x2="-139.7" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="104.14" x2="-149.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="-149.86" y="104.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC48" gate="D" pin="I1"/>
 <wire x1="-66.04" y1="167.64" x2="-88.9" y2="167.64" width="0.1524" layer="91"/>
@@ -2350,14 +2235,13 @@ Based on the following sources:
 <junction x="-88.9" y="193.04"/>
 <pinref part="IC5" gate="A" pin="I"/>
 </segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A1"/>
+<wire x1="-58.42" y1="238.76" x2="-60.96" y2="238.76" width="0.1524" layer="91"/>
+<label x="-60.96" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-A5-IN" class="0">
-<segment>
-<pinref part="IC47" gate="B" pin="I1"/>
-<wire x1="-139.7" y1="76.2" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="78.74" x2="-149.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="-149.86" y="78.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC51" gate="A" pin="I0"/>
 <wire x1="-66.04" y1="147.32" x2="-68.58" y2="147.32" width="0.1524" layer="91"/>
@@ -2374,14 +2258,13 @@ Based on the following sources:
 <junction x="-88.9" y="152.4"/>
 <pinref part="IC6" gate="A" pin="I"/>
 </segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A2"/>
+<wire x1="-58.42" y1="236.22" x2="-60.96" y2="236.22" width="0.1524" layer="91"/>
+<label x="-60.96" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-A6-IN" class="0">
-<segment>
-<pinref part="IC47" gate="C" pin="I1"/>
-<wire x1="-139.7" y1="50.8" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="53.34" x2="-149.86" y2="53.34" width="0.1524" layer="91"/>
-<label x="-149.86" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="-66.04" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="114.3" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -2398,14 +2281,13 @@ Based on the following sources:
 <label x="-91.44" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC7" gate="A" pin="I"/>
 </segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A3"/>
+<wire x1="-58.42" y1="233.68" x2="-60.96" y2="233.68" width="0.1524" layer="91"/>
+<label x="-60.96" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-A7-IN" class="0">
-<segment>
-<pinref part="IC47" gate="D" pin="I1"/>
-<wire x1="-139.7" y1="25.4" x2="-139.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="27.94" x2="-149.86" y2="27.94" width="0.1524" layer="91"/>
-<label x="-149.86" y="27.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="-66.04" y1="73.66" x2="-68.58" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC57" gate="A" pin="I0"/>
@@ -2420,6 +2302,11 @@ Based on the following sources:
 <junction x="-88.9" y="68.58"/>
 <label x="-91.44" y="68.58" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC8" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A4"/>
+<wire x1="-58.42" y1="231.14" x2="-60.96" y2="231.14" width="0.1524" layer="91"/>
+<label x="-60.96" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C4-OUT" class="0">
@@ -2472,11 +2359,6 @@ Based on the following sources:
 </net>
 <net name="ALU-B0-IN" class="0">
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B1"/>
-<wire x1="-124.46" y1="226.06" x2="-127" y2="226.06" width="0.1524" layer="91"/>
-<label x="-127" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC37" gate="D" pin="I1"/>
 <wire x1="-101.6" y1="406.4" x2="-104.14" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="IC35" gate="D" pin="I0"/>
@@ -2487,13 +2369,14 @@ Based on the following sources:
 <wire x1="-104.14" y1="406.4" x2="-104.14" y2="401.32" width="0.1524" layer="91"/>
 <junction x="-104.14" y="401.32"/>
 </segment>
+<segment>
+<pinref part="IC46" gate="A" pin="I1"/>
+<wire x1="-139.7" y1="203.2" x2="-139.7" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="205.74" x2="-149.86" y2="205.74" width="0.1524" layer="91"/>
+<label x="-149.86" y="205.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B1-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B2"/>
-<wire x1="-124.46" y1="223.52" x2="-127" y2="223.52" width="0.1524" layer="91"/>
-<label x="-127" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC38" gate="A" pin="I1"/>
 <wire x1="-101.6" y1="365.76" x2="-104.14" y2="365.76" width="0.1524" layer="91"/>
@@ -2505,13 +2388,14 @@ Based on the following sources:
 <wire x1="-104.14" y1="355.6" x2="-104.14" y2="360.68" width="0.1524" layer="91"/>
 <junction x="-104.14" y="360.68"/>
 </segment>
+<segment>
+<pinref part="IC46" gate="B" pin="I1"/>
+<wire x1="-139.7" y1="177.8" x2="-139.7" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="180.34" x2="-149.86" y2="180.34" width="0.1524" layer="91"/>
+<label x="-149.86" y="180.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B2-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B3"/>
-<wire x1="-124.46" y1="220.98" x2="-127" y2="220.98" width="0.1524" layer="91"/>
-<label x="-127" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC42" gate="D" pin="I0"/>
 <wire x1="-101.6" y1="312.42" x2="-104.14" y2="312.42" width="0.1524" layer="91"/>
@@ -2523,13 +2407,14 @@ Based on the following sources:
 <junction x="-104.14" y="317.5"/>
 <label x="-109.22" y="317.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC46" gate="C" pin="I1"/>
+<wire x1="-139.7" y1="152.4" x2="-139.7" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="154.94" x2="-149.86" y2="154.94" width="0.1524" layer="91"/>
+<label x="-149.86" y="154.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B3-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B4"/>
-<wire x1="-124.46" y1="218.44" x2="-127" y2="218.44" width="0.1524" layer="91"/>
-<label x="-127" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC45" gate="A" pin="I0"/>
 <wire x1="-101.6" y1="271.78" x2="-104.14" y2="271.78" width="0.1524" layer="91"/>
@@ -2541,13 +2426,14 @@ Based on the following sources:
 <junction x="-104.14" y="276.86"/>
 <label x="-109.22" y="276.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC46" gate="D" pin="I1"/>
+<wire x1="-139.7" y1="127" x2="-139.7" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="129.54" x2="-149.86" y2="129.54" width="0.1524" layer="91"/>
+<label x="-149.86" y="129.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B4-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B1"/>
-<wire x1="-58.42" y1="226.06" x2="-60.96" y2="226.06" width="0.1524" layer="91"/>
-<label x="-60.96" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC50" gate="D" pin="I1"/>
 <wire x1="-66.04" y1="182.88" x2="-68.58" y2="182.88" width="0.1524" layer="91"/>
@@ -2559,13 +2445,14 @@ Based on the following sources:
 <wire x1="-68.58" y1="182.88" x2="-68.58" y2="177.8" width="0.1524" layer="91"/>
 <junction x="-68.58" y="177.8"/>
 </segment>
+<segment>
+<pinref part="IC47" gate="A" pin="I1"/>
+<wire x1="-139.7" y1="101.6" x2="-139.7" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="104.14" x2="-149.86" y2="104.14" width="0.1524" layer="91"/>
+<label x="-149.86" y="104.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B5-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B2"/>
-<wire x1="-58.42" y1="223.52" x2="-60.96" y2="223.52" width="0.1524" layer="91"/>
-<label x="-60.96" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC51" gate="A" pin="I1"/>
 <wire x1="-66.04" y1="142.24" x2="-68.58" y2="142.24" width="0.1524" layer="91"/>
@@ -2577,13 +2464,14 @@ Based on the following sources:
 <wire x1="-68.58" y1="132.08" x2="-68.58" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-68.58" y="137.16"/>
 </segment>
+<segment>
+<pinref part="IC47" gate="B" pin="I1"/>
+<wire x1="-139.7" y1="76.2" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="78.74" x2="-149.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="-149.86" y="78.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B6-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B3"/>
-<wire x1="-58.42" y1="220.98" x2="-60.96" y2="220.98" width="0.1524" layer="91"/>
-<label x="-60.96" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC55" gate="D" pin="I0"/>
 <wire x1="-66.04" y1="88.9" x2="-68.58" y2="88.9" width="0.1524" layer="91"/>
@@ -2595,13 +2483,14 @@ Based on the following sources:
 <junction x="-68.58" y="93.98"/>
 <label x="-73.66" y="93.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC47" gate="C" pin="I1"/>
+<wire x1="-139.7" y1="50.8" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="53.34" x2="-149.86" y2="53.34" width="0.1524" layer="91"/>
+<label x="-149.86" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALU-B7-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B4"/>
-<wire x1="-58.42" y1="218.44" x2="-60.96" y2="218.44" width="0.1524" layer="91"/>
-<label x="-60.96" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC58" gate="A" pin="I0"/>
 <wire x1="-66.04" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
@@ -2612,6 +2501,12 @@ Based on the following sources:
 <wire x1="-68.58" y1="53.34" x2="-73.66" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-68.58" y="53.34"/>
 <label x="-73.66" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="D" pin="I1"/>
+<wire x1="-139.7" y1="25.4" x2="-139.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="27.94" x2="-149.86" y2="27.94" width="0.1524" layer="91"/>
+<label x="-149.86" y="27.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU_EO" class="0">
@@ -3201,6 +3096,110 @@ Based on the following sources:
 <wire x1="-12.7" y1="58.42" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="60.96" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
 <label x="-35.56" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADD1-B7-IN" class="0">
+<segment>
+<pinref part="IC47" gate="D" pin="O"/>
+<wire x1="-137.16" y1="10.16" x2="-137.16" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="7.62" x2="-144.78" y2="7.62" width="0.1524" layer="91"/>
+<label x="-144.78" y="7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B4"/>
+<wire x1="-58.42" y1="218.44" x2="-60.96" y2="218.44" width="0.1524" layer="91"/>
+<label x="-60.96" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B6-IN" class="0">
+<segment>
+<pinref part="IC47" gate="C" pin="O"/>
+<wire x1="-137.16" y1="35.56" x2="-137.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="33.02" x2="-144.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="-144.78" y="33.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B3"/>
+<wire x1="-58.42" y1="220.98" x2="-60.96" y2="220.98" width="0.1524" layer="91"/>
+<label x="-60.96" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B5-IN" class="0">
+<segment>
+<pinref part="IC47" gate="B" pin="O"/>
+<wire x1="-137.16" y1="60.96" x2="-137.16" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="58.42" x2="-144.78" y2="58.42" width="0.1524" layer="91"/>
+<label x="-144.78" y="58.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B2"/>
+<wire x1="-58.42" y1="223.52" x2="-60.96" y2="223.52" width="0.1524" layer="91"/>
+<label x="-60.96" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B4-IN" class="0">
+<segment>
+<pinref part="IC47" gate="A" pin="O"/>
+<wire x1="-137.16" y1="86.36" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
+<label x="-144.78" y="83.82" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B1"/>
+<wire x1="-58.42" y1="226.06" x2="-60.96" y2="226.06" width="0.1524" layer="91"/>
+<label x="-60.96" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B3-IN" class="0">
+<segment>
+<pinref part="IC46" gate="D" pin="O"/>
+<wire x1="-137.16" y1="111.76" x2="-137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="109.22" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
+<label x="-144.78" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B4"/>
+<wire x1="-124.46" y1="218.44" x2="-127" y2="218.44" width="0.1524" layer="91"/>
+<label x="-127" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B0-IN" class="0">
+<segment>
+<pinref part="IC46" gate="A" pin="O"/>
+<wire x1="-137.16" y1="187.96" x2="-137.16" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="185.42" x2="-144.78" y2="185.42" width="0.1524" layer="91"/>
+<label x="-144.78" y="185.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B1"/>
+<wire x1="-124.46" y1="226.06" x2="-127" y2="226.06" width="0.1524" layer="91"/>
+<label x="-127" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B1-IN" class="0">
+<segment>
+<pinref part="IC46" gate="B" pin="O"/>
+<wire x1="-137.16" y1="162.56" x2="-137.16" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="160.02" x2="-144.78" y2="160.02" width="0.1524" layer="91"/>
+<label x="-144.78" y="160.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B2"/>
+<wire x1="-124.46" y1="223.52" x2="-127" y2="223.52" width="0.1524" layer="91"/>
+<label x="-127" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B2-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B3"/>
+<wire x1="-124.46" y1="220.98" x2="-127" y2="220.98" width="0.1524" layer="91"/>
+<label x="-127" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="C" pin="O"/>
+<wire x1="-137.16" y1="137.16" x2="-137.16" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="134.62" x2="-144.78" y2="134.62" width="0.1524" layer="91"/>
+<label x="-144.78" y="134.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

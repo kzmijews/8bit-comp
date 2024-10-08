@@ -24869,9 +24869,8 @@ single cathode, 13 mm</description>
 </bus>
 <bus name="MUX2-1C[0..3],MUX2-2C[0..3],MUX3-1C[0..3],MUX3-2C[0..3]">
 <segment>
-<wire x1="-1651" y1="508" x2="-1651" y2="368.3" width="0.762" layer="92"/>
-<label x="-1648.46" y="414.02" size="1.4224" layer="95" rot="R90"/>
-<wire x1="-1651" y1="508" x2="-1651" y2="520.7" width="0.762" layer="92"/>
+<wire x1="-1651" y1="520.7" x2="-1651" y2="368.3" width="0.762" layer="92"/>
+<label x="-1648.46" y="411.48" size="1.4224" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="-1651" y1="520.7" x2="-1651" y2="548.64" width="0.762" layer="92"/>
@@ -26607,32 +26606,6 @@ single cathode, 13 mm</description>
 <label x="-1623.06" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ADD0-A2-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A3"/>
-<wire x1="-1762.76" y1="546.1" x2="-1765.3" y2="546.1" width="0.1524" layer="91"/>
-<label x="-1765.3" y="546.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="C" pin="O"/>
-<wire x1="-1775.46" y1="449.58" x2="-1775.46" y2="447.04" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="447.04" x2="-1783.08" y2="447.04" width="0.1524" layer="91"/>
-<label x="-1783.08" y="447.04" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD0-A3-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A4"/>
-<wire x1="-1762.76" y1="543.56" x2="-1765.3" y2="543.56" width="0.1524" layer="91"/>
-<label x="-1765.3" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="D" pin="O"/>
-<wire x1="-1775.46" y1="424.18" x2="-1775.46" y2="421.64" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="421.64" x2="-1783.08" y2="421.64" width="0.1524" layer="91"/>
-<label x="-1783.08" y="421.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="MUX1-2C1-IN" class="0">
 <segment>
 <pinref part="IC45" gate="A" pin="O"/>
@@ -26680,58 +26653,6 @@ single cathode, 13 mm</description>
 <pinref part="ALU-BUF" gate="A" pin="A4"/>
 <wire x1="-1620.52" y1="543.56" x2="-1623.06" y2="543.56" width="0.1524" layer="91"/>
 <label x="-1623.06" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A4-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A1"/>
-<wire x1="-1696.72" y1="551.18" x2="-1699.26" y2="551.18" width="0.1524" layer="91"/>
-<label x="-1699.26" y="551.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="A" pin="O"/>
-<wire x1="-1775.46" y1="398.78" x2="-1775.46" y2="396.24" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="396.24" x2="-1783.08" y2="396.24" width="0.1524" layer="91"/>
-<label x="-1783.08" y="396.24" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A5-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A2"/>
-<wire x1="-1696.72" y1="548.64" x2="-1699.26" y2="548.64" width="0.1524" layer="91"/>
-<label x="-1699.26" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="B" pin="O"/>
-<wire x1="-1775.46" y1="373.38" x2="-1775.46" y2="370.84" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="370.84" x2="-1783.08" y2="370.84" width="0.1524" layer="91"/>
-<label x="-1783.08" y="370.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A6-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A3"/>
-<wire x1="-1696.72" y1="546.1" x2="-1699.26" y2="546.1" width="0.1524" layer="91"/>
-<label x="-1699.26" y="546.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="C" pin="O"/>
-<wire x1="-1775.46" y1="347.98" x2="-1775.46" y2="345.44" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="345.44" x2="-1783.08" y2="345.44" width="0.1524" layer="91"/>
-<label x="-1783.08" y="345.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD1-A7-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A4"/>
-<wire x1="-1696.72" y1="543.56" x2="-1699.26" y2="543.56" width="0.1524" layer="91"/>
-<label x="-1699.26" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="D" pin="O"/>
-<wire x1="-1775.46" y1="322.58" x2="-1775.46" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="320.04" x2="-1783.08" y2="320.04" width="0.1524" layer="91"/>
-<label x="-1783.08" y="320.04" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CARRY-1" class="0">
@@ -26787,32 +26708,6 @@ single cathode, 13 mm</description>
 <wire x1="-1765.3" y1="340.36" x2="-1765.3" y2="337.82" width="0.1524" layer="91"/>
 <junction x="-1765.3" y="340.36"/>
 <label x="-1765.3" y="337.82" size="1.4224" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="ADD0-A0-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A1"/>
-<wire x1="-1762.76" y1="551.18" x2="-1765.3" y2="551.18" width="0.1524" layer="91"/>
-<label x="-1765.3" y="551.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="A" pin="O"/>
-<wire x1="-1775.46" y1="500.38" x2="-1775.46" y2="497.84" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="497.84" x2="-1783.08" y2="497.84" width="0.1524" layer="91"/>
-<label x="-1783.08" y="497.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ADD0-A1-IN" class="0">
-<segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A2"/>
-<wire x1="-1762.76" y1="548.64" x2="-1765.3" y2="548.64" width="0.1524" layer="91"/>
-<label x="-1765.3" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC46" gate="B" pin="O"/>
-<wire x1="-1775.46" y1="474.98" x2="-1775.46" y2="472.44" width="0.1524" layer="91"/>
-<wire x1="-1775.46" y1="472.44" x2="-1783.08" y2="472.44" width="0.1524" layer="91"/>
-<label x="-1783.08" y="472.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C4-OUT" class="0">
@@ -31068,12 +30963,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A1"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="A" pin="I1"/>
-<wire x1="-1778" y1="515.62" x2="-1778" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="518.16" x2="-1788.16" y2="518.16" width="0.1524" layer="91"/>
-<label x="-1788.16" y="518.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC35" gate="D" pin="I1"/>
 <wire x1="-1739.9" y1="703.58" x2="-1767.84" y2="703.58" width="0.1524" layer="91"/>
 <pinref part="IC37" gate="D" pin="I0"/>
@@ -31088,6 +30977,11 @@ single cathode, 13 mm</description>
 <wire x1="-1767.84" y1="703.58" x2="-1767.84" y2="728.98" width="0.1524" layer="91"/>
 <junction x="-1767.84" y="728.98"/>
 <pinref part="IC1" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A1"/>
+<wire x1="-1762.76" y1="551.18" x2="-1765.3" y2="551.18" width="0.1524" layer="91"/>
+<label x="-1765.3" y="551.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-ACU-DATA1" class="0">
@@ -31111,12 +31005,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A2"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="B" pin="I1"/>
-<wire x1="-1778" y1="490.22" x2="-1778" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="492.76" x2="-1788.16" y2="492.76" width="0.1524" layer="91"/>
-<label x="-1788.16" y="492.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC38" gate="A" pin="I0"/>
 <wire x1="-1739.9" y1="683.26" x2="-1742.44" y2="683.26" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="683.26" x2="-1742.44" y2="688.34" width="0.1524" layer="91"/>
@@ -31131,6 +31019,11 @@ single cathode, 13 mm</description>
 <wire x1="-1767.84" y1="662.94" x2="-1767.84" y2="688.34" width="0.1524" layer="91"/>
 <junction x="-1767.84" y="688.34"/>
 <pinref part="IC2" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A2"/>
+<wire x1="-1762.76" y1="548.64" x2="-1765.3" y2="548.64" width="0.1524" layer="91"/>
+<label x="-1765.3" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-ACU-DATA2" class="0">
@@ -31153,12 +31046,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A3"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="C" pin="I1"/>
-<wire x1="-1778" y1="464.82" x2="-1778" y2="467.36" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="467.36" x2="-1788.16" y2="467.36" width="0.1524" layer="91"/>
-<label x="-1788.16" y="467.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-1739.9" y1="650.24" x2="-1742.44" y2="650.24" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="650.24" x2="-1742.44" y2="645.16" width="0.1524" layer="91"/>
 <pinref part="IC41" gate="D" pin="I0"/>
@@ -31173,6 +31060,11 @@ single cathode, 13 mm</description>
 <junction x="-1767.84" y="645.16"/>
 <label x="-1770.38" y="645.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC3" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A3"/>
+<wire x1="-1762.76" y1="546.1" x2="-1765.3" y2="546.1" width="0.1524" layer="91"/>
+<label x="-1765.3" y="546.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-ACU-DATA3" class="0">
@@ -31195,12 +31087,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A4"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="D" pin="I1"/>
-<wire x1="-1778" y1="439.42" x2="-1778" y2="441.96" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="441.96" x2="-1788.16" y2="441.96" width="0.1524" layer="91"/>
-<label x="-1788.16" y="441.96" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-1739.9" y1="609.6" x2="-1742.44" y2="609.6" width="0.1524" layer="91"/>
 <pinref part="IC44" gate="A" pin="I0"/>
 <wire x1="-1742.44" y1="609.6" x2="-1742.44" y2="604.52" width="0.1524" layer="91"/>
@@ -31214,6 +31100,11 @@ single cathode, 13 mm</description>
 <junction x="-1767.84" y="604.52"/>
 <label x="-1770.38" y="604.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC4" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A4"/>
+<wire x1="-1762.76" y1="543.56" x2="-1765.3" y2="543.56" width="0.1524" layer="91"/>
+<label x="-1765.3" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-AC-DATA4" class="0">
@@ -31250,12 +31141,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A6"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="B" pin="I1"/>
-<wire x1="-1778" y1="388.62" x2="-1778" y2="391.16" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="391.16" x2="-1788.16" y2="391.16" width="0.1524" layer="91"/>
-<label x="-1788.16" y="391.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC51" gate="A" pin="I0"/>
 <wire x1="-1704.34" y1="459.74" x2="-1706.88" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="459.74" x2="-1706.88" y2="464.82" width="0.1524" layer="91"/>
@@ -31270,6 +31155,11 @@ single cathode, 13 mm</description>
 <wire x1="-1732.28" y1="439.42" x2="-1732.28" y2="464.82" width="0.1524" layer="91"/>
 <junction x="-1732.28" y="464.82"/>
 <pinref part="IC6" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A2"/>
+<wire x1="-1696.72" y1="548.64" x2="-1699.26" y2="548.64" width="0.1524" layer="91"/>
+<label x="-1699.26" y="548.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-ACU-DATA6" class="0">
@@ -31292,12 +31182,6 @@ single cathode, 13 mm</description>
 <pinref part="REG-AC-BUF" gate="A" pin="A7"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="C" pin="I1"/>
-<wire x1="-1778" y1="363.22" x2="-1778" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="365.76" x2="-1788.16" y2="365.76" width="0.1524" layer="91"/>
-<label x="-1788.16" y="365.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-1704.34" y1="426.72" x2="-1706.88" y2="426.72" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="426.72" x2="-1706.88" y2="421.64" width="0.1524" layer="91"/>
 <pinref part="IC54" gate="D" pin="I0"/>
@@ -31312,6 +31196,11 @@ single cathode, 13 mm</description>
 <junction x="-1732.28" y="421.64"/>
 <label x="-1734.82" y="421.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC7" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A3"/>
+<wire x1="-1696.72" y1="546.1" x2="-1699.26" y2="546.1" width="0.1524" layer="91"/>
+<label x="-1699.26" y="546.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-AC-DATA7" class="0">
@@ -31413,11 +31302,6 @@ single cathode, 13 mm</description>
 <pinref part="LED34" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B1"/>
-<wire x1="-1762.76" y1="538.48" x2="-1765.3" y2="538.48" width="0.1524" layer="91"/>
-<label x="-1765.3" y="538.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC37" gate="D" pin="I1"/>
 <wire x1="-1739.9" y1="718.82" x2="-1742.44" y2="718.82" width="0.1524" layer="91"/>
 <pinref part="IC35" gate="D" pin="I0"/>
@@ -31427,6 +31311,12 @@ single cathode, 13 mm</description>
 <wire x1="-1742.44" y1="713.74" x2="-1747.52" y2="713.74" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="718.82" x2="-1742.44" y2="713.74" width="0.1524" layer="91"/>
 <junction x="-1742.44" y="713.74"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="A" pin="I1"/>
+<wire x1="-1778" y1="515.62" x2="-1778" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="518.16" x2="-1788.16" y2="518.16" width="0.1524" layer="91"/>
+<label x="-1788.16" y="518.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA1" class="0">
@@ -31449,11 +31339,6 @@ single cathode, 13 mm</description>
 <pinref part="LED35" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B2"/>
-<wire x1="-1762.76" y1="535.94" x2="-1765.3" y2="535.94" width="0.1524" layer="91"/>
-<label x="-1765.3" y="535.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC38" gate="A" pin="I1"/>
 <wire x1="-1739.9" y1="678.18" x2="-1742.44" y2="678.18" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="678.18" x2="-1742.44" y2="673.1" width="0.1524" layer="91"/>
@@ -31463,6 +31348,12 @@ single cathode, 13 mm</description>
 <wire x1="-1739.9" y1="668.02" x2="-1742.44" y2="668.02" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="668.02" x2="-1742.44" y2="673.1" width="0.1524" layer="91"/>
 <junction x="-1742.44" y="673.1"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="B" pin="I1"/>
+<wire x1="-1778" y1="490.22" x2="-1778" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="492.76" x2="-1788.16" y2="492.76" width="0.1524" layer="91"/>
+<label x="-1788.16" y="492.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA2" class="0">
@@ -31485,11 +31376,6 @@ single cathode, 13 mm</description>
 <pinref part="LED36" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B3"/>
-<wire x1="-1762.76" y1="533.4" x2="-1765.3" y2="533.4" width="0.1524" layer="91"/>
-<label x="-1765.3" y="533.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC42" gate="D" pin="I0"/>
 <wire x1="-1739.9" y1="624.84" x2="-1742.44" y2="624.84" width="0.1524" layer="91"/>
 <wire x1="-1742.44" y1="624.84" x2="-1742.44" y2="629.92" width="0.1524" layer="91"/>
@@ -31499,6 +31385,12 @@ single cathode, 13 mm</description>
 <wire x1="-1742.44" y1="629.92" x2="-1747.52" y2="629.92" width="0.1524" layer="91"/>
 <junction x="-1742.44" y="629.92"/>
 <label x="-1747.52" y="629.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="C" pin="I1"/>
+<wire x1="-1778" y1="464.82" x2="-1778" y2="467.36" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="467.36" x2="-1788.16" y2="467.36" width="0.1524" layer="91"/>
+<label x="-1788.16" y="467.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA3" class="0">
@@ -31521,11 +31413,6 @@ single cathode, 13 mm</description>
 <pinref part="LED37" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B4"/>
-<wire x1="-1762.76" y1="530.86" x2="-1765.3" y2="530.86" width="0.1524" layer="91"/>
-<label x="-1765.3" y="530.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC45" gate="A" pin="I0"/>
 <wire x1="-1739.9" y1="584.2" x2="-1742.44" y2="584.2" width="0.1524" layer="91"/>
 <pinref part="IC44" gate="A" pin="I1"/>
@@ -31535,6 +31422,12 @@ single cathode, 13 mm</description>
 <wire x1="-1742.44" y1="589.28" x2="-1747.52" y2="589.28" width="0.1524" layer="91"/>
 <junction x="-1742.44" y="589.28"/>
 <label x="-1747.52" y="589.28" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="D" pin="I1"/>
+<wire x1="-1778" y1="439.42" x2="-1778" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="441.96" x2="-1788.16" y2="441.96" width="0.1524" layer="91"/>
+<label x="-1788.16" y="441.96" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA4" class="0">
@@ -31557,11 +31450,6 @@ single cathode, 13 mm</description>
 <pinref part="LED38" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B1"/>
-<wire x1="-1696.72" y1="538.48" x2="-1699.26" y2="538.48" width="0.1524" layer="91"/>
-<label x="-1699.26" y="538.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC50" gate="D" pin="I1"/>
 <wire x1="-1704.34" y1="495.3" x2="-1706.88" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="IC48" gate="D" pin="I0"/>
@@ -31571,6 +31459,12 @@ single cathode, 13 mm</description>
 <wire x1="-1706.88" y1="490.22" x2="-1711.96" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="495.3" x2="-1706.88" y2="490.22" width="0.1524" layer="91"/>
 <junction x="-1706.88" y="490.22"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="A" pin="I1"/>
+<wire x1="-1778" y1="414.02" x2="-1778" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="416.56" x2="-1788.16" y2="416.56" width="0.1524" layer="91"/>
+<label x="-1788.16" y="416.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA5" class="0">
@@ -31593,11 +31487,6 @@ single cathode, 13 mm</description>
 <pinref part="LED39" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B2"/>
-<wire x1="-1696.72" y1="535.94" x2="-1699.26" y2="535.94" width="0.1524" layer="91"/>
-<label x="-1699.26" y="535.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC51" gate="A" pin="I1"/>
 <wire x1="-1704.34" y1="454.66" x2="-1706.88" y2="454.66" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="454.66" x2="-1706.88" y2="449.58" width="0.1524" layer="91"/>
@@ -31607,6 +31496,12 @@ single cathode, 13 mm</description>
 <wire x1="-1704.34" y1="444.5" x2="-1706.88" y2="444.5" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="444.5" x2="-1706.88" y2="449.58" width="0.1524" layer="91"/>
 <junction x="-1706.88" y="449.58"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="B" pin="I1"/>
+<wire x1="-1778" y1="388.62" x2="-1778" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="391.16" x2="-1788.16" y2="391.16" width="0.1524" layer="91"/>
+<label x="-1788.16" y="391.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA6" class="0">
@@ -31629,11 +31524,6 @@ single cathode, 13 mm</description>
 <pinref part="LED40" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B3"/>
-<wire x1="-1696.72" y1="533.4" x2="-1699.26" y2="533.4" width="0.1524" layer="91"/>
-<label x="-1699.26" y="533.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC55" gate="D" pin="I0"/>
 <wire x1="-1704.34" y1="401.32" x2="-1706.88" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="-1706.88" y1="401.32" x2="-1706.88" y2="406.4" width="0.1524" layer="91"/>
@@ -31643,6 +31533,12 @@ single cathode, 13 mm</description>
 <wire x1="-1706.88" y1="406.4" x2="-1711.96" y2="406.4" width="0.1524" layer="91"/>
 <junction x="-1706.88" y="406.4"/>
 <label x="-1711.96" y="406.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="C" pin="I1"/>
+<wire x1="-1778" y1="363.22" x2="-1778" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="365.76" x2="-1788.16" y2="365.76" width="0.1524" layer="91"/>
+<label x="-1788.16" y="365.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MBR-DATA7" class="0">
@@ -31665,11 +31561,6 @@ single cathode, 13 mm</description>
 <pinref part="LED41" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B4"/>
-<wire x1="-1696.72" y1="530.86" x2="-1699.26" y2="530.86" width="0.1524" layer="91"/>
-<label x="-1699.26" y="530.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC58" gate="A" pin="I0"/>
 <wire x1="-1704.34" y1="360.68" x2="-1706.88" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="IC57" gate="A" pin="I1"/>
@@ -31679,6 +31570,12 @@ single cathode, 13 mm</description>
 <wire x1="-1706.88" y1="365.76" x2="-1711.96" y2="365.76" width="0.1524" layer="91"/>
 <junction x="-1706.88" y="365.76"/>
 <label x="-1711.96" y="365.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="D" pin="I1"/>
+<wire x1="-1778" y1="337.82" x2="-1778" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-1778" y1="340.36" x2="-1788.16" y2="340.36" width="0.1524" layer="91"/>
+<label x="-1788.16" y="340.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REG-MAR-LOAD-IN" class="0">
@@ -32860,12 +32757,6 @@ single cathode, 13 mm</description>
 <wire x1="-1457.96" y1="759.46" x2="-1455.42" y2="756.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="A" pin="I1"/>
-<wire x1="-1778" y1="414.02" x2="-1778" y2="416.56" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="416.56" x2="-1788.16" y2="416.56" width="0.1524" layer="91"/>
-<label x="-1788.16" y="416.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC48" gate="D" pin="I1"/>
 <wire x1="-1704.34" y1="480.06" x2="-1732.28" y2="480.06" width="0.1524" layer="91"/>
 <pinref part="IC50" gate="D" pin="I0"/>
@@ -32881,6 +32772,11 @@ single cathode, 13 mm</description>
 <junction x="-1732.28" y="505.46"/>
 <pinref part="IC5" gate="A" pin="I"/>
 </segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A1"/>
+<wire x1="-1696.72" y1="551.18" x2="-1699.26" y2="551.18" width="0.1524" layer="91"/>
+<label x="-1699.26" y="551.18" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="REG-ACU-DATA7" class="0">
 <segment>
@@ -32888,12 +32784,6 @@ single cathode, 13 mm</description>
 <wire x1="-1483.36" y1="751.84" x2="-1457.96" y2="751.84" width="0.1524" layer="91"/>
 <label x="-1480.82" y="751.84" size="1.778" layer="95"/>
 <wire x1="-1457.96" y1="751.84" x2="-1455.42" y2="749.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC47" gate="D" pin="I1"/>
-<wire x1="-1778" y1="337.82" x2="-1778" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-1778" y1="340.36" x2="-1788.16" y2="340.36" width="0.1524" layer="91"/>
-<label x="-1788.16" y="340.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-1704.34" y1="386.08" x2="-1706.88" y2="386.08" width="0.1524" layer="91"/>
@@ -32909,6 +32799,11 @@ single cathode, 13 mm</description>
 <junction x="-1732.28" y="381"/>
 <label x="-1734.82" y="381" size="1.4224" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC8" gate="A" pin="I"/>
+</segment>
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A4"/>
+<wire x1="-1696.72" y1="543.56" x2="-1699.26" y2="543.56" width="0.1524" layer="91"/>
+<label x="-1699.26" y="543.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PCL-OUT" class="0">
@@ -32991,6 +32886,110 @@ single cathode, 13 mm</description>
 <pinref part="74LS161N-3" gate="A" pin="LD"/>
 <wire x1="-1709.42" y1="162.56" x2="-1714.5" y2="162.56" width="0.1524" layer="91"/>
 <label x="-1714.5" y="162.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B0-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B1"/>
+<wire x1="-1762.76" y1="538.48" x2="-1765.3" y2="538.48" width="0.1524" layer="91"/>
+<label x="-1765.3" y="538.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="A" pin="O"/>
+<wire x1="-1775.46" y1="500.38" x2="-1775.46" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="497.84" x2="-1783.08" y2="497.84" width="0.1524" layer="91"/>
+<label x="-1783.08" y="497.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B4-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B1"/>
+<wire x1="-1696.72" y1="538.48" x2="-1699.26" y2="538.48" width="0.1524" layer="91"/>
+<label x="-1699.26" y="538.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="A" pin="O"/>
+<wire x1="-1775.46" y1="398.78" x2="-1775.46" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="396.24" x2="-1783.08" y2="396.24" width="0.1524" layer="91"/>
+<label x="-1783.08" y="396.24" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B1-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B2"/>
+<wire x1="-1762.76" y1="535.94" x2="-1765.3" y2="535.94" width="0.1524" layer="91"/>
+<label x="-1765.3" y="535.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="B" pin="O"/>
+<wire x1="-1775.46" y1="474.98" x2="-1775.46" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="472.44" x2="-1783.08" y2="472.44" width="0.1524" layer="91"/>
+<label x="-1783.08" y="472.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B2-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B3"/>
+<wire x1="-1762.76" y1="533.4" x2="-1765.3" y2="533.4" width="0.1524" layer="91"/>
+<label x="-1765.3" y="533.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="C" pin="O"/>
+<wire x1="-1775.46" y1="449.58" x2="-1775.46" y2="447.04" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="447.04" x2="-1783.08" y2="447.04" width="0.1524" layer="91"/>
+<label x="-1783.08" y="447.04" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD0-B3-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B4"/>
+<wire x1="-1762.76" y1="530.86" x2="-1765.3" y2="530.86" width="0.1524" layer="91"/>
+<label x="-1765.3" y="530.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC46" gate="D" pin="O"/>
+<wire x1="-1775.46" y1="424.18" x2="-1775.46" y2="421.64" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="421.64" x2="-1783.08" y2="421.64" width="0.1524" layer="91"/>
+<label x="-1783.08" y="421.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B5-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B2"/>
+<wire x1="-1696.72" y1="535.94" x2="-1699.26" y2="535.94" width="0.1524" layer="91"/>
+<label x="-1699.26" y="535.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="B" pin="O"/>
+<wire x1="-1775.46" y1="373.38" x2="-1775.46" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="370.84" x2="-1783.08" y2="370.84" width="0.1524" layer="91"/>
+<label x="-1783.08" y="370.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B6-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B3"/>
+<wire x1="-1696.72" y1="533.4" x2="-1699.26" y2="533.4" width="0.1524" layer="91"/>
+<label x="-1699.26" y="533.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="C" pin="O"/>
+<wire x1="-1775.46" y1="347.98" x2="-1775.46" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="345.44" x2="-1783.08" y2="345.44" width="0.1524" layer="91"/>
+<label x="-1783.08" y="345.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADD1-B7-IN" class="0">
+<segment>
+<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B4"/>
+<wire x1="-1696.72" y1="530.86" x2="-1699.26" y2="530.86" width="0.1524" layer="91"/>
+<label x="-1699.26" y="530.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC47" gate="D" pin="O"/>
+<wire x1="-1775.46" y1="322.58" x2="-1775.46" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="-1775.46" y1="320.04" x2="-1783.08" y2="320.04" width="0.1524" layer="91"/>
+<label x="-1783.08" y="320.04" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
