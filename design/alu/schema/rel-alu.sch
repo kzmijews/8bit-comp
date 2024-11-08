@@ -1656,41 +1656,41 @@ Based on the following sources:
 </classes>
 <parts>
 <part name="DUAL-4X1-MUX-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*153" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="4BIT-FULL-ADDER-2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*283" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="IC35" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC37" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="4BIT-FULL-ADDER-3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*283" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="IC38" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC39" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="4BIT-FULL-ADDER-0" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*283" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
+<part name="OR-AB0-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND0-AB0-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="4BIT-FULL-ADDER-1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*283" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
+<part name="AND0-AB1-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR0-AB1-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="DUAL-4X1-MUX-1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*153" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC41" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC42" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC44" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC45" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC46" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC47" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND0-AB2-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR0-AB2-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND0-AB3-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR0-AB3-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="XOR0-B" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="XOR1-B" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="DUAL-4X1-MUX-2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*153" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="IC48" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC50" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC51" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC52" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR1-AB4-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND1-AB4-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND1-AB5-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR1-AB5-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="DUAL-4X1-MUX-3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*153" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC54" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC55" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC57" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC58" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC59" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
+<part name="AND1-AB6-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR1-AB6-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="AND1-AB7-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="OR1-AB7-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*32" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="BUFFER-OUT" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*245" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="LS"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC4" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC5" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC6" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC7" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="IC8" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER0-A0-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER0-A1-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER0-A2-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER0-A3-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER1-A4-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER1-A5-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER1-A6-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="INVERTER1-A7-" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -1706,34 +1706,34 @@ Based on the following sources:
 <wire x1="10.16" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="7.62" x2="73.66" y2="22.86" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="97"/>
-<text x="17.78" y="12.7" size="5.08" layer="97">VER 1.4</text>
+<text x="17.78" y="12.7" size="5.08" layer="97">VER 1.5</text>
 </plain>
 <instances>
 <instance part="DUAL-4X1-MUX-0" gate="A" x="-12.7" y="383.54" smashed="yes">
 <attribute name="NAME" x="-25.4" y="401.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-20.32" y="360.68" size="1.778" layer="96"/>
 </instance>
-<instance part="4BIT-FULL-ADDER-2" gate="A" x="-111.76" y="226.06" smashed="yes">
+<instance part="4BIT-FULL-ADDER-0" gate="A" x="-111.76" y="226.06" smashed="yes">
 <attribute name="NAME" x="-119.38" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-119.38" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="4BIT-FULL-ADDER-3" gate="A" x="-45.72" y="226.06" smashed="yes">
+<instance part="4BIT-FULL-ADDER-1" gate="A" x="-45.72" y="226.06" smashed="yes">
 <attribute name="NAME" x="-53.34" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="IC37" gate="D" x="-93.98" y="408.94" smashed="yes">
+<instance part="AND0-AB0-" gate="D" x="-93.98" y="408.94" smashed="yes">
 <attribute name="NAME" x="-91.44" y="412.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="403.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC38" gate="A" x="-93.98" y="368.3" smashed="yes">
+<instance part="AND0-AB1-" gate="A" x="-93.98" y="368.3" smashed="yes">
 <attribute name="NAME" x="-91.44" y="371.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="363.22" size="1.778" layer="96"/>
 </instance>
-<instance part="IC35" gate="D" x="-93.98" y="393.7" smashed="yes">
+<instance part="OR-AB0-" gate="D" x="-93.98" y="393.7" smashed="yes">
 <attribute name="NAME" x="-91.44" y="396.875" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="388.62" size="1.778" layer="96"/>
 </instance>
-<instance part="IC39" gate="A" x="-93.98" y="353.06" smashed="yes">
+<instance part="OR0-AB1-" gate="A" x="-93.98" y="353.06" smashed="yes">
 <attribute name="NAME" x="-91.44" y="356.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="347.98" size="1.778" layer="96"/>
 </instance>
@@ -1744,51 +1744,51 @@ Based on the following sources:
 <instance part="GND1" gate="1" x="-27.94" y="276.86" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="274.32" size="1.778" layer="96"/>
 </instance>
-<instance part="IC41" gate="D" x="-93.98" y="325.12" smashed="yes">
+<instance part="AND0-AB2-" gate="D" x="-93.98" y="325.12" smashed="yes">
 <attribute name="NAME" x="-91.44" y="328.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="320.04" size="1.778" layer="96"/>
 </instance>
-<instance part="IC42" gate="D" x="-93.98" y="309.88" smashed="yes">
+<instance part="OR0-AB2-" gate="D" x="-93.98" y="309.88" smashed="yes">
 <attribute name="NAME" x="-91.44" y="313.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="304.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC44" gate="A" x="-93.98" y="284.48" smashed="yes">
+<instance part="AND0-AB3-" gate="A" x="-93.98" y="284.48" smashed="yes">
 <attribute name="NAME" x="-91.44" y="287.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="279.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC45" gate="A" x="-93.98" y="269.24" smashed="yes">
+<instance part="OR0-AB3-" gate="A" x="-93.98" y="269.24" smashed="yes">
 <attribute name="NAME" x="-91.44" y="272.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-91.44" y="264.16" size="1.778" layer="96"/>
 </instance>
-<instance part="IC46" gate="A" x="-137.16" y="195.58" smashed="yes" rot="R270">
+<instance part="XOR0-B" gate="A" x="-137.16" y="195.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="203.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="203.2" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC46" gate="B" x="-137.16" y="170.18" smashed="yes" rot="R270">
+<instance part="XOR0-B" gate="B" x="-137.16" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="177.8" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="177.8" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC46" gate="C" x="-137.16" y="144.78" smashed="yes" rot="R270">
+<instance part="XOR0-B" gate="C" x="-137.16" y="144.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="152.4" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="152.4" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC46" gate="D" x="-137.16" y="119.38" smashed="yes" rot="R270">
+<instance part="XOR0-B" gate="D" x="-137.16" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="127" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="127" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC47" gate="A" x="-137.16" y="93.98" smashed="yes" rot="R270">
+<instance part="XOR1-B" gate="A" x="-137.16" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="101.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="101.6" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC47" gate="B" x="-137.16" y="68.58" smashed="yes" rot="R270">
+<instance part="XOR1-B" gate="B" x="-137.16" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="76.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="76.2" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC47" gate="C" x="-137.16" y="43.18" smashed="yes" rot="R270">
+<instance part="XOR1-B" gate="C" x="-137.16" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="50.8" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="50.8" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC47" gate="D" x="-137.16" y="17.78" smashed="yes" rot="R270">
+<instance part="XOR1-B" gate="D" x="-137.16" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="-131.445" y="25.4" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-144.78" y="25.4" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -1796,19 +1796,19 @@ Based on the following sources:
 <attribute name="NAME" x="10.16" y="178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="IC50" gate="D" x="-58.42" y="185.42" smashed="yes">
+<instance part="AND1-AB4-" gate="D" x="-58.42" y="185.42" smashed="yes">
 <attribute name="NAME" x="-55.88" y="188.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="IC51" gate="A" x="-58.42" y="144.78" smashed="yes">
+<instance part="AND1-AB5-" gate="A" x="-58.42" y="144.78" smashed="yes">
 <attribute name="NAME" x="-55.88" y="147.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="IC48" gate="D" x="-58.42" y="170.18" smashed="yes">
+<instance part="OR1-AB4-" gate="D" x="-58.42" y="170.18" smashed="yes">
 <attribute name="NAME" x="-55.88" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC52" gate="A" x="-58.42" y="129.54" smashed="yes">
+<instance part="OR1-AB5-" gate="A" x="-58.42" y="129.54" smashed="yes">
 <attribute name="NAME" x="-55.88" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="124.46" size="1.778" layer="96"/>
 </instance>
@@ -1819,58 +1819,58 @@ Based on the following sources:
 <instance part="GND2" gate="1" x="7.62" y="53.34" smashed="yes">
 <attribute name="VALUE" x="5.08" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC54" gate="D" x="-58.42" y="101.6" smashed="yes">
+<instance part="AND1-AB6-" gate="D" x="-58.42" y="101.6" smashed="yes">
 <attribute name="NAME" x="-55.88" y="104.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="IC55" gate="D" x="-58.42" y="86.36" smashed="yes">
+<instance part="OR1-AB6-" gate="D" x="-58.42" y="86.36" smashed="yes">
 <attribute name="NAME" x="-55.88" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="IC57" gate="A" x="-58.42" y="60.96" smashed="yes">
+<instance part="AND1-AB7-" gate="A" x="-58.42" y="60.96" smashed="yes">
 <attribute name="NAME" x="-55.88" y="64.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="IC58" gate="A" x="-58.42" y="45.72" smashed="yes">
+<instance part="OR1-AB7-" gate="A" x="-58.42" y="45.72" smashed="yes">
 <attribute name="NAME" x="-55.88" y="48.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="IC59" gate="A" x="25.4" y="226.06" smashed="yes">
+<instance part="BUFFER-OUT" gate="A" x="25.4" y="226.06" smashed="yes">
 <attribute name="NAME" x="17.78" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.78" y="208.28" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="-7.62" y="251.46" smashed="yes">
 <attribute name="VALUE" x="-12.065" y="254.635" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="A" x="-91.44" y="421.64" smashed="yes">
+<instance part="INVERTER0-A0-" gate="A" x="-91.44" y="421.64" smashed="yes">
 <attribute name="NAME" x="-88.9" y="424.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-88.9" y="416.56" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="A" x="-91.44" y="381" smashed="yes">
+<instance part="INVERTER0-A1-" gate="A" x="-91.44" y="381" smashed="yes">
 <attribute name="NAME" x="-88.9" y="384.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-88.9" y="375.92" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="A" x="-91.44" y="337.82" smashed="yes">
+<instance part="INVERTER0-A2-" gate="A" x="-91.44" y="337.82" smashed="yes">
 <attribute name="NAME" x="-88.9" y="340.995" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-88.9" y="332.74" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="A" x="-91.44" y="297.18" smashed="yes">
+<instance part="INVERTER0-A3-" gate="A" x="-91.44" y="297.18" smashed="yes">
 <attribute name="NAME" x="-88.9" y="300.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-88.9" y="292.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="A" x="-55.88" y="198.12" smashed="yes">
+<instance part="INVERTER1-A4-" gate="A" x="-55.88" y="198.12" smashed="yes">
 <attribute name="NAME" x="-53.34" y="201.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="193.04" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="A" x="-55.88" y="157.48" smashed="yes">
+<instance part="INVERTER1-A5-" gate="A" x="-55.88" y="157.48" smashed="yes">
 <attribute name="NAME" x="-53.34" y="160.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC7" gate="A" x="-55.88" y="114.3" smashed="yes">
+<instance part="INVERTER1-A6-" gate="A" x="-55.88" y="114.3" smashed="yes">
 <attribute name="NAME" x="-53.34" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="IC8" gate="A" x="-55.88" y="73.66" smashed="yes">
+<instance part="INVERTER1-A7-" gate="A" x="-55.88" y="73.66" smashed="yes">
 <attribute name="NAME" x="-53.34" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-53.34" y="68.58" size="1.778" layer="96"/>
 </instance>
@@ -1907,7 +1907,7 @@ Based on the following sources:
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="DIR"/>
+<pinref part="BUFFER-OUT" gate="A" pin="DIR"/>
 <wire x1="12.7" y1="215.9" x2="-7.62" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="215.9" x2="-7.62" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
@@ -2006,7 +2006,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-0" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A1"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A1"/>
 <wire x1="12.7" y1="238.76" x2="10.16" y2="238.76" width="0.1524" layer="91"/>
 <label x="10.16" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2018,24 +2018,24 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-0" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A2"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A2"/>
 <wire x1="12.7" y1="236.22" x2="10.16" y2="236.22" width="0.1524" layer="91"/>
 <label x="10.16" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-A2-IN" class="0">
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A3"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="A3"/>
 <wire x1="-124.46" y1="233.68" x2="-127" y2="233.68" width="0.1524" layer="91"/>
 <label x="-127" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-101.6" y1="337.82" x2="-104.14" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="337.82" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="IC41" gate="D" pin="I0"/>
+<pinref part="AND0-AB2-" gate="D" pin="I0"/>
 <wire x1="-104.14" y1="332.74" x2="-104.14" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="327.66" x2="-101.6" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="IC42" gate="D" pin="I1"/>
+<pinref part="OR0-AB2-" gate="D" pin="I1"/>
 <wire x1="-101.6" y1="307.34" x2="-124.46" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="307.34" x2="-124.46" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="332.74" x2="-104.14" y2="332.74" width="0.1524" layer="91"/>
@@ -2043,12 +2043,12 @@ Based on the following sources:
 <wire x1="-124.46" y1="332.74" x2="-127" y2="332.74" width="0.1524" layer="91"/>
 <junction x="-124.46" y="332.74"/>
 <label x="-127" y="332.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC3" gate="A" pin="I"/>
+<pinref part="INVERTER0-A2-" gate="A" pin="I"/>
 </segment>
 </net>
 <net name="MUX1-2C1-IN" class="0">
 <segment>
-<pinref part="IC45" gate="A" pin="O"/>
+<pinref part="OR0-AB3-" gate="A" pin="O"/>
 <wire x1="-86.36" y1="269.24" x2="-73.66" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="269.24" x2="-73.66" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="281.94" x2="-71.12" y2="281.94" width="0.1524" layer="91"/>
@@ -2061,12 +2061,12 @@ Based on the following sources:
 <wire x1="-73.66" y1="297.18" x2="-73.66" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="287.02" x2="-71.12" y2="287.02" width="0.1524" layer="91"/>
 <label x="-71.12" y="287.02" size="1.4224" layer="95" xref="yes"/>
-<pinref part="IC4" gate="A" pin="O"/>
+<pinref part="INVERTER0-A3-" gate="A" pin="O"/>
 </segment>
 </net>
 <net name="MUX1-2C3-IN" class="0">
 <segment>
-<pinref part="IC44" gate="A" pin="O"/>
+<pinref part="AND0-AB3-" gate="A" pin="O"/>
 <wire x1="-86.36" y1="284.48" x2="-71.12" y2="284.48" width="0.1524" layer="91"/>
 <label x="-71.12" y="284.48" size="1.4224" layer="95" xref="yes"/>
 </segment>
@@ -2078,7 +2078,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-1" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A3"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A3"/>
 <wire x1="12.7" y1="233.68" x2="10.16" y2="233.68" width="0.1524" layer="91"/>
 <label x="10.16" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2090,7 +2090,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-1" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A4"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A4"/>
 <wire x1="12.7" y1="231.14" x2="10.16" y2="231.14" width="0.1524" layer="91"/>
 <label x="10.16" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2099,12 +2099,12 @@ Based on the following sources:
 <segment>
 <wire x1="-33.02" y1="213.36" x2="-30.48" y2="213.36" width="0.1524" layer="91"/>
 <label x="-30.48" y="213.36" size="1.4224" layer="95" xref="yes"/>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="C4"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="C4"/>
 </segment>
 </net>
 <net name="ALU-A1-IN" class="0">
 <segment>
-<pinref part="IC38" gate="A" pin="I0"/>
+<pinref part="AND0-AB1-" gate="A" pin="I0"/>
 <wire x1="-101.6" y1="370.84" x2="-104.14" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="370.84" x2="-104.14" y2="375.92" width="0.1524" layer="91"/>
 <label x="-127" y="375.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2113,14 +2113,14 @@ Based on the following sources:
 <wire x1="-104.14" y1="375.92" x2="-104.14" y2="381" width="0.1524" layer="91"/>
 <junction x="-104.14" y="375.92"/>
 <wire x1="-104.14" y1="381" x2="-101.6" y2="381" width="0.1524" layer="91"/>
-<pinref part="IC39" gate="A" pin="I1"/>
+<pinref part="OR0-AB1-" gate="A" pin="I1"/>
 <wire x1="-101.6" y1="350.52" x2="-124.46" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="350.52" x2="-124.46" y2="375.92" width="0.1524" layer="91"/>
 <junction x="-124.46" y="375.92"/>
-<pinref part="IC2" gate="A" pin="I"/>
+<pinref part="INVERTER0-A1-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A2"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="A2"/>
 <wire x1="-124.46" y1="236.22" x2="-127" y2="236.22" width="0.1524" layer="91"/>
 <label x="-127" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2128,62 +2128,62 @@ Based on the following sources:
 <net name="ALU-A3-IN" class="0">
 <segment>
 <wire x1="-101.6" y1="297.18" x2="-104.14" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="IC44" gate="A" pin="I0"/>
+<pinref part="AND0-AB3-" gate="A" pin="I0"/>
 <wire x1="-104.14" y1="297.18" x2="-104.14" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="292.1" x2="-104.14" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="287.02" x2="-101.6" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="292.1" x2="-124.46" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="IC45" gate="A" pin="I1"/>
+<pinref part="OR0-AB3-" gate="A" pin="I1"/>
 <wire x1="-124.46" y1="292.1" x2="-127" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="266.7" x2="-124.46" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="266.7" x2="-124.46" y2="292.1" width="0.1524" layer="91"/>
 <junction x="-124.46" y="292.1"/>
 <label x="-127" y="292.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC4" gate="A" pin="I"/>
+<pinref part="INVERTER0-A3-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A4"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="A4"/>
 <wire x1="-124.46" y1="231.14" x2="-127" y2="231.14" width="0.1524" layer="91"/>
 <label x="-127" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="C" class="0">
 <segment>
-<pinref part="IC46" gate="A" pin="I0"/>
+<pinref part="XOR0-B" gate="A" pin="I0"/>
 <wire x1="-134.62" y1="203.2" x2="-134.62" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="205.74" x2="-127" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="C0"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="C0"/>
 <wire x1="-127" y1="205.74" x2="-127" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-127" y1="213.36" x2="-124.46" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="IC46" gate="B" pin="I0"/>
+<pinref part="XOR0-B" gate="B" pin="I0"/>
 <wire x1="-134.62" y1="177.8" x2="-134.62" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="180.34" x2="-127" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-127" y1="180.34" x2="-127" y2="205.74" width="0.1524" layer="91"/>
 <junction x="-127" y="205.74"/>
-<pinref part="IC46" gate="C" pin="I0"/>
+<pinref part="XOR0-B" gate="C" pin="I0"/>
 <wire x1="-134.62" y1="152.4" x2="-134.62" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="154.94" x2="-127" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-127" y1="154.94" x2="-127" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-127" y="180.34"/>
-<pinref part="IC46" gate="D" pin="I0"/>
+<pinref part="XOR0-B" gate="D" pin="I0"/>
 <wire x1="-134.62" y1="127" x2="-134.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="129.54" x2="-127" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-127" y1="129.54" x2="-127" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-127" y="154.94"/>
-<pinref part="IC47" gate="A" pin="I0"/>
+<pinref part="XOR1-B" gate="A" pin="I0"/>
 <wire x1="-134.62" y1="101.6" x2="-134.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="104.14" x2="-127" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-127" y="129.54"/>
 <wire x1="-127" y1="104.14" x2="-127" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC47" gate="B" pin="I0"/>
+<pinref part="XOR1-B" gate="B" pin="I0"/>
 <wire x1="-134.62" y1="76.2" x2="-134.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="78.74" x2="-127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-127" y1="53.34" x2="-127" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC47" gate="C" pin="I0"/>
+<pinref part="XOR1-B" gate="C" pin="I0"/>
 <wire x1="-134.62" y1="50.8" x2="-134.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="53.34" x2="-127" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-127" y="53.34"/>
-<pinref part="IC47" gate="D" pin="I0"/>
+<pinref part="XOR1-B" gate="D" pin="I0"/>
 <wire x1="-134.62" y1="25.4" x2="-134.62" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="27.94" x2="-127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-127" y1="27.94" x2="-127" y2="53.34" width="0.1524" layer="91"/>
@@ -2197,14 +2197,14 @@ Based on the following sources:
 </net>
 <net name="ALU-A0-IN" class="0">
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="A1"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="A1"/>
 <wire x1="-124.46" y1="238.76" x2="-127" y2="238.76" width="0.1524" layer="91"/>
 <label x="-127" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC35" gate="D" pin="I1"/>
+<pinref part="OR-AB0-" gate="D" pin="I1"/>
 <wire x1="-101.6" y1="391.16" x2="-124.46" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="IC37" gate="D" pin="I0"/>
+<pinref part="AND0-AB0-" gate="D" pin="I0"/>
 <wire x1="-101.6" y1="411.48" x2="-104.14" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="411.48" x2="-104.14" y2="416.56" width="0.1524" layer="91"/>
 <label x="-127" y="416.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2215,14 +2215,14 @@ Based on the following sources:
 <junction x="-104.14" y="416.56"/>
 <wire x1="-124.46" y1="391.16" x2="-124.46" y2="416.56" width="0.1524" layer="91"/>
 <junction x="-124.46" y="416.56"/>
-<pinref part="IC1" gate="A" pin="I"/>
+<pinref part="INVERTER0-A0-" gate="A" pin="I"/>
 </segment>
 </net>
 <net name="ALU-A4-IN" class="0">
 <segment>
-<pinref part="IC48" gate="D" pin="I1"/>
+<pinref part="OR1-AB4-" gate="D" pin="I1"/>
 <wire x1="-66.04" y1="167.64" x2="-88.9" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC50" gate="D" pin="I0"/>
+<pinref part="AND1-AB4-" gate="D" pin="I0"/>
 <wire x1="-66.04" y1="187.96" x2="-68.58" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="187.96" x2="-68.58" y2="193.04" width="0.1524" layer="91"/>
 <label x="-91.44" y="193.04" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2233,17 +2233,17 @@ Based on the following sources:
 <junction x="-68.58" y="193.04"/>
 <wire x1="-88.9" y1="167.64" x2="-88.9" y2="193.04" width="0.1524" layer="91"/>
 <junction x="-88.9" y="193.04"/>
-<pinref part="IC5" gate="A" pin="I"/>
+<pinref part="INVERTER1-A4-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A1"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="A1"/>
 <wire x1="-58.42" y1="238.76" x2="-60.96" y2="238.76" width="0.1524" layer="91"/>
 <label x="-60.96" y="238.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-A5-IN" class="0">
 <segment>
-<pinref part="IC51" gate="A" pin="I0"/>
+<pinref part="AND1-AB5-" gate="A" pin="I0"/>
 <wire x1="-66.04" y1="147.32" x2="-68.58" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="147.32" x2="-68.58" y2="152.4" width="0.1524" layer="91"/>
 <label x="-91.44" y="152.4" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2252,14 +2252,14 @@ Based on the following sources:
 <wire x1="-68.58" y1="152.4" x2="-68.58" y2="157.48" width="0.1524" layer="91"/>
 <junction x="-68.58" y="152.4"/>
 <wire x1="-68.58" y1="157.48" x2="-66.04" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC52" gate="A" pin="I1"/>
+<pinref part="OR1-AB5-" gate="A" pin="I1"/>
 <wire x1="-66.04" y1="127" x2="-88.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="127" x2="-88.9" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-88.9" y="152.4"/>
-<pinref part="IC6" gate="A" pin="I"/>
+<pinref part="INVERTER1-A5-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A2"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="A2"/>
 <wire x1="-58.42" y1="236.22" x2="-60.96" y2="236.22" width="0.1524" layer="91"/>
 <label x="-60.96" y="236.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2268,10 +2268,10 @@ Based on the following sources:
 <segment>
 <wire x1="-66.04" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="114.3" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC54" gate="D" pin="I0"/>
+<pinref part="AND1-AB6-" gate="D" pin="I0"/>
 <wire x1="-68.58" y1="109.22" x2="-68.58" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="104.14" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC55" gate="D" pin="I1"/>
+<pinref part="OR1-AB6-" gate="D" pin="I1"/>
 <wire x1="-66.04" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="83.82" x2="-88.9" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="109.22" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -2279,10 +2279,10 @@ Based on the following sources:
 <wire x1="-88.9" y1="109.22" x2="-91.44" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-88.9" y="109.22"/>
 <label x="-91.44" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC7" gate="A" pin="I"/>
+<pinref part="INVERTER1-A6-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A3"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="A3"/>
 <wire x1="-58.42" y1="233.68" x2="-60.96" y2="233.68" width="0.1524" layer="91"/>
 <label x="-60.96" y="233.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2290,21 +2290,21 @@ Based on the following sources:
 <net name="ALU-A7-IN" class="0">
 <segment>
 <wire x1="-66.04" y1="73.66" x2="-68.58" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC57" gate="A" pin="I0"/>
+<pinref part="AND1-AB7-" gate="A" pin="I0"/>
 <wire x1="-68.58" y1="73.66" x2="-68.58" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="68.58" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="63.5" x2="-66.04" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="68.58" x2="-88.9" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC58" gate="A" pin="I1"/>
+<pinref part="OR1-AB7-" gate="A" pin="I1"/>
 <wire x1="-88.9" y1="68.58" x2="-91.44" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="43.18" x2="-88.9" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-88.9" y="68.58"/>
 <label x="-91.44" y="68.58" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC8" gate="A" pin="I"/>
+<pinref part="INVERTER1-A7-" gate="A" pin="I"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="A4"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="A4"/>
 <wire x1="-58.42" y1="231.14" x2="-60.96" y2="231.14" width="0.1524" layer="91"/>
 <label x="-60.96" y="231.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2316,7 +2316,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-2" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A5"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A5"/>
 <wire x1="12.7" y1="228.6" x2="10.16" y2="228.6" width="0.1524" layer="91"/>
 <label x="10.16" y="228.6" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2328,7 +2328,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-2" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A6"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A6"/>
 <wire x1="12.7" y1="226.06" x2="10.16" y2="226.06" width="0.1524" layer="91"/>
 <label x="10.16" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2340,7 +2340,7 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-3" gate="A" pin="1Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A7"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A7"/>
 <wire x1="12.7" y1="223.52" x2="10.16" y2="223.52" width="0.1524" layer="91"/>
 <label x="10.16" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2352,16 +2352,16 @@ Based on the following sources:
 <pinref part="DUAL-4X1-MUX-3" gate="A" pin="2Y"/>
 </segment>
 <segment>
-<pinref part="IC59" gate="A" pin="A8"/>
+<pinref part="BUFFER-OUT" gate="A" pin="A8"/>
 <wire x1="12.7" y1="220.98" x2="10.16" y2="220.98" width="0.1524" layer="91"/>
 <label x="10.16" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-B0-IN" class="0">
 <segment>
-<pinref part="IC37" gate="D" pin="I1"/>
+<pinref part="AND0-AB0-" gate="D" pin="I1"/>
 <wire x1="-101.6" y1="406.4" x2="-104.14" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="IC35" gate="D" pin="I0"/>
+<pinref part="OR-AB0-" gate="D" pin="I0"/>
 <wire x1="-101.6" y1="396.24" x2="-104.14" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="396.24" x2="-104.14" y2="401.32" width="0.1524" layer="91"/>
 <label x="-109.22" y="401.32" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2370,7 +2370,7 @@ Based on the following sources:
 <junction x="-104.14" y="401.32"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="A" pin="I1"/>
+<pinref part="XOR0-B" gate="A" pin="I1"/>
 <wire x1="-139.7" y1="203.2" x2="-139.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="205.74" x2="-149.86" y2="205.74" width="0.1524" layer="91"/>
 <label x="-149.86" y="205.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2378,18 +2378,18 @@ Based on the following sources:
 </net>
 <net name="ALU-B1-IN" class="0">
 <segment>
-<pinref part="IC38" gate="A" pin="I1"/>
+<pinref part="AND0-AB1-" gate="A" pin="I1"/>
 <wire x1="-101.6" y1="365.76" x2="-104.14" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="365.76" x2="-104.14" y2="360.68" width="0.1524" layer="91"/>
 <label x="-109.22" y="360.68" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC39" gate="A" pin="I0"/>
+<pinref part="OR0-AB1-" gate="A" pin="I0"/>
 <wire x1="-104.14" y1="360.68" x2="-109.22" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="355.6" x2="-104.14" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="355.6" x2="-104.14" y2="360.68" width="0.1524" layer="91"/>
 <junction x="-104.14" y="360.68"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="B" pin="I1"/>
+<pinref part="XOR0-B" gate="B" pin="I1"/>
 <wire x1="-139.7" y1="177.8" x2="-139.7" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="180.34" x2="-149.86" y2="180.34" width="0.1524" layer="91"/>
 <label x="-149.86" y="180.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2397,10 +2397,10 @@ Based on the following sources:
 </net>
 <net name="ALU-B2-IN" class="0">
 <segment>
-<pinref part="IC42" gate="D" pin="I0"/>
+<pinref part="OR0-AB2-" gate="D" pin="I0"/>
 <wire x1="-101.6" y1="312.42" x2="-104.14" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="312.42" x2="-104.14" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="IC41" gate="D" pin="I1"/>
+<pinref part="AND0-AB2-" gate="D" pin="I1"/>
 <wire x1="-104.14" y1="317.5" x2="-104.14" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="322.58" x2="-101.6" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="317.5" x2="-109.22" y2="317.5" width="0.1524" layer="91"/>
@@ -2408,7 +2408,7 @@ Based on the following sources:
 <label x="-109.22" y="317.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="C" pin="I1"/>
+<pinref part="XOR0-B" gate="C" pin="I1"/>
 <wire x1="-139.7" y1="152.4" x2="-139.7" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="154.94" x2="-149.86" y2="154.94" width="0.1524" layer="91"/>
 <label x="-149.86" y="154.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2416,9 +2416,9 @@ Based on the following sources:
 </net>
 <net name="ALU-B3-IN" class="0">
 <segment>
-<pinref part="IC45" gate="A" pin="I0"/>
+<pinref part="OR0-AB3-" gate="A" pin="I0"/>
 <wire x1="-101.6" y1="271.78" x2="-104.14" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="IC44" gate="A" pin="I1"/>
+<pinref part="AND0-AB3-" gate="A" pin="I1"/>
 <wire x1="-104.14" y1="271.78" x2="-104.14" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="276.86" x2="-104.14" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="281.94" x2="-101.6" y2="281.94" width="0.1524" layer="91"/>
@@ -2427,7 +2427,7 @@ Based on the following sources:
 <label x="-109.22" y="276.86" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="D" pin="I1"/>
+<pinref part="XOR0-B" gate="D" pin="I1"/>
 <wire x1="-139.7" y1="127" x2="-139.7" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="129.54" x2="-149.86" y2="129.54" width="0.1524" layer="91"/>
 <label x="-149.86" y="129.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2435,9 +2435,9 @@ Based on the following sources:
 </net>
 <net name="ALU-B4-IN" class="0">
 <segment>
-<pinref part="IC50" gate="D" pin="I1"/>
+<pinref part="AND1-AB4-" gate="D" pin="I1"/>
 <wire x1="-66.04" y1="182.88" x2="-68.58" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="IC48" gate="D" pin="I0"/>
+<pinref part="OR1-AB4-" gate="D" pin="I0"/>
 <wire x1="-66.04" y1="172.72" x2="-68.58" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="172.72" x2="-68.58" y2="177.8" width="0.1524" layer="91"/>
 <label x="-73.66" y="177.8" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2446,7 +2446,7 @@ Based on the following sources:
 <junction x="-68.58" y="177.8"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="A" pin="I1"/>
+<pinref part="XOR1-B" gate="A" pin="I1"/>
 <wire x1="-139.7" y1="101.6" x2="-139.7" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="104.14" x2="-149.86" y2="104.14" width="0.1524" layer="91"/>
 <label x="-149.86" y="104.14" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2454,18 +2454,18 @@ Based on the following sources:
 </net>
 <net name="ALU-B5-IN" class="0">
 <segment>
-<pinref part="IC51" gate="A" pin="I1"/>
+<pinref part="AND1-AB5-" gate="A" pin="I1"/>
 <wire x1="-66.04" y1="142.24" x2="-68.58" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="142.24" x2="-68.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="-73.66" y="137.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC52" gate="A" pin="I0"/>
+<pinref part="OR1-AB5-" gate="A" pin="I0"/>
 <wire x1="-68.58" y1="137.16" x2="-73.66" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="132.08" x2="-68.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="132.08" x2="-68.58" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-68.58" y="137.16"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="B" pin="I1"/>
+<pinref part="XOR1-B" gate="B" pin="I1"/>
 <wire x1="-139.7" y1="76.2" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="78.74" x2="-149.86" y2="78.74" width="0.1524" layer="91"/>
 <label x="-149.86" y="78.74" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2473,10 +2473,10 @@ Based on the following sources:
 </net>
 <net name="ALU-B6-IN" class="0">
 <segment>
-<pinref part="IC55" gate="D" pin="I0"/>
+<pinref part="OR1-AB6-" gate="D" pin="I0"/>
 <wire x1="-66.04" y1="88.9" x2="-68.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="88.9" x2="-68.58" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC54" gate="D" pin="I1"/>
+<pinref part="AND1-AB6-" gate="D" pin="I1"/>
 <wire x1="-68.58" y1="93.98" x2="-68.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="99.06" x2="-66.04" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="93.98" x2="-73.66" y2="93.98" width="0.1524" layer="91"/>
@@ -2484,7 +2484,7 @@ Based on the following sources:
 <label x="-73.66" y="93.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="C" pin="I1"/>
+<pinref part="XOR1-B" gate="C" pin="I1"/>
 <wire x1="-139.7" y1="50.8" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="53.34" x2="-149.86" y2="53.34" width="0.1524" layer="91"/>
 <label x="-149.86" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2492,9 +2492,9 @@ Based on the following sources:
 </net>
 <net name="ALU-B7-IN" class="0">
 <segment>
-<pinref part="IC58" gate="A" pin="I0"/>
+<pinref part="OR1-AB7-" gate="A" pin="I0"/>
 <wire x1="-66.04" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC57" gate="A" pin="I1"/>
+<pinref part="AND1-AB7-" gate="A" pin="I1"/>
 <wire x1="-68.58" y1="48.26" x2="-68.58" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="53.34" x2="-68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="58.42" x2="-66.04" y2="58.42" width="0.1524" layer="91"/>
@@ -2503,7 +2503,7 @@ Based on the following sources:
 <label x="-73.66" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC47" gate="D" pin="I1"/>
+<pinref part="XOR1-B" gate="D" pin="I1"/>
 <wire x1="-139.7" y1="25.4" x2="-139.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="27.94" x2="-149.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="-149.86" y="27.94" size="1.4224" layer="95" rot="R180" xref="yes"/>
@@ -2511,71 +2511,71 @@ Based on the following sources:
 </net>
 <net name="ALU_EO" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="G"/>
+<pinref part="BUFFER-OUT" gate="A" pin="G"/>
 <wire x1="12.7" y1="213.36" x2="10.16" y2="213.36" width="0.1524" layer="91"/>
 <label x="10.16" y="213.36" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C0-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B1"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B1"/>
 <wire x1="38.1" y1="238.76" x2="40.64" y2="238.76" width="0.1524" layer="91"/>
 <label x="40.64" y="238.76" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C1-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B2"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B2"/>
 <wire x1="38.1" y1="236.22" x2="40.64" y2="236.22" width="0.1524" layer="91"/>
 <label x="40.64" y="236.22" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C2-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B3"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B3"/>
 <wire x1="38.1" y1="233.68" x2="40.64" y2="233.68" width="0.1524" layer="91"/>
 <label x="40.64" y="233.68" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C3-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B4"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B4"/>
 <wire x1="38.1" y1="231.14" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
 <label x="40.64" y="231.14" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C4-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B5"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B5"/>
 <wire x1="38.1" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 <label x="40.64" y="228.6" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C5-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B6"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B6"/>
 <wire x1="38.1" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
 <label x="40.64" y="226.06" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C6-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B7"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B7"/>
 <wire x1="38.1" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
 <label x="40.64" y="223.52" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALU-C7-BUS-IN" class="0">
 <segment>
-<pinref part="IC59" gate="A" pin="B8"/>
+<pinref part="BUFFER-OUT" gate="A" pin="B8"/>
 <wire x1="38.1" y1="220.98" x2="40.64" y2="220.98" width="0.1524" layer="91"/>
 <label x="40.64" y="220.98" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="C4"/>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="C0"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="C4"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="C0"/>
 <wire x1="-99.06" y1="213.36" x2="-58.42" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2584,7 +2584,7 @@ Based on the following sources:
 <wire x1="-81.28" y1="421.64" x2="-73.66" y2="421.64" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="421.64" x2="-73.66" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="411.48" x2="-71.12" y2="411.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="O"/>
+<pinref part="INVERTER0-A0-" gate="A" pin="O"/>
 <wire x1="-48.26" y1="408.94" x2="-50.8" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="411.48" x2="-71.12" y2="411.48" width="0.1524" layer="91"/>
 <label x="-71.12" y="411.48" size="1.778" layer="95"/>
@@ -2599,7 +2599,7 @@ Based on the following sources:
 </net>
 <net name="MUX0-1C3" class="0">
 <segment>
-<pinref part="IC37" gate="D" pin="O"/>
+<pinref part="AND0-AB0-" gate="D" pin="O"/>
 <wire x1="-86.36" y1="408.94" x2="-71.12" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="406.4" x2="-50.8" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="408.94" x2="-71.12" y2="408.94" width="0.1524" layer="91"/>
@@ -2615,7 +2615,7 @@ Based on the following sources:
 </net>
 <net name="MUX0-1C1" class="0">
 <segment>
-<pinref part="IC35" gate="D" pin="O"/>
+<pinref part="OR-AB0-" gate="D" pin="O"/>
 <wire x1="-86.36" y1="393.7" x2="-73.66" y2="393.7" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="393.7" x2="-73.66" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="406.4" x2="-71.12" y2="406.4" width="0.1524" layer="91"/>
@@ -2640,7 +2640,7 @@ Based on the following sources:
 <label x="-43.18" y="398.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="S1"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="S1"/>
 <wire x1="-99.06" y1="238.76" x2="-96.52" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="236.22" x2="-83.82" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="238.76" x2="-96.52" y2="238.76" width="0.1524" layer="91"/>
@@ -2656,7 +2656,7 @@ Based on the following sources:
 <label x="-43.18" y="386.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="S2"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="S2"/>
 <wire x1="-99.06" y1="236.22" x2="-96.52" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="233.68" x2="-83.82" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="236.22" x2="-96.52" y2="236.22" width="0.1524" layer="91"/>
@@ -2672,7 +2672,7 @@ Based on the following sources:
 <label x="-43.18" y="383.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC39" gate="A" pin="O"/>
+<pinref part="OR0-AB1-" gate="A" pin="O"/>
 <wire x1="-86.36" y1="353.06" x2="-73.66" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="353.06" x2="-73.66" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="365.76" x2="-71.12" y2="365.76" width="0.1524" layer="91"/>
@@ -2693,7 +2693,7 @@ Based on the following sources:
 <wire x1="-81.28" y1="381" x2="-73.66" y2="381" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="381" x2="-73.66" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="370.84" x2="-71.12" y2="370.84" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="O"/>
+<pinref part="INVERTER0-A1-" gate="A" pin="O"/>
 <wire x1="-48.26" y1="368.3" x2="-50.8" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="370.84" x2="-71.12" y2="370.84" width="0.1524" layer="91"/>
 <label x="-71.12" y="370.84" size="1.778" layer="95"/>
@@ -2708,7 +2708,7 @@ Based on the following sources:
 <label x="-43.18" y="378.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC38" gate="A" pin="O"/>
+<pinref part="AND0-AB1-" gate="A" pin="O"/>
 <wire x1="-86.36" y1="368.3" x2="-71.12" y2="368.3" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="365.76" x2="-50.8" y2="368.3" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="368.3" x2="-71.12" y2="368.3" width="0.1524" layer="91"/>
@@ -2720,7 +2720,7 @@ Based on the following sources:
 <wire x1="-81.28" y1="337.82" x2="-73.66" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="337.82" x2="-73.66" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="327.66" x2="-71.12" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="O"/>
+<pinref part="INVERTER0-A2-" gate="A" pin="O"/>
 <wire x1="-48.26" y1="325.12" x2="-50.8" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="327.66" x2="-71.12" y2="327.66" width="0.1524" layer="91"/>
 <label x="-71.12" y="327.66" size="1.778" layer="95"/>
@@ -2735,7 +2735,7 @@ Based on the following sources:
 </net>
 <net name="MUX1-1C3" class="0">
 <segment>
-<pinref part="IC41" gate="D" pin="O"/>
+<pinref part="AND0-AB2-" gate="D" pin="O"/>
 <wire x1="-86.36" y1="325.12" x2="-71.12" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="322.58" x2="-50.8" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="325.12" x2="-71.12" y2="325.12" width="0.1524" layer="91"/>
@@ -2751,7 +2751,7 @@ Based on the following sources:
 </net>
 <net name="MUX1-1C1" class="0">
 <segment>
-<pinref part="IC42" gate="D" pin="O"/>
+<pinref part="OR0-AB2-" gate="D" pin="O"/>
 <wire x1="-86.36" y1="309.88" x2="-73.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="309.88" x2="-73.66" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="322.58" x2="-71.12" y2="322.58" width="0.1524" layer="91"/>
@@ -2776,7 +2776,7 @@ Based on the following sources:
 <label x="-43.18" y="314.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="S3"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="S3"/>
 <wire x1="-99.06" y1="233.68" x2="-96.52" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="231.14" x2="-83.82" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="233.68" x2="-96.52" y2="233.68" width="0.1524" layer="91"/>
@@ -2792,7 +2792,7 @@ Based on the following sources:
 <label x="-43.18" y="302.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="S4"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="S4"/>
 <wire x1="-99.06" y1="231.14" x2="-96.52" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="228.6" x2="-83.82" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="231.14" x2="-96.52" y2="231.14" width="0.1524" layer="91"/>
@@ -2831,7 +2831,7 @@ Based on the following sources:
 <wire x1="-45.72" y1="198.12" x2="-38.1" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="198.12" x2="-38.1" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="187.96" x2="-35.56" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="O"/>
+<pinref part="INVERTER1-A4-" gate="A" pin="O"/>
 <wire x1="-12.7" y1="185.42" x2="-15.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="187.96" x2="-35.56" y2="187.96" width="0.1524" layer="91"/>
 <label x="-35.56" y="187.96" size="1.778" layer="95"/>
@@ -2846,7 +2846,7 @@ Based on the following sources:
 </net>
 <net name="MUX2-1C3" class="0">
 <segment>
-<pinref part="IC50" gate="D" pin="O"/>
+<pinref part="AND1-AB4-" gate="D" pin="O"/>
 <wire x1="-50.8" y1="185.42" x2="-35.56" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="182.88" x2="-15.24" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="185.42" x2="-35.56" y2="185.42" width="0.1524" layer="91"/>
@@ -2862,7 +2862,7 @@ Based on the following sources:
 </net>
 <net name="MUX2-1C1" class="0">
 <segment>
-<pinref part="IC48" gate="D" pin="O"/>
+<pinref part="OR1-AB4-" gate="D" pin="O"/>
 <wire x1="-50.8" y1="170.18" x2="-38.1" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="170.18" x2="-38.1" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="182.88" x2="-35.56" y2="182.88" width="0.1524" layer="91"/>
@@ -2887,7 +2887,7 @@ Based on the following sources:
 <label x="-5.08" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="S1"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="S1"/>
 <wire x1="-33.02" y1="238.76" x2="-30.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="236.22" x2="-15.24" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="238.76" x2="-30.48" y2="238.76" width="0.1524" layer="91"/>
@@ -2903,7 +2903,7 @@ Based on the following sources:
 <label x="-5.08" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="S2"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="S2"/>
 <wire x1="-33.02" y1="236.22" x2="-30.48" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="233.68" x2="-15.24" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="236.22" x2="-30.48" y2="236.22" width="0.1524" layer="91"/>
@@ -2919,7 +2919,7 @@ Based on the following sources:
 <label x="-5.08" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC52" gate="A" pin="O"/>
+<pinref part="OR1-AB5-" gate="A" pin="O"/>
 <wire x1="-50.8" y1="129.54" x2="-38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="129.54" x2="-38.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="142.24" x2="-35.56" y2="142.24" width="0.1524" layer="91"/>
@@ -2940,7 +2940,7 @@ Based on the following sources:
 <wire x1="-45.72" y1="157.48" x2="-38.1" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="157.48" x2="-38.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="147.32" x2="-35.56" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="O"/>
+<pinref part="INVERTER1-A5-" gate="A" pin="O"/>
 <wire x1="-12.7" y1="144.78" x2="-15.24" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="147.32" x2="-35.56" y2="147.32" width="0.1524" layer="91"/>
 <label x="-35.56" y="147.32" size="1.778" layer="95"/>
@@ -2955,7 +2955,7 @@ Based on the following sources:
 <label x="-5.08" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC51" gate="A" pin="O"/>
+<pinref part="AND1-AB5-" gate="A" pin="O"/>
 <wire x1="-50.8" y1="144.78" x2="-35.56" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="142.24" x2="-15.24" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="144.78" x2="-35.56" y2="144.78" width="0.1524" layer="91"/>
@@ -2967,7 +2967,7 @@ Based on the following sources:
 <wire x1="-45.72" y1="114.3" x2="-38.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="114.3" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="O"/>
+<pinref part="INVERTER1-A6-" gate="A" pin="O"/>
 <wire x1="-12.7" y1="101.6" x2="-15.24" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
 <label x="-35.56" y="104.14" size="1.778" layer="95"/>
@@ -2982,7 +2982,7 @@ Based on the following sources:
 </net>
 <net name="MUX3-1C3" class="0">
 <segment>
-<pinref part="IC54" gate="D" pin="O"/>
+<pinref part="AND1-AB6-" gate="D" pin="O"/>
 <wire x1="-50.8" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="99.06" x2="-15.24" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
@@ -2998,7 +2998,7 @@ Based on the following sources:
 </net>
 <net name="MUX3-1C1" class="0">
 <segment>
-<pinref part="IC55" gate="D" pin="O"/>
+<pinref part="OR1-AB6-" gate="D" pin="O"/>
 <wire x1="-50.8" y1="86.36" x2="-38.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="86.36" x2="-38.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="99.06" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
@@ -3023,7 +3023,7 @@ Based on the following sources:
 <label x="-7.62" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="S3"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="S3"/>
 <wire x1="-33.02" y1="233.68" x2="-30.48" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="231.14" x2="-15.24" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="233.68" x2="-30.48" y2="233.68" width="0.1524" layer="91"/>
@@ -3039,7 +3039,7 @@ Based on the following sources:
 <label x="-7.62" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="S4"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="S4"/>
 <wire x1="-33.02" y1="231.14" x2="-30.48" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="228.6" x2="-15.24" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="231.14" x2="-30.48" y2="231.14" width="0.1524" layer="91"/>
@@ -3055,7 +3055,7 @@ Based on the following sources:
 <label x="-7.62" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC58" gate="A" pin="O"/>
+<pinref part="OR1-AB7-" gate="A" pin="O"/>
 <wire x1="-50.8" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="45.72" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="58.42" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
@@ -3076,7 +3076,7 @@ Based on the following sources:
 <wire x1="-45.72" y1="73.66" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="73.66" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="63.5" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="O"/>
+<pinref part="INVERTER1-A7-" gate="A" pin="O"/>
 <wire x1="-12.7" y1="60.96" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="63.5" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
 <label x="-35.56" y="63.5" size="1.778" layer="95"/>
@@ -3091,7 +3091,7 @@ Based on the following sources:
 <label x="-7.62" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC57" gate="A" pin="O"/>
+<pinref part="AND1-AB7-" gate="A" pin="O"/>
 <wire x1="-50.8" y1="60.96" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="58.42" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="60.96" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
@@ -3100,103 +3100,103 @@ Based on the following sources:
 </net>
 <net name="ADD1-B7-IN" class="0">
 <segment>
-<pinref part="IC47" gate="D" pin="O"/>
+<pinref part="XOR1-B" gate="D" pin="O"/>
 <wire x1="-137.16" y1="10.16" x2="-137.16" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="7.62" x2="-144.78" y2="7.62" width="0.1524" layer="91"/>
 <label x="-144.78" y="7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B4"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="B4"/>
 <wire x1="-58.42" y1="218.44" x2="-60.96" y2="218.44" width="0.1524" layer="91"/>
 <label x="-60.96" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD1-B6-IN" class="0">
 <segment>
-<pinref part="IC47" gate="C" pin="O"/>
+<pinref part="XOR1-B" gate="C" pin="O"/>
 <wire x1="-137.16" y1="35.56" x2="-137.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="33.02" x2="-144.78" y2="33.02" width="0.1524" layer="91"/>
 <label x="-144.78" y="33.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B3"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="B3"/>
 <wire x1="-58.42" y1="220.98" x2="-60.96" y2="220.98" width="0.1524" layer="91"/>
 <label x="-60.96" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD1-B5-IN" class="0">
 <segment>
-<pinref part="IC47" gate="B" pin="O"/>
+<pinref part="XOR1-B" gate="B" pin="O"/>
 <wire x1="-137.16" y1="60.96" x2="-137.16" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="58.42" x2="-144.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="-144.78" y="58.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B2"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="B2"/>
 <wire x1="-58.42" y1="223.52" x2="-60.96" y2="223.52" width="0.1524" layer="91"/>
 <label x="-60.96" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD1-B4-IN" class="0">
 <segment>
-<pinref part="IC47" gate="A" pin="O"/>
+<pinref part="XOR1-B" gate="A" pin="O"/>
 <wire x1="-137.16" y1="86.36" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
 <label x="-144.78" y="83.82" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-3" gate="A" pin="B1"/>
+<pinref part="4BIT-FULL-ADDER-1" gate="A" pin="B1"/>
 <wire x1="-58.42" y1="226.06" x2="-60.96" y2="226.06" width="0.1524" layer="91"/>
 <label x="-60.96" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD0-B3-IN" class="0">
 <segment>
-<pinref part="IC46" gate="D" pin="O"/>
+<pinref part="XOR0-B" gate="D" pin="O"/>
 <wire x1="-137.16" y1="111.76" x2="-137.16" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="109.22" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
 <label x="-144.78" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B4"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="B4"/>
 <wire x1="-124.46" y1="218.44" x2="-127" y2="218.44" width="0.1524" layer="91"/>
 <label x="-127" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD0-B0-IN" class="0">
 <segment>
-<pinref part="IC46" gate="A" pin="O"/>
+<pinref part="XOR0-B" gate="A" pin="O"/>
 <wire x1="-137.16" y1="187.96" x2="-137.16" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="185.42" x2="-144.78" y2="185.42" width="0.1524" layer="91"/>
 <label x="-144.78" y="185.42" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B1"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="B1"/>
 <wire x1="-124.46" y1="226.06" x2="-127" y2="226.06" width="0.1524" layer="91"/>
 <label x="-127" y="226.06" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD0-B1-IN" class="0">
 <segment>
-<pinref part="IC46" gate="B" pin="O"/>
+<pinref part="XOR0-B" gate="B" pin="O"/>
 <wire x1="-137.16" y1="162.56" x2="-137.16" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="160.02" x2="-144.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="-144.78" y="160.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B2"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="B2"/>
 <wire x1="-124.46" y1="223.52" x2="-127" y2="223.52" width="0.1524" layer="91"/>
 <label x="-127" y="223.52" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADD0-B2-IN" class="0">
 <segment>
-<pinref part="4BIT-FULL-ADDER-2" gate="A" pin="B3"/>
+<pinref part="4BIT-FULL-ADDER-0" gate="A" pin="B3"/>
 <wire x1="-124.46" y1="220.98" x2="-127" y2="220.98" width="0.1524" layer="91"/>
 <label x="-127" y="220.98" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC46" gate="C" pin="O"/>
+<pinref part="XOR0-B" gate="C" pin="O"/>
 <wire x1="-137.16" y1="137.16" x2="-137.16" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="134.62" x2="-144.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="-144.78" y="134.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
