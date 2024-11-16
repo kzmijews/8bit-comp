@@ -3097,6 +3097,7 @@ Source: www.kingbright.com</description>
 <part name="LED10" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="AT28C16-3" library="memory" library_urn="urn:adsk.eagle:library:279" deviceset="2816" device="" package3d_urn="urn:adsk.eagle:package:19955/2"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3105,7 +3106,12 @@ Source: www.kingbright.com</description>
 <wire x1="-434.34" y1="449.58" x2="-185.42" y2="449.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-185.42" y1="449.58" x2="-185.42" y2="640.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-185.42" y1="640.08" x2="-434.34" y2="640.08" width="0.1524" layer="97" style="shortdash"/>
-<text x="-205.74" y="635" size="1.778" layer="97">CONTROL UNIT</text>
+<text x="-218.44" y="635" size="2.54" layer="97">CONTROL UNIT</text>
+<wire x1="-429.26" y1="469.9" x2="-429.26" y2="454.66" width="0.1524" layer="97"/>
+<wire x1="-429.26" y1="454.66" x2="-358.14" y2="454.66" width="0.1524" layer="97"/>
+<wire x1="-358.14" y1="454.66" x2="-358.14" y2="469.9" width="0.1524" layer="97"/>
+<wire x1="-358.14" y1="469.9" x2="-429.26" y2="469.9" width="0.1524" layer="97"/>
+<text x="-424.18" y="459.74" size="5.08" layer="97">VER 1.1</text>
 </plain>
 <instances>
 <instance part="74LS161N" gate="A" x="-368.3" y="612.14" smashed="yes">
@@ -3209,6 +3215,9 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="-208.28" y="467.36" smashed="yes">
 <attribute name="VALUE" x="-210.185" y="470.535" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="-243.84" y="462.28" smashed="yes">
+<attribute name="VALUE" x="-246.38" y="459.74" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3423,6 +3432,16 @@ Source: www.kingbright.com</description>
 <junction x="-287.02" y="579.12"/>
 <wire x1="-287.02" y1="571.5" x2="-327.66" y2="571.5" width="0.1524" layer="91"/>
 <junction x="-327.66" y="571.5"/>
+</segment>
+<segment>
+<pinref part="AT28C16-3" gate="A" pin="!OE"/>
+<wire x1="-236.22" y1="467.36" x2="-243.84" y2="467.36" width="0.1524" layer="91"/>
+<pinref part="AT28C16-3" gate="A" pin="!CE"/>
+<wire x1="-243.84" y1="467.36" x2="-243.84" y2="469.9" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="469.9" x2="-236.22" y2="469.9" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="467.36" x2="-243.84" y2="464.82" width="0.1524" layer="91"/>
+<junction x="-243.84" y="467.36"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="PCL-O" class="0">
